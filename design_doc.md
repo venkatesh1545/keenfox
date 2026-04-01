@@ -1,186 +1,225 @@
 # KeenFox Competitive Intelligence System — Design Document
 
-## Overview
+## 1. Problem Statement
 
-This system is an AI-powered competitive intelligence and campaign feedback loop for KeenFox. It continuously monitors 5 competitors in the B2B SaaS productivity space, extracts strategic signals, and generates concrete campaign recommendations — replacing manual, reactive tracking with an automated, proactive intelligence pipeline.
+Most competitive intelligence is done manually: analysts Google competitors, read review sites, scan Reddit, and manually compile findings into spreadsheets. This process is:
+
+- **Slow** — Takes hours per competitor, per cycle
+- **Incomplete** — Humans miss signals across multiple channels
+- **Subjective** — Insights depend on the analyst's bias and experience
+- **Stale** — By the time the report is ready, the data is already outdated
+- **Non-scalable** — Adding a new competitor means redoing the entire process
+
+**Goal**: Build an automated system that takes any brand name as input and produces a structured competitive intelligence report with actionable campaign recommendations — in minutes, not days.
 
 ---
 
-## System Architecture
+## 2. System Design
+
+### 2.1 High-Level Architecture
+
+The system follows a **staged pipeline architecture** with five distinct phases:
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                    PHASE 1: DATA INGESTION                      │
-│                                                                  │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────────────┐   │
-│  │ Web Scraper  │  │  Reviews     │  │   Reddit Fetcher     │   │
-│  │              │  │  Fetcher     │  │                      │   │
-│  │ - Homepage   │  │ - G2/Capterra│  │ - r/projectmgmt      │   │
-│  │ - Pricing    │  │ - Tavily API │  │ - r/productivity     │   │
-│  │              │  │ - Fallback   │  │ - PRAW or Tavily     │   │
-│  └──────┬───────┘  └──────┬───────┘  └──────────┬───────────┘   │
-│         └─────────────────┴──────────────────────┘              │
-│                           │                                     │
-│                    data/raw/*.json                               │
-└───────────────────────────┼─────────────────────────────────────┘
-                            │
-┌───────────────────────────▼─────────────────────────────────────┐
-│              COMPONENT 1: INTELLIGENCE ENGINE                    │
-│                                                                  │
-│  For each competitor:                                            │
-│  raw data → compile_raw_data() → Claude (signal extraction)     │
-│           → structured intelligence JSON                        │
-│                                                                  │
-│  Extracts: features, messaging, sentiment, pricing, weaknesses  │
-└───────────────────────────┬─────────────────────────────────────┘
-                            │
-                   combined_intelligence.json
-                            │
-┌───────────────────────────▼─────────────────────────────────────┐
-│            COMPONENT 2: CAMPAIGN FEEDBACK LOOP                   │
-│                                                                  │
-│  Step 1: Strategic Synthesis                                     │
-│    all intel → Claude → market snapshot, vulnerabilities,        │
-│                         whitespace, positioning recommendation   │
-│                                                                  │
-│  Step 2: Campaign Recommendations                                │
-│    synthesis + intel → Claude → messaging copy, channel          │
-│                                  strategy, 5 GTM priorities      │
-└───────────────────────────┬─────────────────────────────────────┘
-                            │
-┌───────────────────────────▼─────────────────────────────────────┐
-│                     BONUS FEATURES                               │
-│                                                                  │
-│  Diff Engine: compare snapshots → what changed since last run    │
-│  NL Queries: python main.py --query "what are users hating?"     │
-└───────────────────────────┬─────────────────────────────────────┘
-                            │
-                  outputs/competitive_intelligence_report.md
+┌──────────────┐    ┌──────────────┐    ┌──────────────┐    ┌──────────────┐    ┌──────────┐
+│   Phase 0    │    │   Phase 1    │    │   Phase 2    │    │   Phase 3    │    │ Phase 4  │
+│   Discovery  │───▶│  Ingestion   │───▶│  Extraction  │───▶│  Synthesis   │───▶│  Output  │
+│   (Gemini)   │    │  (Parallel)  │    │  (Gemini)    │    │  (Gemini)    │    │  (JSON/  │
+│              │    │              │    │              │    │              │    │  Report) │
+└──────────────┘    └──────────────┘    └──────────────┘    └──────────────┘    └──────────┘
 ```
 
----
+**Design Principle — Separation of Concerns**: Each phase produces a well-defined intermediate output (JSON) that feeds into the next phase. This makes it possible to:
+- Debug any phase independently
+- Cache intermediate results (`--skip-scraping`)
+- Replace any phase (e.g., swap Gemini for GPT-4) without touching the rest
+- Run phases in different modes (parallel vs. sequential)
 
-## Data Flow
+### 2.2 Module Responsibility Map
 
-1. **Ingestion** — Three parallel scrapers pull raw text from:
-   - Competitor websites and pricing pages (BeautifulSoup)
-   - G2/Capterra reviews (Tavily API → fallback to web search → synthetic seed data)
-   - Reddit discussions (PRAW → Tavily → graceful degradation)
+| Module | Responsibility | I/O |
+|--------|---------------|-----|
+| `competitor_finder.py` | AI-powered competitor discovery + brand profiling | Brand name → Competitor dict + Brand profile |
+| `web_scraper.py` | Homepage and pricing page scraping | URLs → Clean text |
+| `review_fetcher.py` | G2/Capterra review collection | Competitor name → Review snippets |
+| `reddit_fetcher.py` | Reddit discussion mining | Keywords → Posts + comments |
+| `search_fetcher.py` | LinkedIn, changelog, and news search | Competitor name → Signal list |
+| `intelligence_engine.py` | Per-competitor LLM signal extraction | Raw data → Structured intelligence JSON |
+| `campaign_integrator.py` | Cross-competitor synthesis + campaign generation | All intelligence → Strategy brief + recommendations |
+| `diff_engine.py` | Temporal change detection | Current vs. previous report → Change diff |
+| `report_generator.py` | JSON → Markdown report formatting | Structured data → Human-readable report |
+| `prompt_templates.py` | Centralized prompt management | Template strings with placeholders |
 
-2. **Intelligence Extraction** — Per-competitor Claude call with a carefully engineered prompt. Input: compiled raw text (capped at ~9K chars). Output: structured JSON with features, sentiment, pricing, weaknesses.
+### 2.3 Why This Architecture?
 
-3. **Strategic Synthesis** — Single Claude call across all competitors. Input: combined intelligence. Output: market snapshot, vulnerabilities, whitespace, positioning recommendation.
+**Alternative 1: Monolithic single-script approach**
+- Simpler to write initially, but impossible to test, debug, or extend
+- Rejected because competitive intelligence has fundamentally different concerns (data collection vs. analysis vs. reporting)
 
-4. **Campaign Generation** — Final Claude call producing concrete copy, channel strategy, and 5 prioritized GTM recommendations.
+**Alternative 2: Microservices with message queues**
+- Better for production at scale, but over-engineered for this use case
+- Would require infrastructure (Redis, Celery, etc.) that adds complexity without proportional benefit
 
-5. **Report Generation** — Pure Python converts JSON → Markdown report.
-
----
-
-## Handling Noisy, Incomplete, or Conflicting Data
-
-### Noise
-- HTML scrapers strip scripts, nav, footer, and collapse whitespace before passing to Claude
-- Text is truncated to ~4K chars per source to stay within useful context
-- Claude is explicitly told in prompts to ignore non-strategic information
-
-### Incomplete Data
-- Each ingestion module has a 3-tier fallback: primary API → secondary method → synthetic seed data
-- Synthetic review data is labelled clearly in the code and based on well-documented public information
-- If a source fails, the pipeline continues with whatever data is available — `errors` fields log what was missed
-- The `--skip-scraping` flag lets you reuse cached data without re-fetching
-
-### Conflicting Data
-- When multiple sources contradict each other (e.g., one review says pricing is cheap, another says expensive), the LLM is asked to note the sentiment distribution, not just pick one signal
-- The `perceived_value` field in pricing signals is specifically designed to capture subjective perception vs. stated price
-
----
-
-## Prompt Strategy
-
-All prompts are in `src/prompts/prompt_templates.py`. The design philosophy:
-
-### Principle 1: Role-First
-Every prompt opens with a role: *"You are the Head of Competitive Strategy at KeenFox."* This activates strategic reasoning mode rather than summarization mode.
-
-### Principle 2: Anti-Summarization Instruction
-Explicit instruction: *"Your job is NOT to summarize. Your job is to extract STRATEGICALLY RELEVANT signals."* This is the single most important prompt design decision.
-
-### Principle 3: Structured JSON Output
-All prompts request specific JSON schemas. This ensures:
-- Consistent, parseable output
-- The LLM is forced to populate every field, preventing lazy partial answers
-- Easy downstream processing
-
-### Principle 4: Forcing Strategic Implication
-The signal extraction prompt requires a `strategic_implication` field for every feature. The LLM cannot just report what exists — it must explain *why it matters to KeenFox*. Same for `keenfox_opportunity` in weaknesses.
-
-### Prompt Chain Design
-```
-Prompt 1 (per competitor): raw data → structured signals
-Prompt 2 (all competitors): structured signals → strategic synthesis  
-Prompt 3 (synthesis + signals): → concrete copy + GTM recommendations
-Prompt 4 (diff): old JSON + new JSON → change analysis
-Prompt 5 (ad hoc): full intel + user question → natural language answer
-```
-
-This chain prevents any single prompt from being too long or asking the LLM to do too much at once.
+**Chosen: Modular pipeline with well-defined interfaces**
+- Each module is a Python file with clear input/output contracts
+- Modules can be tested independently
+- Adding a new data source means adding one file in `ingestion/` — no changes to analysis or reporting
 
 ---
 
-## Known Limitations
+## 3. Intelligence Quality
 
-### 1. G2 Anti-Scraping
-G2.com blocks direct scraping. We work around this via Tavily search, which finds review snippets from indexed pages. A production version would use G2's official API (paid) or a data partner.
+### 3.1 Multi-Source Data Fusion
 
-### 2. Data Freshness
-Without a scheduler, data is only as fresh as the last `python main.py` run. In production, this would run as a daily cron job with a results diff surfaced via Slack or email.
+The system doesn't rely on a single data source. For each competitor, it collects:
 
-### 3. LinkedIn Data
-LinkedIn actively blocks automated scraping. Current implementation uses Tavily to find public LinkedIn posts indexed by search engines. This misses non-indexed content. A production version would use the LinkedIn Marketing API or a tool like Phantombuster.
+| Source | What It Captures | Why It Matters |
+|--------|-----------------|----------------|
+| Homepage | Messaging, positioning, value props | How they want to be perceived |
+| Pricing page | Pricing model, tiers, perceived value | Economic positioning |
+| G2/Capterra reviews | Real customer sentiment (pros/cons) | How they're actually perceived |
+| Reddit discussions | Unfiltered opinions, migration stories | Ground truth from actual users |
+| LinkedIn posts | Corporate strategy signals, hiring trends | Strategic direction |
+| News/changelogs | Feature launches, funding, partnerships | Competitive moves in real time |
 
-### 4. LLM Hallucination Risk
-Claude can occasionally generate plausible-sounding but inaccurate competitive details, especially when input data is sparse. Mitigations:
-- All outputs include source URLs for human verification
-- Low-confidence data is flagged in the `errors` field
-- The system is designed as a *signal-generation* tool, not a source-of-truth
+This multi-source approach means the LLM has **diverse evidence** to reason from, producing insights that are non-obvious and grounded.
 
-### 5. Rate Limits
-The system adds `time.sleep()` between API calls. For a 5-competitor run, expect ~3-5 minutes total. A production version would use async calls.
+### 3.2 Signal Extraction — Not Summarization
 
----
+The key design decision in the intelligence engine is that it extracts **strategically relevant signals**, not summaries. The prompt explicitly instructs:
 
-## What I'd Build With More Time
+> "Your job is NOT to summarize. Your job is to extract STRATEGICALLY RELEVANT signals."
 
-1. **Scheduler + Alerts** — Run daily via cron, push diff highlights to Slack
-2. **Vector Database** — Store all historical signals in Pinecone/Chroma for semantic search across time
-3. **Streaming Dashboard** — Real-time React dashboard showing competitive map and live score updates
-4. **Confidence Scoring** — Assign confidence scores to each signal based on source count and corroboration
-5. **More Signal Sources** — Job postings (signals hiring direction), patent filings, press releases, conference talks
-6. **Human-in-the-Loop** — Let the marketing team annotate/approve recommendations before they're acted on
-7. **A/B Testing Integration** — Connect recommendations directly to KeenFox's ad platform to auto-test copy suggestions
+Each extracted signal includes:
+- **Evidence**: What specific data supports this finding
+- **Strategic implication**: Why this matters competitively
+- **Urgency classification**: High / Medium / Low
+- **Exploitability**: Concrete action the brand can take
 
----
+This forces the LLM to **reason about competitive implications** rather than just restating what it read.
 
-## Tech Stack Rationale
+### 3.3 Trade-offs
 
-| Choice | Why |
-|--------|-----|
-| **Claude (Anthropic)** | Best-in-class reasoning for strategic synthesis; recommended by KeenFox |
-| **BeautifulSoup + requests** | Lightweight, no Selenium overhead; sufficient for static pages |
-| **Tavily** | Search API with content retrieval — best free/cheap option for review data |
-| **PRAW** | Official Reddit API — free, reliable, no scraping issues |
-| **JSON storage** | No database overhead for a 5-competitor system; easily extensible to Postgres |
-| **Python** | Best ecosystem for scraping, LLM integration, and data processing |
+| Trade-off | Decision | Rationale |
+|-----------|----------|-----------|
+| Data freshness vs. API costs | Cache scraped data for 12 hours | Websites don't change hourly; saves API calls |
+| Scraping depth vs. speed | Truncate text to 4000-8000 chars | LLM context windows and cost; most signal is in the first few thousand chars |
+| Tavily vs. free scraping | Try Tavily first, fall back to DuckDuckGo | Tavily gives richer content but isn't free at scale; DuckDuckGo is always available |
+| Parallel vs. sequential ingestion | Parallel with ThreadPoolExecutor | ~4x speedup with no correctness trade-off (I/O-bound tasks) |
 
 ---
 
-## Evaluation Self-Assessment
+## 4. Campaign Recommendations
 
-| Criterion | Our Approach |
-|-----------|--------------|
-| **System Design** | Modular pipeline with clear separation between ingestion, analysis, and reporting. Each component is independently runnable. |
-| **Intelligence Quality** | Prompts force `strategic_implication` and `keenfox_opportunity` fields — every signal is connected to an action |
-| **Campaign Recommendations** | Actual copy generated (headlines, email subject lines, LinkedIn ads) — not just direction |
-| **Prompt Engineering** | 5-prompt chain, role-first design, anti-summarization instructions, structured output enforcement |
-| **Design Doc** | This document — honest about limitations, explains every design decision |
+### 4.1 Two-Stage Reasoning
+
+The campaign engine uses a **two-stage architecture** rather than a single prompt:
+
+**Stage 1 — Strategic Synthesis**: Takes intelligence from ALL competitors and produces a cross-competitor analysis:
+- Market snapshot (biggest threat, biggest opportunity, whitespace, trend)
+- Competitor vulnerabilities with exploitation strategies
+- Market messaging gaps
+- Positioning recommendation with proof points
+
+**Stage 2 — Tactical Recommendations**: Takes the synthesis + raw signals + brand profile and generates specific, executable recommendations:
+- Actual headline copy, email subject lines, LinkedIn ad copy
+- Channel strategy (double-down / pull-back / new channels to test)
+- 5 prioritized GTM recommendations with KPIs, timelines, and data backing
+
+### 4.2 Why Two Stages?
+
+A single prompt that goes from raw data → campaign recommendations produces generic advice. By separating synthesis from recommendations:
+1. The synthesis acts as a "thinking step" — the LLM first builds a strategic model
+2. The recommendations can reference the synthesis for grounding
+3. Each prompt stays within a focused reasoning scope
+4. Outputs can be independently validated
+
+### 4.3 Grounding Enforcement
+
+Every recommendation requires a `competitive_data_backing` field that must cite specific competitive intelligence. This prevents hallucinated or generic advice like "invest in content marketing" and forces outputs like:
+
+> "Launch comparison landing pages targeting ClickUp's complaint about 'buggy performance' — 47% of their G2 reviews mention reliability issues."
+
+---
+
+## 5. Prompt Engineering
+
+### 5.1 Design Principles
+
+1. **Role Framing**: Each prompt assigns a specific expert role ("Head of Competitive Strategy", "senior marketing strategist") to set the reasoning frame
+2. **Anti-Summary Instructions**: Explicit instructions like "Your job is NOT to summarize" prevent the LLM from defaulting to safe regurgitation
+3. **Structured JSON Output**: All prompts demand exact JSON schemas with mandatory fields, ensuring parseable and actionable output
+4. **Reasoning Directives**: Prompts include explicit reasoning questions ("Ask: What does this mean for positioning? Where are competitors vulnerable RIGHT NOW?")
+5. **Brand-Agnostic Templates**: All prompts use `{brand_name}` placeholders so the same pipeline works for any brand
+
+### 5.2 Prompt Catalog
+
+| Prompt | Purpose | Key Engineering Decision |
+|--------|---------|------------------------|
+| `SIGNAL_EXTRACTION_PROMPT` | Extract competitive signals from raw data | Forces urgency classification + strategic implication per signal |
+| `STRATEGIC_SYNTHESIS_PROMPT` | Cross-competitor analysis | Frames 5 explicit strategic questions the LLM must answer |
+| `CAMPAIGN_RECOMMENDATIONS_PROMPT` | Tactical GTM output | Requires actual copy (headlines, emails) not just advice |
+| `DIFF_ANALYSIS_PROMPT` | Temporal change detection | Instructs to focus on "strategically meaningful changes — not cosmetic differences" |
+| `NATURAL_LANGUAGE_QUERY_PROMPT` | Ad-hoc questions | Grounds answer in provided data; admits when data is insufficient |
+| `COMPETITOR_DISCOVERY_PROMPT` | Find competitors for any brand | Requires website URLs, pricing URLs, Reddit keywords — structured output for pipeline compatibility |
+| `BRAND_PROFILE_PROMPT` | Generate brand strategic profile | Outputs in same format as manual config so existing code works unchanged |
+
+### 5.3 Why Gemini 2.5 Flash?
+
+| Option | Pros | Cons | Decision |
+|--------|------|------|----------|
+| Gemini 2.5 Pro | Highest reasoning quality | Very strict free-tier quota (50 req/day) → pipeline crashes | Rejected for default use |
+| Gemini 2.5 Flash | Fast, generous free tier (1500 req/day), good reasoning | Slightly less capable than Pro for nuanced strategy | **Selected** — best trade-off for pipeline reliability |
+| GPT-4o | Strong reasoning, wide adoption | Requires OpenAI API key, no free tier | Not selected — adds dependency |
+| Claude 3.5 Sonnet | Excellent for analysis | Original choice but API key issues prompted migration | Migrated away from |
+
+---
+
+## 6. Technical Trade-offs & Decisions
+
+### 6.1 Dynamic Discovery vs. Hardcoded Competitors
+
+**Original design**: Hardcoded competitor list in `config.py`
+**Current design**: AI discovers competitors dynamically from brand name input
+
+**Trade-off**: Dynamic discovery uses an extra LLM call (cost + latency) but makes the system genuinely useful for any brand. The AI may occasionally identify unexpected competitors, but this is a *feature* — it reveals competitive threats the user might not have considered.
+
+### 6.2 Parallel Ingestion
+
+**Risk**: Multiple threads hitting the same external services could trigger rate limits
+**Mitigation**: Each thread handles a different competitor (different websites), so rate limiting per domain isn't an issue. Added 1-2 second delays within each thread between requests.
+
+### 6.3 LLM Rate Limit Handling
+
+**Problem**: Free-tier Gemini quotas cause `429 RESOURCE_EXHAUSTED` errors mid-pipeline
+**Solution**: Exponential backoff retry loop (3 attempts, 15s/30s/45s delays). This keeps the pipeline alive without requiring paid API access.
+
+### 6.4 Tavily Optional Dependency
+
+**Problem**: Not all users will have a Tavily API key
+**Solution**: Every Tavily call has a DuckDuckGo HTML fallback. The code checks for the key *before* importing the library, avoiding even the import error. No Tavily = graceful degradation, not failure.
+
+---
+
+## 7. Extensibility
+
+The modular architecture supports several natural extensions:
+
+| Extension | Effort | What Changes |
+|-----------|--------|-------------|
+| Add new data source (e.g., Glassdoor) | Add one file in `ingestion/` | No other changes needed |
+| Add web dashboard | Add `app.py` + `templates/` | Pipeline code unchanged |
+| Switch to GPT-4 | Change `LLM_MODEL` in config + update `genai` calls | Prompts unchanged |
+| Add more competitors per run | Change discovery prompt to request 8-10 | No code changes |
+| Add email alerts on diff | Add alert logic after `diff_engine` | Pipeline unchanged |
+| Schedule daily runs | Add cron job / Windows Task Scheduler | Just run `main.py` |
+
+---
+
+## 8. Known Limitations
+
+1. **Web scraping fragility**: Some websites (Red Bull, Dr Pepper) block scraping with 403 errors. The system handles this gracefully but gets less data for those competitors.
+2. **LLM JSON reliability**: Occasionally the LLM returns non-JSON or wraps JSON in markdown code blocks. The `_parse_json_response` function handles this with regex extraction fallback.
+3. **Rate limits**: Free-tier Gemini allows ~1500 requests/day for Flash. A single run uses ~10-12 LLM calls (2 for discovery + 6 for extraction + 2 for synthesis + 1-2 for diff). This supports ~100+ runs/day.
+4. **No real-time monitoring**: The system produces point-in-time reports. Continuous monitoring would require a scheduler and persistence layer.
+5. **Intelligence extraction depth depends on data quality**: If a competitor's website has minimal text or reviews are sparse, the LLM has less to reason from. The system reports this transparently rather than hallucinating.

@@ -184,21 +184,6 @@ def main():
 
     print(f"\n🏢 Discovered Competitors: {', '.join(c.get('name', k) for k, c in competitors.items())}")
 
-    # Natural language query mode
-    if args.query:
-        combined_path = os.path.join(OUTPUTS_DIR, "combined_intelligence.json")
-        if not os.path.exists(combined_path):
-            print("❌ No intelligence data found. Run without --query first to generate data.")
-            sys.exit(1)
-
-        with open(combined_path) as f:
-            all_intelligence = json.load(f)
-
-        answer = answer_natural_language_query(args.query, all_intelligence)
-        print(f"\n💬 Query: {args.query}")
-        print(f"\n📖 Answer:\n{answer}")
-        return
-
     # Phase 1: Data collection
     if args.skip_scraping:
         raw_data_by_competitor = load_cached_raw_data(competitors)
@@ -213,7 +198,7 @@ def main():
         brand_name=brand_name,
     )
 
-    # Save combined intelligence for query mode
+    # Save combined intelligence for future query mode
     combined_path = os.path.join(OUTPUTS_DIR, "combined_intelligence.json")
     with open(combined_path, "w", encoding="utf-8") as f:
         json.dump(all_intelligence, f, indent=2)
@@ -232,6 +217,15 @@ def main():
 
     # Print terminal summary
     print_summary(campaign_output, brand_name)
+
+    # Natural language query (answered AFTER intelligence is collected)
+    if args.query:
+        print(f"\n{'='*60}")
+        print(f"NATURAL LANGUAGE QUERY")
+        print(f"{'='*60}")
+        answer = answer_natural_language_query(args.query, all_intelligence)
+        print(f"\n💬 Query: {args.query}")
+        print(f"\n📖 Answer:\n{answer}")
 
 
 if __name__ == "__main__":
