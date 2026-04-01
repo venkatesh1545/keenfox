@@ -1,0 +1,10 @@
+{
+  "source": "reddit",
+  "competitor": "Notion",
+  "fetched_at": "2026-03-31T01:50:35.639237",
+  "posts": [],
+  "raw_text": "",
+  "errors": [
+    "No Reddit data fetched \u2014 configure REDDIT or TAVILY API keys"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "source": "website",
+  "competitor": "Dr Pepper",
+  "scraped_at": "2026-04-01T01:30:29.233620",
+  "homepage_text": "",
+  "pricing_text": "",
+  "errors": [
+    "Failed to fetch homepage: https://www.drpepper.com/",
+    "Failed to fetch pricing: https://www.drpepper.com/wheretobuy"
+  ]
+}

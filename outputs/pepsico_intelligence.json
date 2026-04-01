@@ -1,0 +1,87 @@
+{
+  "competitor": "PepsiCo",
+  "extracted_at": "2024-03-01T10:00:00.000000",
+  "feature_launches": [
+    {
+      "feature": "New Corporate Brand Identity",
+      "description": "A bold new identity reflecting PepsiCo's expansive global reach, aim for positive impact, and an unmatched family of beloved food and drink brands (slated for 2025).",
+      "strategic_implication": "Aims to modernize and unify the brand perception, signaling a forward-looking company committed to global presence and positive impact. This could enhance brand loyalty and attract new consumer demographics.",
+      "urgency": "high"
+    },
+    {
+      "feature": "PepsiCo Positive (Global Sustainability Agenda)",
+      "description": "An ambitious global sustainability agenda with specific 2025 goals to transform the food and beverage portfolio, contribute to a sustainable global food system, and create a resilient business.",
+      "strategic_implication": "Positions PepsiCo as a leader in sustainability and corporate responsibility, potentially appealing to eco-conscious consumers and investors, while also driving long-term operational efficiencies and supply chain resilience.",
+      "urgency": "high"
+    },
+    {
+      "feature": "Portfolio Optimization & Affordability Focus",
+      "description": "Major restructuring involving product line cuts, shuttering manufacturing lines, and a more aggressive focus on affordability, influenced by activist investor Elliott.",
+      "strategic_implication": "Seeks to streamline operations, improve profitability, and better compete in price-sensitive market segments. This may result in new value-oriented product offerings or more competitive pricing in select categories.",
+      "urgency": "medium"
+    }
+  ],
+  "messaging_angles": [
+    {
+      "angle": "Positive Emotional Connection & Enjoyment",
+      "evidence": "Food and Drinks to Smile About; Enjoy Sip Savor Smiles Taste Grow; Find Your Faves",
+      "effectiveness": "High. This angle directly appeals to universal consumer desires for happiness and pleasure, creating an emotional link to their diverse product offerings and fostering brand affinity."
+    },
+    {
+      "angle": "Global Reach, Diverse Brands, and Positive Impact",
+      "evidence": "company with expansive reach, aiming for positive impact across the globe, and an unmatched family of beloved food and drink brands; Growing Positive Change",
+      "effectiveness": "Medium-High. Establishes PepsiCo as a significant global player with a broad portfolio and a sense of corporate purpose, appealing to both consumers seeking variety and stakeholders valuing social responsibility."
+    }
+  ],
+  "customer_sentiment": {
+    "top_praises": [
+      "No direct customer praise data provided. Company messaging suggests they aim for products that bring 'smiles' and are 'beloved'."
+    ],
+    "top_complaints": [
+      "Declining product volume and revenue (2% in 2025) within the Frito-Lay division, indicating reduced customer purchasing or preference.",
+      "Implied difficulty in adapting to 'Consumer Tastes Shift', leading to significant operational overhaul.",
+      "Perception that PepsiCo's product portfolio 'had grown too' large and unfocused, leading to necessary cuts and restructuring."
+    ],
+    "recurring_themes": [
+      "Emphasis on sustainability and positive impact.",
+      "Ongoing portfolio restructuring and optimization in response to market dynamics and investor pressure.",
+      "Adaptation to evolving consumer tastes and affordability demands."
+    ],
+    "nps_proxy": "neutral/negative"
+  },
+  "pricing_signals": {
+    "model": "Not applicable for CPG products in the provided data (e.g., per unit, subscription for specific service).",
+    "entry_price": "Not visible in the provided data.",
+    "recent_changes": "Focusing 'more aggressively on affordability,' implying potential price reductions, value-pack introductions, or a stronger emphasis on budget-friendly options.",
+    "perceived_value": "The strategic shift towards 'affordability' suggests that previous offerings or pricing may have been perceived as less competitive or not meeting the value expectations of certain consumer segments."
+  },
+  "weaknesses_and_gaps": [
+    {
+      "weakness": "Underperformance in a key segment (Frito-Lay) despite overall company growth.",
+      "evidence": "Frito-Lay division has demonstrated worrying trends. Both product volume and revenue within this segment have declined by 2 percent through 2025.",
+      "brand_opportunity": "Coca-Cola (or a competing snack/beverage company) can directly target the snack food market with innovative, healthier, or uniquely positioned products to capture market share from PepsiCo's struggling Frito-Lay division, emphasizing its decline."
+    },
+    {
+      "weakness": "Struggling to adapt to shifting consumer tastes and managing an overly broad portfolio.",
+      "evidence": "PepsiCo Faces Operational Overhaul as Consumer Tastes Shift; Elliott, which has argued that PepsiCo's portfolio had grown too...",
+      "brand_opportunity": "Coca-Cola can position itself as more agile and consumer-centric, highlighting how its product development consistently meets evolving consumer preferences (e.g., health, new flavors) without the need for drastic 'shake-ups' or portfolio cuts."
+    },
+    {
+      "weakness": "Susceptibility to activist investor pressure dictating strategic direction.",
+      "evidence": "early concession to Elliott, which has argued that PepsiCo's portfolio had grown too...; focusing more aggressively on affordability.",
+      "brand_opportunity": "Coca-Cola can project an image of stable, consumer-driven innovation and brand-building, emphasizing premium quality and consistent brand experience over investor-mandated cost-cutting or affordability drives, if applicable to their strategy."
+    }
+  ],
+  "market_positioning": "PepsiCo positions itself as a global leader offering a diverse family of beloved food and drink brands that bring smiles, while driving positive change through sustainability and actively optimizing its expansive portfolio to meet evolving consumer and market demands for value and relevance.",
+  "_meta": {
+    "competitor_key": "pepsico",
+    "analyzed_at": "2026-04-01T01:18:28.445688",
+    "data_sources": [
+      "website",
+      "reviews",
+      "reddit",
+      "search"
+    ],
+    "model_used": "gemini-2.5-flash"
+  }
+}

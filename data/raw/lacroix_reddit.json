@@ -1,0 +1,10 @@
+{
+  "source": "reddit",
+  "competitor": "LaCroix",
+  "fetched_at": "2026-04-01T01:16:30.577745",
+  "posts": [],
+  "raw_text": "",
+  "errors": [
+    "No Reddit data fetched \u2014 configure REDDIT or TAVILY API keys"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "competitor": "Asana",
+  "extracted_at": "2026-03-31T02:03:39.943765",
+  "feature_launches": [
+    {
+      "feature": "Asana AI",
+      "description": "Built-in AI that understands work, keeps projects moving, gets better with use, and helps users draft tasks.",
+      "strategic_implication": "This is a significant move to infuse generative AI into their core offering, aiming to boost team productivity, differentiate from competitors lacking advanced AI, and potentially increase user stickiness by making task creation and management more efficient. It positions Asana as a modern, forward-thinking solution in the rapidly evolving AI landscape.",
+      "urgency": "high"
+    }
+  ],
+  "messaging_angles": [
+    {
+      "angle": "AI-powered Productivity & Collaboration",
+      "evidence": "Supercharge your teams with AI that gets work done; The platform for human + AI collaboration; Give your teams AI that understands their work, keeps projects moving, and gets better the more your teams use it.",
+      "effectiveness": "High. Clearly positions Asana at the forefront of AI integration in project management, appealing to companies looking for efficiency gains and modern solutions."
+    },
+    {
+      "angle": "Enterprise Trust & Credibility",
+      "evidence": "85% of Fortune 100 companies choose Asana\u00b9",
+      "effectiveness": "High. Leverages strong social proof and brand prestige to attract and reassure larger, more established organizations, implying reliability and robust capabilities."
+    },
+    {
+      "angle": "Outcome-focused & ROI-driven",
+      "evidence": "Maximize campaign ROI; Drive better outcomes; Unblock teams to hit revenue goals; Drive team alignment and impact; Connect work to company goals.",
+      "effectiveness": "High. Directly addresses business leaders' concerns about measurable results and strategic impact, framing Asana as a tool for achieving key objectives rather than just managing tasks."
+    },
+    {
+      "angle": "Departmental & Use-Case Versatility",
+      "evidence": "Marketing Operations, IT, Leadership (as target departments); Campaign management, Creative production, Project intake, Product launches, Organizational planning, Resource planning, Goal management, Employee onboarding (as specific use cases).",
+      "effectiveness": "High. Demonstrates Asana's breadth and adaptability, appealing to a wide range of departmental needs and showing that it can solve diverse operational challenges within an organization."
+    }
+  ],
+  "customer_sentiment": {
+    "top_praises": [],
+    "top_complaints": [],
+    "recurring_themes": [],
+    "nps_proxy": "neutral"
+  },
+  "pricing_signals": {
+    "model": "freemium / per seat",
+    "entry_price": "$10.99 per user, per month (billed annually) for the Starter plan; Free for up to 2 users (Personal plan)",
+    "recent_changes": "none mentioned",
+    "perceived_value": "The free tier offers substantial core functionality for individuals/small teams (up to 2 users), fostering adoption. Paid tiers (Starter and above) are positioned for 'growing teams' and enterprises, emphasizing advanced features like Asana AI and scalability, justifying the per-user cost by linking to progress tracking and deadline adherence."
+  },
+  "weaknesses_and_gaps": [
+    {
+      "weakness": "Reliance on integrations for core functionalities like time tracking.",
+      "evidence": "Time tracking with integrations Connect Asana to your favorite time tracking tools so you can see exactly how long tasks take and plan more accurately.",
+      "keenfox_opportunity": "If KeenFox offers native, robust time tracking within its platform, it can highlight this as a superior, integrated user experience, reducing the need for third-party tools and improving data consistency and user flow."
+    },
+    {
+      "weakness": "Asana AI's described capabilities appear foundational, potentially lacking deeper, proactive project intelligence.",
+      "evidence": "Asana AI Built-in AI that helps you draft tasks (on the Starter plan description). While the homepage speaks broadly of AI 'getting work done' and 'understanding work', the specific, actionable feature mentioned is task drafting.",
+      "keenfox_opportunity": "If KeenFox provides more advanced AI capabilities such as predictive analytics for project risks, automated resource leveling, intelligent scheduling, or proactive bottleneck identification, it can position these as delivering more strategic and profound value beyond basic task generation."
+    },
+    {
+      "weakness": "Potential pricing gap for small teams (e.g., 3-5 users) transitioning from free to paid tiers.",
+      "evidence": "Personal plan is 'For one or two people... Up to 2 users can collaborate for free.' The Starter plan is 'For growing teams...' at $10.99 Per user, per month billed annually.",
+      "keenfox_opportunity": "KeenFox could introduce a highly competitive, value-packed tier specifically designed for small teams (e.g., 3-10 users) with a compelling feature set and a price point that makes the transition from free tools significantly more attractive and affordable than Asana's Starter plan."
+    }
+  ],
+  "market_positioning": "Asana positions itself as an enterprise-grade, AI-enhanced platform for human + AI collaboration, offering comprehensive work management across various departments and use cases with a strong emphasis on driving business outcomes, aligning work with strategic goals, and catering to the needs of Fortune 100 companies.",
+  "_meta": {
+    "competitor_key": "asana",
+    "analyzed_at": "2026-03-31T02:04:02.234123",
+    "data_sources": [
+      "website",
+      "reviews",
+      "reddit"
+    ],
+    "model_used": "gemini-2.5-flash"
+  }
+}

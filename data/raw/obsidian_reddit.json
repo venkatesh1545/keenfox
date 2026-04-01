@@ -1,0 +1,44 @@
+{
+  "source": "reddit",
+  "competitor": "Obsidian",
+  "fetched_at": "2026-04-01T22:21:44.157462",
+  "posts": [
+    {
+      "subreddit": "reddit",
+      "title": "What's been your experience with Obsidian Publish? Pros & Cons ...",
+      "text": "I really enjoy it for just how easy it is. I think the biggest thing holding it back in the TTRPG community is the lack of pinnable map support.",
+      "url": "https://www.reddit.com/r/ObsidianMD/comments/1gr2cfl/whats_been_your_experience_with_obsidian_publish/",
+      "top_comments": []
+    },
+    {
+      "subreddit": "reddit",
+      "title": "My \"second impression\" review about Obsidian : r/PKMS - Reddit",
+      "text": "Plain Obsidian: The perfect option for beginners and still fantastic for many \u00b7 3:31 Data Privacy \u00b7 5:58 Data Ownership \u00b7 9:01 Ideal business model.",
+      "url": "https://www.reddit.com/r/PKMS/comments/1jpafm7/my_second_impression_review_about_obsidian/",
+      "top_comments": []
+    },
+    {
+      "subreddit": "reddit",
+      "title": "Very disappointing experience with Obsidian, any tips? - Reddit",
+      "text": "Obsidian on mobile is generally bad. I only use it for quick stuff like checking a box or writing something real quick. Anything that requires",
+      "url": "https://www.reddit.com/r/ObsidianMD/comments/1q1shr8/very_disappointing_experience_with_obsidian_any/",
+      "top_comments": []
+    },
+    {
+      "subreddit": "reddit",
+      "title": "What do you guys think of obsidian? : r/DungeonMasters - Reddit",
+      "text": "Yeah, for me I like Obsidian because it helps me keep things more organised that I found Google Docs, and having far more control over little",
+      "url": "https://www.reddit.com/r/DungeonMasters/comments/1q7znj0/what_do_you_guys_think_of_obsidian/",
+      "top_comments": []
+    },
+    {
+      "subreddit": "reddit",
+      "title": "Reviewing Notes in Obsidian : r/ObsidianMD - Reddit",
+      "text": "Obsidian is a powerful note-taking and knowledge management tool, and its functionality can be significantly extended through the use of plugins. **Templater**: Highly recommended for creating and managing templates, which can streamline note creation and organization. **Dataview**: Enables indexing and generating lists of notes based on metadata, useful for organizing and retrieving information. **Quickadd**: A versatile automation plugin that can be used to quickly add notes, tasks, and other ",
+      "url": "https://www.reddit.com/r/ObsidianMD/comments/1nfz1wq/reviewing_notes_in_obsidian/",
+      "top_comments": []
+    }
+  ],
+  "raw_text": "Title: What's been your experience with Obsidian Publish? Pros & Cons ...\nContent: I really enjoy it for just how easy it is. I think the biggest thing holding it back in the TTRPG community is the lack of pinnable map support.\n\nTitle: My \"second impression\" review about Obsidian : r/PKMS - Reddit\nContent: Plain Obsidian: The perfect option for beginners and still fantastic for many \u00b7 3:31 Data Privacy \u00b7 5:58 Data Ownership \u00b7 9:01 Ideal business model.\n\nTitle: Very disappointing experience with Obsidian, any tips? - Reddit\nContent: Obsidian on mobile is generally bad. I only use it for quick stuff like checking a box or writing something real quick. Anything that requires\n\nTitle: What do you guys think of obsidian? : r/DungeonMasters - Reddit\nContent: Yeah, for me I like Obsidian because it helps me keep things more organised that I found Google Docs, and having far more control over little\n\nTitle: Reviewing Notes in Obsidian : r/ObsidianMD - Reddit\nContent: Obsidian is a powerful note-taking and knowledge management tool, and its functionality can be significantly extended through the use of plugins. **Templater**: Highly recommended for creating and managing templates, which can streamline note creation and organization. **Dataview**: Enables indexing and generating lists of notes based on metadata, useful for organizing and retrieving information. **Quickadd**: A versatile automation plugin that can be used to quickly add notes, tasks, and other ",
+  "errors": []
+}

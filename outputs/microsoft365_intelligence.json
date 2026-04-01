@@ -1,0 +1,36 @@
+{
+  "competitor": "Microsoft 365 Copilot",
+  "extracted_at": "2024-07-30T12:00:00.000000",
+  "feature_launches": [],
+  "messaging_angles": [],
+  "customer_sentiment": {
+    "top_praises": [],
+    "top_complaints": [],
+    "recurring_themes": [],
+    "nps_proxy": "undetermined"
+  },
+  "pricing_signals": {
+    "model": "undetermined - access blocked",
+    "entry_price": "undetermined - access blocked",
+    "recent_changes": "undetermined - access blocked",
+    "perceived_value": "undetermined - access blocked"
+  },
+  "weaknesses_and_gaps": [
+    {
+      "weakness": "High information opacity / Aggressive anti-scraping measures",
+      "evidence": "Website content (homepage, pricing page) is blocked for automated processes: 'Your request has been blocked. Your current User-Agent string appears to be from an automated process.'",
+      "keenfox_opportunity": "KeenFox can differentiate by developing more sophisticated stealth scraping capabilities or alternative data acquisition methods (e.g., leveraging public APIs, news mentions, or partner intelligence) to bypass competitors' increasingly aggressive bot detection and provide a more comprehensive view of market changes. This highlights a critical challenge for traditional CI tools."
+    }
+  ],
+  "market_positioning": "Cannot determine market positioning directly from website due to blocked access. The blocking itself suggests a high degree of control over public information dissemination on their owned channels.",
+  "_meta": {
+    "competitor_key": "microsoft365",
+    "analyzed_at": "2026-03-31T02:04:51.197028",
+    "data_sources": [
+      "website",
+      "reviews",
+      "reddit"
+    ],
+    "model_used": "gemini-2.5-flash"
+  }
+}

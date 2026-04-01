@@ -1,0 +1,83 @@
+{
+  "competitor": "Pepsi",
+  "extracted_at": "2024-05-16T10:00:00.000000",
+  "feature_launches": [
+    {
+      "feature": "Pepsi Prebiotic Cola",
+      "description": "Two new sodas (Original Cola and Cherry Vanilla flavors) with 5g sugar and 20 calories, positioned as the 'first significant innovation\u2026in 20 years' in the cola category. Aims to deliver expected Pepsi taste while addressing health concerns.",
+      "strategic_implication": "Targets the growing health-conscious consumer segment, directly competing with newer 'healthier' beverage options. This is a significant move to innovate in their core CSD product line and potentially expand market share by attracting consumers looking for lower sugar/calorie and functional benefits.",
+      "urgency": "high"
+    }
+  ],
+  "messaging_angles": [
+    {
+      "angle": "Innovation and addressing evolving consumer needs (health)",
+      "evidence": "Pepsi launches 2 new sodas: \u2018First significant innovation\u2026in 20 years\u2019. Pepsi Prebiotic Cola with 5g sugar, 20 calories. Delivering not only the taste people expect from Pepsi, but addressing health.",
+      "effectiveness": "Likely effective for target demographics seeking healthier options without abandoning familiar brands. The 'first significant innovation in 20 years' claim creates buzz and positions Pepsi as forward-thinking."
+    },
+    {
+      "angle": "Global reach and positive impact (Corporate Branding)",
+      "evidence": "This new identity boldly reflects who we are in 2025: a company with expansive reach, aiming for positive impact across the globe.",
+      "effectiveness": "Standard corporate messaging; effectiveness for CSD consumers is indirect but aims to build a positive overall brand image. Could resonate with ESG-conscious consumers."
+    },
+    {
+      "angle": "Internal culture of innovation and risk-taking (Employer Branding)",
+      "evidence": "PepsiCo is a playground for curious people. We invite thinkers, doers, and changemakers to champion innovation, take calculated risks, and challenge the status quo.",
+      "effectiveness": "Aims to attract talent by portraying an exciting, dynamic workplace. Could influence public perception of the company's modernity and drive."
+    }
+  ],
+  "customer_sentiment": {
+    "top_praises": [
+      "Reliability and consistency ('never had any issues' for 4 years).",
+      "Autonomy and control in sales roles ('I control my own')."
+    ],
+    "top_complaints": [
+      "Poor work-life balance and long working hours (12-16 hours/day reported by employees).",
+      "Crappy management and lack of support for employees.",
+      "Unrealistic expectations and excessive workload for sales teams.",
+      "Perception of financial instability and layoffs among some employees ('Pepsico is losing money').",
+      "General 'terrible experiences' with Pepsi (from a Reddit user's perspective)."
+    ],
+    "recurring_themes": [
+      "Significant employee dissatisfaction regarding workload, management quality, and work-life balance.",
+      "Conflicting perceptions of the company's financial health.",
+      "Varied customer experiences, from reliable to 'terrible'."
+    ],
+    "nps_proxy": "negative"
+  },
+  "pricing_signals": {
+    "model": "N/A",
+    "entry_price": "N/A",
+    "recent_changes": "N/A",
+    "perceived_value": "N/A"
+  },
+  "weaknesses_and_gaps": [
+    {
+      "weakness": "Significant employee dissatisfaction and poor work-life balance.",
+      "evidence": "Expect to work 12 to 16 hours a day. You will have no work life balance. Crappy management. You get no support. Unrealistic expectations. Too much to do and sales.",
+      "brand_opportunity": "Coca-Cola can highlight a more supportive work environment, better employee retention, and efficient operations, potentially attracting top talent from PepsiCo and signaling internal stability."
+    },
+    {
+      "weakness": "Pressure from activist investors and need to improve North American performance.",
+      "evidence": "Public criticism the food-and-beverage giant attracted from activist investor Elliott Investment Management L.P. The company may have satisfied the US hedge fund (at least for now) with a multi-faceted strategy to improve the performance of its business in North A",
+      "brand_opportunity": "Coca-Cola can emphasize consistent, organic growth, stable leadership, and strong performance in key markets, projecting reliability and avoiding external investor interventions."
+    },
+    {
+      "weakness": "Perception of financial instability and employee layoffs.",
+      "evidence": "Pepsico is losing money and you probably were the first to go because of seniority. They probably weren't even supposed to hire you.",
+      "brand_opportunity": "Coca-Cola can subtly contrast this by showcasing its financial health, secure employment, and commitment to its workforce, building trust with both consumers and potential employees."
+    }
+  ],
+  "market_positioning": "PepsiCo positions itself as a global company with expansive reach and a commitment to positive impact, now emphasizing significant innovation in its core CSD category through healthier product offerings like Prebiotic Cola to meet evolving consumer demands.",
+  "_meta": {
+    "competitor_key": "pepsi",
+    "analyzed_at": "2026-04-01T01:31:38.855826",
+    "data_sources": [
+      "website",
+      "reviews",
+      "reddit",
+      "search"
+    ],
+    "model_used": "gemini-2.5-flash"
+  }
+}

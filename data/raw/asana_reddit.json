@@ -1,0 +1,10 @@
+{
+  "source": "reddit",
+  "competitor": "Asana",
+  "fetched_at": "2026-03-31T01:50:41.497521",
+  "posts": [],
+  "raw_text": "",
+  "errors": [
+    "No Reddit data fetched \u2014 configure REDDIT or TAVILY API keys"
+  ]
+}
