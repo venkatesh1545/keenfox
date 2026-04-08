@@ -1,639 +1,169 @@
 {
-  "coda": {
-    "competitor": "Coda",
-    "extracted_at": "2026-04-01T22:22:07.869816",
-    "feature_launches": [
-      {
-        "feature": "Coda AI (AI Chat, AI Assistant, AI Column)",
-        "description": "An integrated AI assistant offering chat for dynamic dialogue (brainstorming, content creation, Q&A), an assistant for starting from scratch, summarizing, or generating tables, and an AI column for turning data into insights or automating content within tables.",
-        "strategic_implication": "Positions Coda as a cutting-edge platform embracing AI to significantly boost productivity, automate tasks, and differentiate itself by offering a 'connected work assistant'. This creates competitive pressure for rivals to enhance their AI capabilities or risk falling behind in workflow automation and content generation.",
-        "urgency": "high"
-      },
-      {
-        "feature": "2025 UI Refresh",
-        "description": "A significant update to the user interface across the Coda platform.",
-        "strategic_implication": "Aims to improve user experience, potentially addressing perceived complexity or modernizing the platform's aesthetics. This could enhance retention, attract new users, and improve overall usability, counteracting feedback about the platform being overwhelming.",
-        "urgency": "medium"
-      },
-      {
-        "feature": "Instant Commerce",
-        "description": "A new solution launched by Coda, indicating an expansion into capabilities supporting e-commerce or specific transaction-related workflows.",
-        "strategic_implication": "Suggests Coda is expanding its vertical-specific offerings, moving beyond general workspace management into more specialized business functions. This could open new market segments and demonstrate the platform's adaptability for diverse business needs.",
-        "urgency": "medium"
-      }
-    ],
-    "messaging_angles": [
-      {
-        "angle": "All-in-one Collaborative Workspace / Platform Consolidation",
-        "evidence": "Your all-in-one collaborative workspace. Coda merges the functionalities of documents, spreadsheets, and presentations into a single platform. Replaces Hubs, Replaces Trackers, Replaces Applications.",
-        "effectiveness": "High. Directly addresses the pain point of tool sprawl and promises a unified, efficient environment for team collaboration and project management, which is a strong value proposition for B2B customers."
-      },
-      {
-        "angle": "Superior Flexibility & Power (Direct Competitive Challenge)",
-        "evidence": "\"It\u2019s more powerful than Google Docs and more flexible than Airtable or Notion.\" - Fast Company quote.",
-        "effectiveness": "High. This is a bold, direct competitive claim backed by a reputable third-party, clearly positioning Coda above major competitors in key aspects. It sets a high expectation for potential users."
-      },
-      {
-        "angle": "Familiarity & Engagement",
-        "evidence": "Coda is familiar like a doc and engaging like an app, so your team can jump in quickly, collaborate effectively, and make decisions that stick.",
-        "effectiveness": "Medium-High. Attempts to mitigate the perceived complexity by highlighting ease of entry ('familiar like a doc') while promising advanced functionality ('engaging like an app'). This aims to onboard users efficiently despite the platform's depth."
-      },
-      {
-        "angle": "Productivity & Organization (AI-Enhanced)",
-        "evidence": "Coda brings teams and tools together for a more organized work day. Take the busywork out of your work with Coda AI. Supercharge their work days, create a feeling of organization, and foster collaborative workflows.",
-        "effectiveness": "High. Focuses on universal business goals of efficiency and order. The integration of AI significantly strengthens this message, promising tangible time-savings and smarter work, which resonates strongly with target users."
-      }
-    ],
+  "pringles": {
+    "analysis_thought_process": "The raw data explicitly states, \"Limited data available for Pringles. Analysis may be incomplete.\" This directly indicates that there is insufficient information to populate the requested sections. Therefore, no signals related to feature launches, messaging angles, customer sentiment (praises, complaints, themes, NPS proxy), pricing signals (model, entry price, recent changes, perceived value), specific weaknesses and gaps, or market positioning could be extracted as they are not present in the provided competitive intelligence data. Each section that is empty is a direct result of this stated lack of data.",
+    "competitor": "Pringles",
+    "extracted_at": "2026-04-08T11:24:12.574268",
+    "feature_launches": [],
+    "messaging_angles": [],
     "customer_sentiment": {
-      "top_praises": [
-        "Combines features from various traditional office tools (docs, spreadsheets, presentations).",
-        "Facilitates collaboration effectively with a shared workspace.",
-        "Offers a wide range of community-built templates.",
-        "Provides knowledgeable 'Coda experts' (support/community) for guidance.",
-        "Platform's philosophy and underlying value are appreciated once understood."
-      ],
-      "top_complaints": [
-        "Can be overwhelming for new users due to its broad functionalities and complexity.",
-        "May experience slowdowns and performance issues with extensive data.",
-        "Perceived slow pace of product development and new feature releases."
-      ],
-      "recurring_themes": [
-        "Balancing power/flexibility with a steep learning curve/complexity.",
-        "Strong emphasis and success in collaborative workflows.",
-        "Value of community and templates for adoption and leveraging the platform.",
-        "Concerns about scalability and performance under heavy data loads."
-      ],
-      "nps_proxy": "positive"
+      "top_praises": [],
+      "top_complaints": [],
+      "recurring_themes": [],
+      "nps_proxy": ""
     },
     "pricing_signals": {
-      "model": "freemium",
-      "entry_price": "$12 per month (for 'pro package')",
-      "recent_changes": "None mentioned directly in the provided data.",
-      "perceived_value": "Generally positive for those who overcome the learning curve and utilize its functionalities, leading to a high G2 rating, but some might question value if overwhelmed by complexity."
+      "model": "",
+      "entry_price": "",
+      "recent_changes": "",
+      "perceived_value": ""
     },
-    "weaknesses_and_gaps": [
-      {
-        "weakness": "High Barrier to Entry / Complexity",
-        "evidence": "Can be overwhelming for new users due to its broad functionalities. Users need an 'eye-opening experience understanding the platform's philosophy and value.'",
-        "brand_opportunity": "Notion can emphasize its intuitive, modular design for a faster onboarding and lower learning curve, promoting immediate productivity and 'building blocks' that scale in complexity as needed, rather than starting with an overwhelming array of features."
-      },
-      {
-        "weakness": "Performance with Extensive Data",
-        "evidence": "May experience slowdowns with extensive data.",
-        "brand_opportunity": "Notion can highlight its robust performance and scalability, particularly for large teams or complex databases, ensuring smooth operation even with significant amounts of information, contrasting Coda's potential performance bottlenecks."
-      },
-      {
-        "weakness": "Perceived Slow Product Development",
-        "evidence": "Coda experts are great, but development feels too slow (r/codaio).",
-        "brand_opportunity": "Notion can showcase its rapid iteration cycles, frequent feature releases, and responsive engagement with its user community, positioning itself as a more dynamic and continuously improving platform."
-      },
-      {
-        "weakness": "Needs Deep Engagement to Maximize Value",
-        "evidence": "'eye-opening experience understanding the platform's philosophy and value' implies a significant time investment to truly leverage the platform's full potential.",
-        "brand_opportunity": "Notion can emphasize practical, immediate value and clear use cases, making it easier for users to achieve quick wins and demonstrate ROI without needing to fully grasp a complex 'philosophy' first."
-      }
-    ],
-    "market_positioning": "Coda positions itself as an 'all-in-one collaborative workspace' that unifies traditional office tools and specialized applications, aiming to be a more powerful and flexible alternative to competitors like Google Docs, Airtable, and Notion, enhanced by AI for organization and workflow optimization. The recent acquisition by Grammarly in 2025 further signals its strategic integration into a broader content intelligence and productivity ecosystem.",
+    "weaknesses_and_gaps": [],
+    "market_positioning": "",
     "_meta": {
-      "competitor_key": "coda",
-      "analyzed_at": "2026-04-01T22:22:38.792812",
-      "data_sources": [
-        "website",
-        "reviews",
-        "reddit",
-        "search"
-      ],
+      "competitor_key": "pringles",
+      "analyzed_at": "2026-04-08T11:24:17.131755",
+      "data_sources": [],
       "model_used": "gemini-2.5-flash"
     }
   },
-  "clickup": {
-    "competitor": "ClickUp",
-    "extracted_at": "2024-05-15T10:00:00.000000",
-    "feature_launches": [
-      {
-        "feature": "ClickUp 4.0: Unified AI Workspace",
-        "description": "A major platform overhaul introducing a unified sidebar & navigation, context-aware AI chat, deeper operational modeling, stronger analytics & forecasting, and an 'Everything View' for cross-space visibility.",
-        "strategic_implication": "This is a significant platform evolution, aiming to position ClickUp as a comprehensive 'Business OS' rather than just a PM tool. The focus on AI and unified experience is designed to consolidate workflows and directly challenge fragmented software ecosystems. It signals an aggressive move to capture more of the 'work operating system' market.",
-        "urgency": "high"
-      },
-      {
-        "feature": "AI Super Agents & ClickUp Brain",
-        "description": "Introduction of AI Super Agents capable of delegating tasks, operating 24/7 with infinite memory, and possessing 500+ tool superpowers. It includes a 'ClickUp Brain' as the core AI, AI Agents & Workflows, AI Notetaker, AI Writer, and AI Q&A. This is available as a premium add-on.",
-        "strategic_implication": "ClickUp is heavily investing in and marketing AI as a core differentiator, aiming to 'replace all software' and create 'infinite productivity' by leveraging autonomous agents. This could significantly disrupt how tasks are managed and executed, challenging competitors to offer similar levels of AI-driven automation and intelligent assistance. The 'premium add-on' model for AI suggests they see it as a high-value upsell.",
-        "urgency": "high"
-      }
-    ],
-    "messaging_angles": [
-      {
-        "angle": "All-in-one / Software Replacement",
-        "evidence": "Software to replace all software. All Apps, AI, Projects, Chat + 20 more. 100+ products to replace fragmented software & maximize human productivity.",
-        "effectiveness": "Mixed. While users praise 'all-in-one functionality', this breadth often leads to complaints about initial setup complexity and the learning curve, suggesting the promise of simplicity is undermined by the reality of a feature-rich, configurable product."
-      },
-      {
-        "angle": "AI-Driven Productivity / Future of Work",
-        "evidence": "NEW AI Super Agents Software to replace all software. A new era of humans, with Super Agents. AI Agents & Workflows. Create infinite productivity.",
-        "effectiveness": "High. This is a bold, forward-looking message that directly addresses contemporary pain points like work sprawl and context loss. It positions ClickUp at the forefront of AI innovation in the productivity space, appealing to businesses seeking significant efficiency gains and competitive advantage through technology."
-      },
-      {
-        "angle": "Time & Cost Savings",
-        "evidence": "Save money. All Apps, AI, Projects, Chat + 20 more. Save time. All humans working together with perfect context. Get 400% more done.",
-        "effectiveness": "Medium. These are standard B2B value propositions. While appealing, the '400% more done' claim is aggressive and might be viewed skeptically without clear evidence. The 'save money' is reinforced by the freemium model and competitive pricing, but the 'save time' could be challenged by the reported learning curve."
-      },
-      {
-        "angle": "Customization & Flexibility",
-        "evidence": "Customize your workspace. Highly flexible workflows \u2013 Custom fields, statuses, automations, and views are frequently cited as standout features.",
-        "effectiveness": "High. This message resonates strongly with users who praise ClickUp's configurability. It positions the platform as adaptable to diverse organizational needs, allowing teams to tailor it precisely to their unique workflows rather than conforming to rigid software."
-      }
-    ],
+  "doritos": {
+    "analysis_thought_process": "The raw data explicitly states: 'Limited data available for Doritos. Analysis may be incomplete.' Based on the grounding rule, I must only extract signals directly supported by the provided text. As there is no other information about Doritos' features, messaging, customer sentiment, pricing, weaknesses, or market positioning in the 'Raw Data' section, all relevant fields are left empty or as empty arrays to avoid hallucination. The competitor name 'Doritos' and category 'Tortilla Chips / Flavored Snacks' are taken directly from the user prompt.",
+    "competitor": "Doritos",
+    "extracted_at": "2026-04-08T11:24:12.568076",
+    "feature_launches": [],
+    "messaging_angles": [],
     "customer_sentiment": {
-      "top_praises": [
-        "All-in-one functionality: Consolidates tasks, docs, time tracking, and reporting into one platform.",
-        "Highly flexible workflows: Custom fields, statuses, automations, and various views (Kanban, Calendar, Sprint) allow deep customization.",
-        "Effective Automations: Saves time and resources on repetitive tasks, ensures precision, and frees up employees for human-dependent work.",
-        "Good integrations: Specific praise for GitHub integration and native sprint support."
-      ],
-      "top_complaints": [
-        "Steep learning curve and initial setup complexity: Requires significant upfront planning and time to get comfortable, leading to confusion during new version transitions (e.g., ClickUp 4.0).",
-        "Poor customer support and transparency: Users report very poor product support and lack of transparency from the company.",
-        "Product 'didn't stick': Some businesses struggle with adoption after initial implementation, indicating difficulty integrating it into existing workflows or realizing promised value.",
-        "Potential unsuitability for highly complex, multi-department projects with short timelines (e.g., game development)."
-      ],
-      "recurring_themes": [
-        "The tension between powerful, all-in-one functionality and the resulting complexity/learning curve.",
-        "Strong focus on AI as a future growth driver.",
-        "Challenges in consistent user adoption and efficient onboarding despite rich features.",
-        "Issues with customer support quality and communication."
-      ],
+      "top_praises": [],
+      "top_complaints": [],
+      "recurring_themes": [],
+      "nps_proxy": ""
+    },
+    "pricing_signals": {
+      "model": "",
+      "entry_price": "",
+      "recent_changes": "",
+      "perceived_value": ""
+    },
+    "weaknesses_and_gaps": [],
+    "market_positioning": "",
+    "_meta": {
+      "competitor_key": "doritos",
+      "analyzed_at": "2026-04-08T11:24:18.800532",
+      "data_sources": [],
+      "model_used": "gemini-2.5-flash"
+    }
+  },
+  "kettle_brand": {
+    "analysis_thought_process": "The raw data explicitly states \"Limited data available for Kettle Brand. Analysis may be incomplete.\" As per the grounding rule, every signal must be directly backed by a quote or explicit reference from the raw data. Since no other specific information is provided regarding competitor features, messaging angles, customer sentiment, pricing signals, weaknesses, or market positioning, these sections are left empty or with default empty values as no direct evidence exists to populate them. The analysis accurately reflects the limitations of the provided input.",
+    "competitor": "Kettle Brand",
+    "extracted_at": "2026-04-08T11:24:12.576287",
+    "feature_launches": [],
+    "messaging_angles": [],
+    "customer_sentiment": {
+      "top_praises": [],
+      "top_complaints": [],
+      "recurring_themes": [],
+      "nps_proxy": null
+    },
+    "pricing_signals": {
+      "model": null,
+      "entry_price": null,
+      "recent_changes": null,
+      "perceived_value": null
+    },
+    "weaknesses_and_gaps": [],
+    "market_positioning": null,
+    "_meta": {
+      "competitor_key": "kettle_brand",
+      "analyzed_at": "2026-04-08T11:24:19.082267",
+      "data_sources": [],
+      "model_used": "gemini-2.5-flash"
+    }
+  },
+  "skinnypop": {
+    "analysis_thought_process": "The raw data explicitly states, 'Limited data available for SkinnyPop Popcorn. Analysis may be incomplete.' Therefore, all sections requiring specific extracted signals (feature launches, messaging angles, customer sentiment, pricing signals, weaknesses/gaps, and market positioning) are left empty as no relevant information could be directly quoted or referenced from the provided text. The analysis is inherently incomplete due to the data limitation.",
+    "competitor": "SkinnyPop Popcorn",
+    "extracted_at": "2026-04-08T11:24:12.579790",
+    "feature_launches": [],
+    "messaging_angles": [],
+    "customer_sentiment": {
+      "top_praises": [],
+      "top_complaints": [],
+      "recurring_themes": [],
+      "nps_proxy": ""
+    },
+    "pricing_signals": {
+      "model": "",
+      "entry_price": "",
+      "recent_changes": "",
+      "perceived_value": ""
+    },
+    "weaknesses_and_gaps": [],
+    "market_positioning": "",
+    "_meta": {
+      "competitor_key": "skinnypop",
+      "analyzed_at": "2026-04-08T11:24:19.222949",
+      "data_sources": [],
+      "model_used": "gemini-2.5-flash"
+    }
+  },
+  "cheetos": {
+    "analysis_thought_process": "The raw data provided is extremely limited: 'Limited data available for Cheetos. Analysis may be incomplete.' Therefore, the primary strategic signal is the lack of accessible competitive intelligence. For all sections requiring specific details (feature launches, messaging angles, customer sentiment, pricing signals, market positioning), there is no information in the raw data to extract. Consequently, these sections are left empty or set to a 'neutral' state to accurately reflect the data scarcity. The 'weaknesses_and_gaps' section directly leverages the provided statement, interpreting the 'limited data' as a strategic information weakness for competitive analysis and identifying a corresponding opportunity for the analyzing brand (Lays) to manage this intelligence gap.",
+    "competitor": "Cheetos",
+    "extracted_at": "2026-04-08T11:24:12.578756",
+    "feature_launches": [],
+    "messaging_angles": [],
+    "customer_sentiment": {
+      "top_praises": [],
+      "top_complaints": [],
+      "recurring_themes": [],
       "nps_proxy": "neutral"
     },
     "pricing_signals": {
-      "model": "freemium (per seat with tiered features and an AI add-on)",
-      "entry_price": "$7 Per user/month (billed yearly for the 'Unlimited' paid tier)",
-      "recent_changes": "Introduced a separate 'AI PRICING' add-on, offering up to 20% savings with yearly billing, indicating AI is monetized separately from core features. No changes to base plan prices were explicitly mentioned, but the structure of AI as an add-on is a strategic pricing decision.",
-      "perceived_value": "Mixed. ClickUp claims 'the best work solution, for the best price.' One Reddit user states 'Pricing is average.' Another LinkedIn user sees it as good value (e.g., '$10 per user per month for an entire business operating system' vs. Slack's $18 for chat)."
+      "model": "",
+      "entry_price": "",
+      "recent_changes": "",
+      "perceived_value": ""
     },
     "weaknesses_and_gaps": [
       {
-        "weakness": "High onboarding friction and complexity",
-        "evidence": "Users consistently report 'initial setup requires planning' and 'takes time to get comfortable.' The ClickUp 4.0 transition itself caused 'months of confusion.' Some businesses find it 'didn't quite stick.'",
-        "brand_opportunity": "Our company can emphasize ease of use, intuitive design, and rapid time-to-value. Develop highly prescriptive templates and guided onboarding flows that solve specific problems without requiring extensive setup. Offer white-glove onboarding for larger accounts as a key differentiator."
-      },
-      {
-        "weakness": "Subpar customer support and transparency",
-        "evidence": "Reddit discussions explicitly state 'product support is poor to very poor' and 'transparency is poor.'",
-        "brand_opportunity": "Highlight a commitment to exceptional, proactive customer support. Offer transparent roadmaps, clear communication channels, and responsive assistance. Position 'human support' as a core value proposition, contrasting with ClickUp's potential over-reliance on AI for support or general friction points."
-      },
-      {
-        "weakness": "Potential over-feature-bloat for specific use cases",
-        "evidence": "A user questioned its suitability for a complex, multi-department game development project, implying it might be too general or complex for highly specific, timeline-sensitive workflows.",
-        "brand_opportunity": "Focus on clarity of use cases and target personas. For companies struggling with ClickUp's breadth, offer a solution that is *purpose-built* for specific industries or project types, providing just enough flexibility without overwhelming complexity."
-      },
-      {
-        "weakness": "AI as an add-on, not fully integrated value",
-        "evidence": "AI is a 'premium AI add-on' rather than being fully baked into all pricing tiers. While heavily promoted, this could imply that the core value still requires manual configuration.",
-        "brand_opportunity": "If our company offers AI, integrate it seamlessly into core plans or provide clear, immediately valuable AI features that don't require an additional purchase. Frame AI as enhancing human workflows, not necessarily replacing 'all software,' focusing on practical, integrated assistance rather than a separate 'agent' layer."
+        "weakness": "Limited publicly available strategic information",
+        "evidence": "Limited data available for Cheetos. Analysis may be incomplete.",
+        "brand_opportunity": "Lays should recognize the challenge in gaining deep competitive intelligence on Cheetos. This implies a need for Lays to potentially invest more in primary research or adapt strategies based on its own strengths rather than directly reacting to Cheetos, given the lack of visibility into Cheetos' specific moves."
       }
     ],
-    "market_positioning": "ClickUp positions itself as a comprehensive 'unified AI workspace' and 'Business OS' designed to 'replace all software,' maximizing productivity and consolidating workflows for humans and AI Super Agents to 'create infinite productivity.'",
+    "market_positioning": "",
     "_meta": {
-      "competitor_key": "clickup",
-      "analyzed_at": "2026-04-01T22:23:02.334555",
-      "data_sources": [
-        "website",
-        "reviews",
-        "reddit",
-        "search"
-      ],
+      "competitor_key": "cheetos",
+      "analyzed_at": "2026-04-08T11:24:58.834935",
+      "data_sources": [],
       "model_used": "gemini-2.5-flash"
     }
   },
-  "airtable": {
-    "competitor": "Airtable",
-    "extracted_at": "2024-05-15T10:00:00.000000",
-    "feature_launches": [
-      {
-        "feature": "Superagent (Multiagent AI System)",
-        "description": "A new multiagent AI system designed to embed intelligence into every workflow, think dynamically across records, and orchestrate actions across operations.",
-        "strategic_implication": "Significant investment in advanced AI capabilities, shifting positioning towards AI-first workflow automation. Aims to differentiate by offering dynamic, actionable AI beyond simple data queries.",
-        "urgency": "high"
-      },
-      {
-        "feature": "Broad AI Enhancements & Democratization",
-        "description": "A new wave of AI features promising to reshape data interaction, including AI-powered workflows that unify data, maximize collaboration, and integrate leading AI models (OpenAI, Gemini, Llama, Anthropic).",
-        "strategic_implication": "Reinforces an 'AI-first' core strategy, making AI accessible for all users and central to their value proposition, positioning Airtable as a leader in practical AI deployment for business.",
-        "urgency": "high"
-      },
-      {
-        "feature": "Interface Updates (Tabs + Copy/Paste Layout)",
-        "description": "UI/UX improvements including tabs for navigation and the ability to copy/paste layouts for app building.",
-        "strategic_implication": "Focus on improving user experience and efficiency for enterprise-grade application building and navigation, making the platform more robust for power users and complex use cases.",
-        "urgency": "medium"
-      },
-      {
-        "feature": "Enhanced File Attachments",
-        "description": "Updates to make collaboration more seamless, specifically enhancing the ability to add images, PDFs, and videos.",
-        "strategic_implication": "Strengthens core collaborative functionality and enriches data types within the platform, making Airtable a more comprehensive hub for diverse organizational data.",
-        "urgency": "medium"
-      },
-      {
-        "feature": "Same-table Backlinks",
-        "description": "Allows linking records within the same table, improving data organization.",
-        "strategic_implication": "Enhances the relational database capabilities within single tables, addressing a specific user need for more complex data structures and organization, solidifying its database foundation.",
-        "urgency": "medium"
-      },
-      {
-        "feature": "Dark Mode (Public Beta)",
-        "description": "A highly requested user interface option for improved visual comfort.",
-        "strategic_implication": "Indicates responsiveness to user feedback and focus on quality-of-life improvements, enhancing overall user satisfaction, but not a core competitive differentiator.",
-        "urgency": "low"
-      }
-    ],
-    "messaging_angles": [
-      {
-        "angle": "AI-Powered Enterprise Workflows & Applications",
-        "evidence": "Build Enterprise-ready AI Workflows, Apps & Agents; Build AI-powered workflows that unify data, maximize collaboration; Don\u2019t just ask AI. Deploy it. Embed intelligence into every workflow\u2014Airtable agents think dynamically; Use AI models from leading providers (OpenAI, Gemini, Llama, Anthropic, and more).",
-        "effectiveness": "Highly effective. This is their dominant, forward-looking message on the homepage, backed by specific feature mentions and a clear strategic shift towards AI as a core differentiator for enterprise solutions."
-      },
-      {
-        "angle": "Industrial-Grade Platform for Scalability & Security",
-        "evidence": "The power of AI with the industrial-grade platform your business demands; HyperDB with record limits in the hundreds of millions; Scale workflows to tens of thousands of users; Flexible administration (Admin roles, RBAC, IDP sync); Security and compliance (ISO, HIPAA, SOC 2, EKM, DLP, data residency).",
-        "effectiveness": "Strong. Directly addresses enterprise pain points and requirements for large-scale deployments, aiming to differentiate from smaller, less robust platforms by emphasizing reliability and governance."
-      },
-      {
-        "angle": "No-Code Application Development & Data Unification",
-        "evidence": "No code required; Generate apps with Airtable\u2019s best-in-class no-code components\u2014no technical expertise required; All your teams, all their workflows\u2014connected in one workspace; streamline data and consolidate multiple separate, but similar spreadsheets into one database.",
-        "effectiveness": "Effective. Positions Airtable as an accessible platform for non-developers to build custom applications and a central hub for organizational data, appealing to teams looking to replace disparate systems."
-      }
-    ],
+  "snyders_of_hanover": {
+    "analysis_thought_process": "The raw data explicitly states 'Limited data available for Snyder's of Hanover. Analysis may be incomplete.' As a result, there is no information provided regarding feature launches, messaging angles, customer sentiment, pricing signals, weaknesses, or market positioning for the competitor. Therefore, all corresponding sections in the JSON output are empty arrays or null values, directly reflecting the absence of extractable strategic signals from the provided raw data.",
+    "competitor": "Snyder's of Hanover",
+    "extracted_at": "2026-04-08T11:24:17.139879",
+    "feature_launches": [],
+    "messaging_angles": [],
     "customer_sentiment": {
-      "top_praises": [
-        "High customization abilities and adaptability to unique requirements",
-        "Effective for streamlining data and consolidating multiple spreadsheets into one database",
-        "Flexibility to build and manage databases with multiple views",
-        "Intuitive and user-friendly interface with helpful UI/UX",
-        "Advanced automated workflows"
-      ],
-      "top_complaints": [
-        "Expensive pricing, especially as data volume (rows) increases, making it unaffordable for organizations with lots of data",
-        "Steep learning curve and complex interface for advanced customization, requiring significant time and skills",
-        "Not a ready-to-go solution for specific use cases (e.g., CRM requires extensive fine-tuning)",
-        "Concerns about the pricing model not scaling affordably with data growth"
-      ],
-      "recurring_themes": [
-        "Versatility and adaptability are key strengths for diverse business needs.",
-        "Offers the power of a database with a familiar, spreadsheet-like interface.",
-        "Customization is a double-edged sword: powerful but can lead to complexity and a learning curve.",
-        "Pricing model and cost at scale are significant points of dissatisfaction.",
-        "Recent and major strategic focus on AI integration across the platform."
-      ],
-      "nps_proxy": "positive"
+      "top_praises": [],
+      "top_complaints": [],
+      "recurring_themes": [],
+      "nps_proxy": null
     },
     "pricing_signals": {
-      "model": "Freemium; per seat for paid plans (Team, Business, Enterprise Scale)",
-      "entry_price": "Not visible in provided data (Free plan available, paid plan prices not listed)",
-      "recent_changes": "None mentioned",
-      "perceived_value": "Negative, perceived as expensive, particularly for high data volume and scaling. The row-based pricing component is a specific complaint."
+      "model": null,
+      "entry_price": null,
+      "recent_changes": null,
+      "perceived_value": null
     },
-    "weaknesses_and_gaps": [
-      {
-        "weakness": "Opaque and expensive pricing model, especially for high data volumes",
-        "evidence": "Customers mention 'expensive pricing' and that 'pricing is based on how many rows of data you can keep, which can prohibit organizations that work with lots of data to affordably use the tool'.",
-        "brand_opportunity": "Notion can offer more transparent, predictable, and value-based pricing, potentially with higher data limits or alternative usage metrics that don't penalize data-rich organizations. Highlight Notion's cost-effectiveness for scaling teams and data."
-      },
-      {
-        "weakness": "Steep learning curve and complexity for advanced customization",
-        "evidence": "Reviewers note a 'steep learning curve' and 'complex interface,' stating 'Advanced skills are needed for app customization'. For CRM, 'You'll need some time to fine-tune it'.",
-        "brand_opportunity": "Notion can emphasize its inherent flexibility and lower barrier to entry for creating custom solutions without requiring 'advanced skills'. Highlight user-friendliness for building sophisticated workflows and leveraging a robust template ecosystem for rapid deployment and adaptation."
-      },
-      {
-        "weakness": "Not a 'ready-to-go' solution for specific business functions (e.g., CRM)",
-        "evidence": "'Airtable can definitely work as a CRM, but it's not a ready-to-go solution. You'll need some time to fine-tune it to fit your specific workflows'.",
-        "brand_opportunity": "Notion can position itself as providing more robust, out-of-the-box templates and integrated solutions for common business functions (e.g., project management, CRM) that require less initial setup and fine-tuning, emphasizing speed to value."
-      }
-    ],
-    "market_positioning": "Airtable positions itself as an enterprise-ready, AI-powered low-code platform for building sophisticated workflows and applications, emphasizing scalability, robust security, and the ability to unify data across teams, while still appealing to non-developers.",
+    "weaknesses_and_gaps": [],
+    "market_positioning": null,
     "_meta": {
-      "competitor_key": "airtable",
-      "analyzed_at": "2026-04-01T22:23:26.195709",
-      "data_sources": [
-        "website",
-        "reviews",
-        "reddit",
-        "search"
-      ],
-      "model_used": "gemini-2.5-flash"
-    }
-  },
-  "obsidian": {
-    "competitor": "Obsidian",
-    "extracted_at": "2025-01-15T10:00:00.000000",
-    "feature_launches": [
-      {
-        "feature": "Formula editor for Bases",
-        "description": "New formula editor with autocomplete and syntax highlighting for 'Bases' feature, available for Catalyst members (early access).",
-        "strategic_implication": "Indicates Obsidian is expanding into more structured data management capabilities, traditionally a strength of tools like Notion. This move aims to attract users with more complex data organization needs and potentially reduce their reliance on other tools for structured data, suggesting a broadening of their target use cases.",
-        "urgency": "medium"
-      },
-      {
-        "feature": "Footnotes view core plugin",
-        "description": "Adds a new sidebar tab that helps manage footnotes for the current file without losing place in the note.",
-        "strategic_implication": "Enhances the user experience for specific segments like academics, researchers, or long-form writers who require meticulous referencing. This improves usability for a high-value power user segment, demonstrating attention to detail for complex document creation.",
-        "urgency": "low"
-      }
-    ],
-    "messaging_angles": [
-      {
-        "angle": "Absolute Privacy & Data Sovereignty",
-        "evidence": "Obsidian stores notes privately on your device, so you can access them quickly, even offline. No one else can read them, not even us. / champions data sovereignty by housing all your insights on local storage. There\u2019s no need for cloud storage here; you\u2019re at the helm.",
-        "effectiveness": "Highly effective for privacy-conscious individuals and power users who prioritize full control over their data, serving as a core differentiator against cloud-first solutions."
-      },
-      {
-        "angle": "Flexible, Non-Linear Personal Knowledge Management ('Second Brain')",
-        "evidence": "Sharpen your thinking. The free and flexible app for your private thoughts. / organize and structure your thoughts and knowledge in a flexible, non-linear way. / Obsidian operates like a second brain\u2014a space where users can generate notes that interconnect in a private and intricate web.",
-        "effectiveness": "Very strong for individuals seeking advanced, interconnected note-taking and knowledge organization beyond simple linear documents, appealing to those who value intellectual growth and personalized systems."
-      },
-      {
-        "angle": "Extensible & Community-Driven for Power Users",
-        "evidence": "You can significantly broaden Obsidian\u2019s capabilities by adding plugins made by our community. / Obsidian was created with Markdown users in mind. / 100% user-supported. / Optional licenses help support the independent development of Obsidian.",
-        "effectiveness": "Resonates strongly with technically inclined users, developers, and those who desire deep customization, fostering a loyal and active community that contributes to the product's ecosystem and longevity."
-      }
-    ],
-    "customer_sentiment": {
-      "top_praises": [
-        "Strong emphasis on privacy and data ownership via local storage and offline access.",
-        "High customizability and extensibility through a rich, community-driven plugin ecosystem.",
-        "Flexible, non-linear organization of thoughts and knowledge, often described as a 'second brain'.",
-        "Excellent markdown support, appealing to developers and power users.",
-        "Aesthetically pleasing interface and powerful graph visualization."
-      ],
-      "top_complaints": [
-        "Subpar mobile experience, rendering it unsuitable for extensive work or complex interactions on mobile devices.",
-        "Lack of specific niche features (e.g., 'pinnable map support' for TTRPG communities) which, despite plugins, suggests some inherent limitations for highly specialized use cases."
-      ],
-      "recurring_themes": [
-        "Data privacy and ownership as a primary value proposition.",
-        "The power and flexibility derived from community-built plugins and customization options.",
-        "The concept of 'personal knowledge management' and 'second brain' for intellectual organization.",
-        "Markdown as the preferred format for content creation."
-      ],
-      "nps_proxy": "positive"
-    },
-    "pricing_signals": {
-      "model": "freemium",
-      "entry_price": "Free (for the core application); lowest paid add-on is $4 USD/user/month (for Sync, billed annually) or $8 USD/site/month (for Publish, billed annually).",
-      "recent_changes": "No explicit pricing changes mentioned. The pricing structure for Sync, Publish, and 'support' licenses (Catalyst, Commercial) appears stable and established.",
-      "perceived_value": "High, largely due to the robust, fully functional free base application. Paid add-ons offer clear value for privacy, advanced features (E2E encryption, version history, collaboration), and web publishing. The optional 'Commercial' license for organizations, rather than mandatory, signals a community-first, support-driven business model, potentially offering perceived high value for corporate users who choose to contribute."
-    },
-    "weaknesses_and_gaps": [
-      {
-        "weakness": "Subpar Mobile Experience",
-        "evidence": "Obsidian on mobile is generally bad. I only use it for quick stuff like checking a box or writing something real quick.",
-        "brand_opportunity": "Notion can highlight its robust, seamless, and fully functional mobile experience, positioning itself as the superior choice for users and teams who need to access, edit, and collaborate on information effectively from any device, at any time."
-      },
-      {
-        "weakness": "Collaboration as an Add-on, Not Core (vs. native cloud collaboration)",
-        "evidence": "The free base product focuses on 'private thoughts' and local storage. Collaboration on 'shared vaults' is an explicit feature of the paid Sync add-on, implying it's not a native, free-tier feature.",
-        "brand_opportunity": "Notion can emphasize its inherent, real-time collaboration capabilities built directly into its cloud-native platform, showcasing how it empowers teams to work together effortlessly and synchronously on any project, without needing separate add-ons or complex file sharing."
-      },
-      {
-        "weakness": "Reliance on User-Managed Local Storage (for basic functionality)",
-        "evidence": "Obsidian stores notes privately on your device... No need for cloud storage here; you\u2019re at the helm.",
-        "brand_opportunity": "While a key strength for privacy-focused users, Notion can position its cloud-native architecture as a benefit for effortless syncing, automatic backups, ubiquitous accessibility, and simplified sharing, contrasting with the potential complexities and responsibilities of managing local files and optional sync services for a broader audience."
-      }
-    ],
-    "market_positioning": "Obsidian positions itself as the ultimate private, flexible, and extensible personal knowledge management tool, emphasizing data sovereignty, offline access, and a powerful graph-based organization for 'sharpening your thinking,' primarily catering to individual power users, researchers, and developers who prioritize full control over their data and highly customized workflows.",
-    "_meta": {
-      "competitor_key": "obsidian",
-      "analyzed_at": "2026-04-01T22:23:58.240375",
-      "data_sources": [
-        "website",
-        "reviews",
-        "reddit",
-        "search"
-      ],
-      "model_used": "gemini-2.5-flash"
-    }
-  },
-  "confluence": {
-    "competitor": "Confluence",
-    "extracted_at": "2024-05-15T10:00:00.000000",
-    "feature_launches": [
-      {
-        "feature": "Rovo AI (AI-powered Workspace Features)",
-        "description": "Introduced AI-powered drafting, brainstorming, search, page/comment summaries, and audio briefings. Rovo AI is not available in the free tier and has credit limits (25/user/month) in the standard paid tier.",
-        "strategic_implication": "High investment in AI to modernize product, enhance productivity, and address competitive pressure from AI-first tools. Positions Confluence as a forward-thinking, AI-augmented solution for knowledge work. Tiered AI access creates upsell opportunities but also potential friction for free users.",
-        "urgency": "high"
-      },
-      {
-        "feature": "Clean Design Update",
-        "description": "A redesign providing a cleaner, more modern user interface.",
-        "strategic_implication": "Addresses potential UX/UI complaints, improves user experience, and aligns with contemporary design standards. Aims to enhance stickiness and make the platform more appealing to new users or those considering alternatives.",
-        "urgency": "medium"
-      },
-      {
-        "feature": "Advanced Automation Rules",
-        "description": "Increased automation rule runs (100 per month) in the Standard plan compared to Free (10 per month).",
-        "strategic_implication": "Enhances workflow integration and efficiency for growing teams, creating a clear differentiator between free and paid tiers. Encourages migration to paid plans for more complex workflow automation.",
-        "urgency": "medium"
-      }
-    ],
-    "messaging_angles": [
-      {
-        "angle": "AI-Powered Productivity & Efficiency",
-        "evidence": "Homepage H1: 'AI Workspace for Knowledge & Collaboration'. 'Instantly draft and brainstorm with Rovo AI', 'Move projects forward faster, with human-AI collaboration', 'Beat the blank page with AI-powered creation'.",
-        "effectiveness": "Highly effective and prominent. AI features are central to their current marketing, signaling a major strategic shift and value proposition."
-      },
-      {
-        "angle": "Centralized Knowledge & Single Source of Truth",
-        "evidence": "'One place for all your ideas, docs, knowledge, and teammates', 'Connect org-wide knowledge'. User praise: 'ended their chaotic scavenger hunts for documents', 'single source of truth'.",
-        "effectiveness": "Very strong and well-supported by customer testimonials, indicating it's a core, long-standing value proposition that resonates deeply with users."
-      },
-      {
-        "angle": "Seamless Atlassian Ecosystem Integration (especially Jira)",
-        "evidence": "'Deep Jira integration: This is almost always cited as the top reason for choosing and sticking with Confluence.' 'The two halves of our team's brain.' 'Confluence roadmap pages pull live progress data from Jira'.",
-        "effectiveness": "Extremely effective for existing Atlassian users, making Confluence an almost default choice within that ecosystem. This creates a high switching cost for those users."
-      },
-      {
-        "angle": "Structured Collaboration & Organization",
-        "evidence": "'Powerful structure and organization: Users who value process and order love Confluence's hierarchical structure of Spaces and Pages.' 'More teams can work together and collaborate.'",
-        "effectiveness": "Effective for teams prioritizing order and process. It highlights a core strength, differentiating it from more free-form alternatives."
-      },
-      {
-        "angle": "Business Value & ROI",
-        "evidence": "'$150,000/year in savings' (migrating from Wrike). 'Reduce our cycle time and increase throughput by 200%'.",
-        "effectiveness": "Compelling for enterprise and larger organizations, directly addressing cost-conscious decision-makers and demonstrating tangible business benefits."
-      }
-    ],
-    "customer_sentiment": {
-      "top_praises": [
-        "Ability to centralize knowledge and serve as a single source of truth, ending document scavenger hunts.",
-        "Deep and indispensable integration with Jira, forming a powerful combined workflow.",
-        "Powerful hierarchical structure and organization for managing knowledge, valuable for onboarding and compliance.",
-        "Good writing experience and ease of organizing/updating content.",
-        "Strong wiki functionality, templates, widgets, security model, and Gliffy integration (compared to SharePoint)."
-      ],
-      "top_complaints": [
-        "Challenging approval workflows, particularly for ISO compliance.",
-        "Potential for information overload or clutter in spaces if not diligently managed.",
-        "Missing specific features that users find in other tools.",
-        "Limited Rovo AI features and automation rule runs in the Free tier."
-      ],
-      "recurring_themes": [
-        "Knowledge centralization and management.",
-        "Atlassian ecosystem (Jira) integration.",
-        "Structured organization and process orientation.",
-        "AI augmentation for productivity.",
-        "Collaboration efficiency."
-      ],
-      "nps_proxy": "positive"
-    },
-    "pricing_signals": {
-      "model": "freemium / per-seat",
-      "entry_price": "Free ($0) for up to 10 users, 2 GB storage. Standard ($5.42 per user/month) for growing teams.",
-      "recent_changes": "Not explicitly mentioned pricing *changes*, but detailed tiered plans for 2026 are highlighted.",
-      "perceived_value": "High perceived value for larger teams/enterprises (evidenced by significant cost savings and ROI testimonials). The limitation of AI features in the free tier might impact perceived value for small teams exploring AI capabilities."
-    },
-    "weaknesses_and_gaps": [
-      {
-        "weakness": "Complex/Difficult Approval Workflows",
-        "evidence": "The approval workflow is the real monster with ISO in Confluence.",
-        "brand_opportunity": "Notion can highlight its simpler, more customizable database properties for tracking approvals, or offer a more intuitive, integrated workflow builder for compliance documentation without external plugins."
-      },
-      {
-        "weakness": "Information Overload/Clutter Potential",
-        "evidence": "I've also never seen a Confluence space that wasn't absolutely packed with (implying density, which can lead to overload without strict management).",
-        "brand_opportunity": "Notion can emphasize its flexible page structure, linked databases, and powerful filtering/views to help users create highly organized, curated experiences that combat information overload and allow different teams to consume relevant information without distraction."
-      },
-      {
-        "weakness": "Feature Gaps (relative to other tools)",
-        "evidence": "Discover these missing features in another tool (under cons in a review).",
-        "brand_opportunity": "Conduct a deeper dive into common feature requests for Confluence that Notion currently offers. Highlight Notion's extensibility, integration ecosystem, or unique capabilities (e.g., database functionality for project management, custom views) that may be 'missing' or less intuitive in Confluence."
-      },
-      {
-        "weakness": "Limited AI & Automation in Free/Lower Tiers",
-        "evidence": "No Rovo AI features at this tier (Free plan). Rovo AI features with 25 credits per user per month (Standard plan). Automation limited to 10 rules/month (Free).",
-        "brand_opportunity": "Notion can differentiate by offering more generous or natively integrated AI capabilities across its plans, or position its AI as more seamless and less credit-gated for all users, emphasizing that powerful AI shouldn't be a premium add-on but a core part of the experience."
-      }
-    ],
-    "market_positioning": "Confluence positions itself as an AI-powered, centralized workspace for knowledge and collaboration, deeply integrated within the Atlassian ecosystem, designed to structure, organize, and accelerate team work from ideas to impact.",
-    "_meta": {
-      "competitor_key": "confluence",
-      "analyzed_at": "2026-04-01T22:24:17.570600",
-      "data_sources": [
-        "website",
-        "reviews",
-        "reddit",
-        "search"
-      ],
-      "model_used": "gemini-2.5-flash"
-    }
-  },
-  "google_workspace": {
-    "competitor": "Google Workspace",
-    "extracted_at": "2024-07-30T10:00:00.000000",
-    "feature_launches": [
-      {
-        "feature": "Gemini AI Assistant Integration",
-        "description": "AI capabilities (Gemini app, NotebookLM, Gemini) integrated across core apps like Gmail, Docs, Sheets, and Meet, with enterprise-grade security and privacy. Available in every plan for 'future-proofing'.",
-        "strategic_implication": "Positions Google Workspace as a leading AI-first productivity suite, aiming to significantly enhance user efficiency and streamline workflows. This is a direct competitive response and differentiator against other productivity platforms.",
-        "urgency": "high"
-      },
-      {
-        "feature": "Google Vids AI-powered Video Creator/Editor",
-        "description": "A new AI-powered tool for creating and editing videos within the Workspace suite.",
-        "strategic_implication": "Expands Google Workspace's capabilities into rich media creation, potentially appealing to marketing, communications, and internal training teams. Broadens the suite's value proposition beyond traditional text/data applications.",
-        "urgency": "medium"
-      },
-      {
-        "feature": "eSignature with Docs and PDFs",
-        "description": "Allows users to conduct e-signatures directly within Google Docs and PDFs.",
-        "strategic_implication": "Adds a critical business function directly into the core document workflow, reducing reliance on third-party e-signature services and increasing platform stickiness. Enhances the 'all-in-one' value proposition.",
-        "urgency": "medium"
-      },
-      {
-        "feature": "Google Workspace Migrate Tool",
-        "description": "A tool designed for data migration into Google Workspace.",
-        "strategic_implication": "Directly addresses a common friction point for new enterprise customers, particularly those migrating from competitor platforms (e.g., Microsoft Office 365). Aims to reduce adoption barriers and accelerate onboarding.",
-        "urgency": "high"
-      },
-      {
-        "feature": "NotebookLM AI Research Assistant",
-        "description": "An AI-powered tool for research assistance, with expanded access to features in higher tiers.",
-        "strategic_implication": "Targets knowledge workers and specialized research-heavy roles, offering advanced AI-driven information synthesis. Could be a significant differentiator for specific industry verticals requiring deep information processing.",
-        "urgency": "medium"
-      }
-    ],
-    "messaging_angles": [
-      {
-        "angle": "AI-Powered Productivity & Future-Proofing",
-        "evidence": "Future-proof your business with familiar tools that include AI in every plan. Premium AI built-in Do your best work faster with the Gemini app, NotebookLM, and Gemini in Gmail, Docs, Sheets, and more.",
-        "effectiveness": "High. This message effectively leverages a cutting-edge technology trend, promising tangible benefits (faster work, innovation) and positions the platform as forward-thinking. It's consistently highlighted across channels."
-      },
-      {
-        "angle": "Seamless Cloud-Native Collaboration & Accessibility",
-        "evidence": "Tools born in the Cloud Collaborate in real time, from any device, across tools that are always up-to-date. The ability to access files, email, calendars, and documents from anywhere makes it easy to stay productive and connected.",
-        "effectiveness": "High. This highlights Google's historical strengths, validated by customer feedback on real-time collaboration and remote work support. It emphasizes flexibility and ease of access."
-      },
-      {
-        "angle": "Enterprise-Grade Security & Compliance",
-        "evidence": "Enterprise-grade security Protect your emails, files, and meetings with AI-powered security and compliance controls. security features that they don't charge extra for (like MS)",
-        "effectiveness": "High. Addresses a critical concern for businesses, especially larger ones. The mention of 'AI-powered' enhances the modern security appeal, and user sentiment reinforces perceived value compared to competitors."
-      },
-      {
-        "angle": "Value and Simplicity of a Unified Suite",
-        "evidence": "One subscription. So much premium value. All the tools you need and a few more we think you\u2019ll love. offers variety of tools that can be easily accessed and shared by the team.",
-        "effectiveness": "Medium to High. Positions the breadth of integrated tools and a single subscription as a compelling value proposition. It aims to simplify procurement and management for businesses."
-      }
-    ],
-    "customer_sentiment": {
-      "top_praises": [
-        "Real-time collaboration, file sharing, and cloud storage (access from anywhere, no version control issues).",
-        "Ease of navigation within shared drives and moving documents.",
-        "Integrated ecosystem (Gmail, Drive, Calendar, Meet) simplifying workflows.",
-        "Security features included without extra charge (compared to Microsoft).",
-        "Smoother user experience compared to Microsoft Office 365.",
-        "Stellar customer support."
-      ],
-      "top_complaints": [
-        "Google Admin workspace UI is difficult to navigate; adding/deleting users can be tricky."
-      ],
-      "recurring_themes": [
-        "Strong collaboration capabilities for remote and hybrid teams.",
-        "Seamless integration between core applications (Gmail, Drive, Calendar, Meet).",
-        "Ease of access to files and tools from any device.",
-        "Robust security features.",
-        "Overall positive user experience for end-users."
-      ],
-      "nps_proxy": "positive"
-    },
-    "pricing_signals": {
-      "model": "per user per month, tiered (Base, Starter, Standard, Enterprise), with annual commitment discounts (16% saving)",
-      "entry_price": "\u20b999 INR / user per month (Base plan)",
-      "recent_changes": "A promotional discount on the Standard plan ends on April 15, 2026, leading to a 20% price increase (from \u20b9864 to \u20b91,080 INR/user/month for the first 20 users). Additionally, powerful new AI capabilities are being integrated into Business Starter and Business Standard plans, affecting both pricing and included features.",
-      "perceived_value": "High, particularly regarding security features being included without extra cost compared to competitors. Messaging emphasizes 'premium value' for one subscription."
-    },
-    "weaknesses_and_gaps": [
-      {
-        "weakness": "Complex Admin User Interface (UI)",
-        "evidence": "Google Admin workspace is a little difficult to navigate and could use a better UI. Adding or deleting users can be tricky.",
-        "brand_opportunity": "Notion can highlight its simpler, more intuitive user and workspace management, emphasizing ease of setup and administration for growing teams, reducing IT overhead."
-      },
-      {
-        "weakness": "Lack of Transparent Enterprise Pricing",
-        "evidence": "Enterprise tier listed as 'Let's talk Contact sales'.",
-        "brand_opportunity": "Notion can offer more transparent, predictable pricing models for larger teams, or clearly communicate enterprise features and associated costs upfront, simplifying the buying process for potential enterprise clients."
-      }
-    ],
-    "market_positioning": "Google Workspace positions itself as an AI-powered, cloud-native productivity and collaboration suite, offering a comprehensive set of secure, integrated tools designed to future-proof businesses, simplify remote work, and enhance team efficiency.",
-    "_meta": {
-      "competitor_key": "google_workspace",
-      "analyzed_at": "2026-04-01T22:24:42.677508",
-      "data_sources": [
-        "website",
-        "reviews",
-        "reddit",
-        "search"
-      ],
+      "competitor_key": "snyders_of_hanover",
+      "analyzed_at": "2026-04-08T11:24:59.393894",
+      "data_sources": [],
       "model_used": "gemini-2.5-flash"
     }
   }

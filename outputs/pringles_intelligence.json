@@ -1,0 +1,27 @@
+{
+  "analysis_thought_process": "The raw data explicitly states, \"Limited data available for Pringles. Analysis may be incomplete.\" This directly indicates that there is insufficient information to populate the requested sections. Therefore, no signals related to feature launches, messaging angles, customer sentiment (praises, complaints, themes, NPS proxy), pricing signals (model, entry price, recent changes, perceived value), specific weaknesses and gaps, or market positioning could be extracted as they are not present in the provided competitive intelligence data. Each section that is empty is a direct result of this stated lack of data.",
+  "competitor": "Pringles",
+  "extracted_at": "2026-04-08T11:24:12.574268",
+  "feature_launches": [],
+  "messaging_angles": [],
+  "customer_sentiment": {
+    "top_praises": [],
+    "top_complaints": [],
+    "recurring_themes": [],
+    "nps_proxy": ""
+  },
+  "pricing_signals": {
+    "model": "",
+    "entry_price": "",
+    "recent_changes": "",
+    "perceived_value": ""
+  },
+  "weaknesses_and_gaps": [],
+  "market_positioning": "",
+  "_meta": {
+    "competitor_key": "pringles",
+    "analyzed_at": "2026-04-08T11:24:17.131755",
+    "data_sources": [],
+    "model_used": "gemini-2.5-flash"
+  }
+}

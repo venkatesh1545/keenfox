@@ -1,0 +1,27 @@
+{
+  "analysis_thought_process": "The raw data explicitly states 'Limited data available for Snyder's of Hanover. Analysis may be incomplete.' As a result, there is no information provided regarding feature launches, messaging angles, customer sentiment, pricing signals, weaknesses, or market positioning for the competitor. Therefore, all corresponding sections in the JSON output are empty arrays or null values, directly reflecting the absence of extractable strategic signals from the provided raw data.",
+  "competitor": "Snyder's of Hanover",
+  "extracted_at": "2026-04-08T11:24:17.139879",
+  "feature_launches": [],
+  "messaging_angles": [],
+  "customer_sentiment": {
+    "top_praises": [],
+    "top_complaints": [],
+    "recurring_themes": [],
+    "nps_proxy": null
+  },
+  "pricing_signals": {
+    "model": null,
+    "entry_price": null,
+    "recent_changes": null,
+    "perceived_value": null
+  },
+  "weaknesses_and_gaps": [],
+  "market_positioning": null,
+  "_meta": {
+    "competitor_key": "snyders_of_hanover",
+    "analyzed_at": "2026-04-08T11:24:59.393894",
+    "data_sources": [],
+    "model_used": "gemini-2.5-flash"
+  }
+}

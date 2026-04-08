@@ -1,0 +1,33 @@
+{
+  "analysis_thought_process": "The raw data provided is extremely limited: 'Limited data available for Cheetos. Analysis may be incomplete.' Therefore, the primary strategic signal is the lack of accessible competitive intelligence. For all sections requiring specific details (feature launches, messaging angles, customer sentiment, pricing signals, market positioning), there is no information in the raw data to extract. Consequently, these sections are left empty or set to a 'neutral' state to accurately reflect the data scarcity. The 'weaknesses_and_gaps' section directly leverages the provided statement, interpreting the 'limited data' as a strategic information weakness for competitive analysis and identifying a corresponding opportunity for the analyzing brand (Lays) to manage this intelligence gap.",
+  "competitor": "Cheetos",
+  "extracted_at": "2026-04-08T11:24:12.578756",
+  "feature_launches": [],
+  "messaging_angles": [],
+  "customer_sentiment": {
+    "top_praises": [],
+    "top_complaints": [],
+    "recurring_themes": [],
+    "nps_proxy": "neutral"
+  },
+  "pricing_signals": {
+    "model": "",
+    "entry_price": "",
+    "recent_changes": "",
+    "perceived_value": ""
+  },
+  "weaknesses_and_gaps": [
+    {
+      "weakness": "Limited publicly available strategic information",
+      "evidence": "Limited data available for Cheetos. Analysis may be incomplete.",
+      "brand_opportunity": "Lays should recognize the challenge in gaining deep competitive intelligence on Cheetos. This implies a need for Lays to potentially invest more in primary research or adapt strategies based on its own strengths rather than directly reacting to Cheetos, given the lack of visibility into Cheetos' specific moves."
+    }
+  ],
+  "market_positioning": "",
+  "_meta": {
+    "competitor_key": "cheetos",
+    "analyzed_at": "2026-04-08T11:24:58.834935",
+    "data_sources": [],
+    "model_used": "gemini-2.5-flash"
+  }
+}

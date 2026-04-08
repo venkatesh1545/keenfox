@@ -1,89 +1,109 @@
 {
+  "analysis_thought_process": "The process involved systematically reviewing each section of the raw data (Homepage, Pricing, Customer Reviews, Reddit) to identify signals relevant to the specified JSON structure. For 'feature_launches', I looked for explicit mentions of new capabilities or significant offerings. For 'messaging_angles', I extracted direct quotes or phrases conveying their positioning. Customer feedback was meticulously categorized into praises and complaints, noting recurring themes. A critical step was to identify and filter out the 'Gartner Peer Insights' reviews, as they were clearly for a different product ('Obsidian Security' vs. 'Obsidian' PKM), ensuring all extracted signals pertained to the specified competitor and category. Pricing details were directly pulled from the 'Pricing Page'. Weaknesses were derived directly from customer complaints and positioned as opportunities for a competitor like Notion. Finally, 'market_positioning' synthesized the core messaging.",
   "competitor": "Obsidian",
-  "extracted_at": "2025-01-15T10:00:00.000000",
+  "extracted_at": "2026-04-08T10:58:05.234528",
   "feature_launches": [
     {
-      "feature": "Formula editor for Bases",
-      "description": "New formula editor with autocomplete and syntax highlighting for 'Bases' feature, available for Catalyst members (early access).",
-      "strategic_implication": "Indicates Obsidian is expanding into more structured data management capabilities, traditionally a strength of tools like Notion. This move aims to attract users with more complex data organization needs and potentially reduce their reliance on other tools for structured data, suggesting a broadening of their target use cases.",
-      "urgency": "medium"
+      "feature": "Sync Add-on Service",
+      "description": "Enables syncing notes across devices, end-to-end encryption, version history, and collaboration on shared vaults. Includes priority support.",
+      "strategic_implication": "Addresses multi-device access and collaboration, moving beyond purely local storage, while maintaining a strong privacy stance with E2EE. The priority support indicates a commitment to paying users.",
+      "urgency": "high"
     },
     {
-      "feature": "Footnotes view core plugin",
-      "description": "Adds a new sidebar tab that helps manage footnotes for the current file without losing place in the note.",
-      "strategic_implication": "Enhances the user experience for specific segments like academics, researchers, or long-form writers who require meticulous referencing. This improves usability for a high-value power user segment, demonstrating attention to detail for complex document creation.",
-      "urgency": "low"
+      "feature": "Publish Add-on Service",
+      "description": "Allows users to publish notes to the web without technical knowledge, offering customizable themes, graph, and full-text search capabilities. Includes priority support.",
+      "strategic_implication": "Expands use cases beyond personal knowledge management to public sharing and content creation, broadening their market appeal. Ease of use (no technical knowledge) lowers the barrier to entry for publishing.",
+      "urgency": "high"
+    },
+    {
+      "feature": "Web Clipper",
+      "description": "A tool to clip content from the web.",
+      "strategic_implication": "Enhances the ability to capture external information directly into Obsidian, making it a more comprehensive knowledge capture tool. This is a common feature in PKM tools, so it's essential for competitive parity.",
+      "urgency": "medium"
     }
   ],
   "messaging_angles": [
     {
-      "angle": "Absolute Privacy & Data Sovereignty",
-      "evidence": "Obsidian stores notes privately on your device, so you can access them quickly, even offline. No one else can read them, not even us. / champions data sovereignty by housing all your insights on local storage. There\u2019s no need for cloud storage here; you\u2019re at the helm.",
-      "effectiveness": "Highly effective for privacy-conscious individuals and power users who prioritize full control over their data, serving as a core differentiator against cloud-first solutions."
+      "angle": "Privacy and Data Ownership",
+      "evidence": "Your thoughts are yours. Obsidian stores notes privately on your device, so you can access them quickly, even offline. No one else can read them, not even us.",
+      "effectiveness": "Highly effective, as it directly addresses a core concern for personal knowledge management users and clearly differentiates them from cloud-first solutions."
     },
     {
-      "angle": "Flexible, Non-Linear Personal Knowledge Management ('Second Brain')",
-      "evidence": "Sharpen your thinking. The free and flexible app for your private thoughts. / organize and structure your thoughts and knowledge in a flexible, non-linear way. / Obsidian operates like a second brain\u2014a space where users can generate notes that interconnect in a private and intricate web.",
-      "effectiveness": "Very strong for individuals seeking advanced, interconnected note-taking and knowledge organization beyond simple linear documents, appealing to those who value intellectual growth and personalized systems."
+      "angle": "Intellectual Augmentation / Sharpening Thinking",
+      "evidence": "Sharpen your thinking. Writing is telepathy. Ideas can travel through time and space without being uttered out loud.",
+      "effectiveness": "Effective for an audience focused on deep work, learning, and knowledge organization, appealing to intellectual growth and the power of connected ideas."
     },
     {
-      "angle": "Extensible & Community-Driven for Power Users",
-      "evidence": "You can significantly broaden Obsidian\u2019s capabilities by adding plugins made by our community. / Obsidian was created with Markdown users in mind. / 100% user-supported. / Optional licenses help support the independent development of Obsidian.",
-      "effectiveness": "Resonates strongly with technically inclined users, developers, and those who desire deep customization, fostering a loyal and active community that contributes to the product's ecosystem and longevity."
+      "angle": "Freemium and Flexibility",
+      "evidence": "The free and flexible app for your private thoughts. Free without limits. No sign-up required. No strings attached.",
+      "effectiveness": "Very effective for user acquisition, reducing friction to try the product, and appealing to users who value control and customization."
+    },
+    {
+      "angle": "Community and User-Supported Development",
+      "evidence": "100% user-supported. Optional licenses help support the independent development of Obsidian.",
+      "effectiveness": "Effective in fostering a loyal user base and community, appealing to users who prefer open, independent, and community-driven software development."
     }
   ],
   "customer_sentiment": {
     "top_praises": [
-      "Strong emphasis on privacy and data ownership via local storage and offline access.",
-      "High customizability and extensibility through a rich, community-driven plugin ecosystem.",
-      "Flexible, non-linear organization of thoughts and knowledge, often described as a 'second brain'.",
-      "Excellent markdown support, appealing to developers and power users.",
-      "Aesthetically pleasing interface and powerful graph visualization."
+      "Easy to learn and implement",
+      "Responsive customer support",
+      "Regular updates and improvements",
+      "Good value for the price",
+      "Backlinking functionality. Being able to connect my notes together is the only reason I'm using Obsidian."
     ],
     "top_complaints": [
-      "Subpar mobile experience, rendering it unsuitable for extensive work or complex interactions on mobile devices.",
-      "Lack of specific niche features (e.g., 'pinnable map support' for TTRPG communities) which, despite plugins, suggests some inherent limitations for highly specialized use cases."
+      "Advanced features can have a learning curve",
+      "Some users report occasional bugs",
+      "Mobile app limitations",
+      "Desire for more customization options",
+      "Takes 5 clicks to delete the checklist? Why not just instant delete it? Especially a hassle on mobile"
     ],
     "recurring_themes": [
-      "Data privacy and ownership as a primary value proposition.",
-      "The power and flexibility derived from community-built plugins and customization options.",
-      "The concept of 'personal knowledge management' and 'second brain' for intellectual organization.",
-      "Markdown as the preferred format for content creation."
+      "Privacy and local data storage",
+      "Flexibility and customization (both praised and desired more of)",
+      "Strong community and user support model",
+      "Interconnected notes/backlinking as a core value proposition",
+      "Challenges and limitations with the mobile experience"
     ],
     "nps_proxy": "positive"
   },
   "pricing_signals": {
-    "model": "freemium",
-    "entry_price": "Free (for the core application); lowest paid add-on is $4 USD/user/month (for Sync, billed annually) or $8 USD/site/month (for Publish, billed annually).",
-    "recent_changes": "No explicit pricing changes mentioned. The pricing structure for Sync, Publish, and 'support' licenses (Catalyst, Commercial) appears stable and established.",
-    "perceived_value": "High, largely due to the robust, fully functional free base application. Paid add-ons offer clear value for privacy, advanced features (E2E encryption, version history, collaboration), and web publishing. The optional 'Commercial' license for organizations, rather than mandatory, signals a community-first, support-driven business model, potentially offering perceived high value for corporate users who choose to contribute."
+    "model": "freemium (free base app) with optional subscription add-ons (Sync, Publish) and one-time/yearly support licenses (Catalyst, Commercial)",
+    "entry_price": "Free base app; lowest paid add-on is Sync at $4 USD per user, per month (billed annually)",
+    "recent_changes": "Not mentioned",
+    "perceived_value": "Good value for the price"
   },
   "weaknesses_and_gaps": [
     {
-      "weakness": "Subpar Mobile Experience",
-      "evidence": "Obsidian on mobile is generally bad. I only use it for quick stuff like checking a box or writing something real quick.",
-      "brand_opportunity": "Notion can highlight its robust, seamless, and fully functional mobile experience, positioning itself as the superior choice for users and teams who need to access, edit, and collaborate on information effectively from any device, at any time."
+      "weakness": "Steep learning curve for advanced features",
+      "evidence": "Advanced features can have a learning curve",
+      "brand_opportunity": "Notion can highlight its intuitive design and pre-built templates that enable advanced functionality without a steep learning curve, emphasizing immediate productivity."
     },
     {
-      "weakness": "Collaboration as an Add-on, Not Core (vs. native cloud collaboration)",
-      "evidence": "The free base product focuses on 'private thoughts' and local storage. Collaboration on 'shared vaults' is an explicit feature of the paid Sync add-on, implying it's not a native, free-tier feature.",
-      "brand_opportunity": "Notion can emphasize its inherent, real-time collaboration capabilities built directly into its cloud-native platform, showcasing how it empowers teams to work together effortlessly and synchronously on any project, without needing separate add-ons or complex file sharing."
+      "weakness": "Mobile app limitations and poor UX friction",
+      "evidence": "Mobile app limitations; Takes 5 clicks to delete the checklist? Why not just instant delete it? Especially a hassle on mobile",
+      "brand_opportunity": "Notion can showcase its robust, feature-rich, and seamless mobile experience with streamlined workflows and fewer clicks for common tasks."
     },
     {
-      "weakness": "Reliance on User-Managed Local Storage (for basic functionality)",
-      "evidence": "Obsidian stores notes privately on your device... No need for cloud storage here; you\u2019re at the helm.",
-      "brand_opportunity": "While a key strength for privacy-focused users, Notion can position its cloud-native architecture as a benefit for effortless syncing, automatic backups, ubiquitous accessibility, and simplified sharing, contrasting with the potential complexities and responsibilities of managing local files and optional sync services for a broader audience."
+      "weakness": "Occasional bugs",
+      "evidence": "Some users report occasional bugs",
+      "brand_opportunity": "Notion can emphasize its stability, reliability, and rigorous quality assurance processes, promoting a consistent and bug-free user experience."
+    },
+    {
+      "weakness": "Initial difficulty in improving workflow for some users",
+      "evidence": "I had previously tried using Obsidian but didn\u2019t find it improving my workflow",
+      "brand_opportunity": "Notion can focus on demonstrating immediate workflow improvements through its versatile block-based system and templating, showing clear ROI from day one."
     }
   ],
-  "market_positioning": "Obsidian positions itself as the ultimate private, flexible, and extensible personal knowledge management tool, emphasizing data sovereignty, offline access, and a powerful graph-based organization for 'sharpening your thinking,' primarily catering to individual power users, researchers, and developers who prioritize full control over their data and highly customized workflows.",
+  "market_positioning": "Obsidian positions itself as a free, flexible, and private personal knowledge management application focused on sharpening thinking through interconnected notes, ensuring data ownership and offline access, while offering optional, community-supported add-ons for synchronization and public publishing.",
   "_meta": {
     "competitor_key": "obsidian",
-    "analyzed_at": "2026-04-01T22:23:58.240375",
+    "analyzed_at": "2026-04-08T10:59:06.363219",
     "data_sources": [
       "website",
       "reviews",
-      "reddit",
-      "search"
+      "reddit"
     ],
     "model_used": "gemini-2.5-flash"
   }

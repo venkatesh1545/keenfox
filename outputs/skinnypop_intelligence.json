@@ -1,0 +1,27 @@
+{
+  "analysis_thought_process": "The raw data explicitly states, 'Limited data available for SkinnyPop Popcorn. Analysis may be incomplete.' Therefore, all sections requiring specific extracted signals (feature launches, messaging angles, customer sentiment, pricing signals, weaknesses/gaps, and market positioning) are left empty as no relevant information could be directly quoted or referenced from the provided text. The analysis is inherently incomplete due to the data limitation.",
+  "competitor": "SkinnyPop Popcorn",
+  "extracted_at": "2026-04-08T11:24:12.579790",
+  "feature_launches": [],
+  "messaging_angles": [],
+  "customer_sentiment": {
+    "top_praises": [],
+    "top_complaints": [],
+    "recurring_themes": [],
+    "nps_proxy": ""
+  },
+  "pricing_signals": {
+    "model": "",
+    "entry_price": "",
+    "recent_changes": "",
+    "perceived_value": ""
+  },
+  "weaknesses_and_gaps": [],
+  "market_positioning": "",
+  "_meta": {
+    "competitor_key": "skinnypop",
+    "analyzed_at": "2026-04-08T11:24:19.222949",
+    "data_sources": [],
+    "model_used": "gemini-2.5-flash"
+  }
+}

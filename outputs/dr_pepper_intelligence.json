@@ -1,89 +1,68 @@
 {
   "competitor": "Dr Pepper",
-  "extracted_at": "2024-05-15T12:00:00Z",
+  "extracted_at": "2024-05-15T10:00:00Z",
   "feature_launches": [
     {
-      "feature": "Dr Pepper Blackberry Flavor",
-      "description": "A new permanent flavor addition to the Dr Pepper lineup, available in 12-ounce cans and 20-ounce bottles, launched in February 2025.",
-      "strategic_implication": "Aggressive expansion of core product offerings to capture new consumer tastes and maintain market relevance through flavor innovation.",
-      "urgency": "high"
-    },
-    {
-      "feature": "35+ New Flavors Roadmap",
-      "description": "Keurig Dr Pepper announced a plan to launch over 35 new flavors across its portfolio in 2026.",
-      "strategic_implication": "Signals a major push for market share through rapid product diversification and innovation, aiming to dominate new taste categories and trends.",
-      "urgency": "high"
-    },
-    {
-      "feature": "Tic Tac Dr Pepper Mints Collaboration",
-      "description": "A limited-time collaboration transforming Dr Pepper's legendary 23-flavor blend into Tic Tac mints.",
-      "strategic_implication": "Leveraging brand equity through cross-promotional partnerships to generate buzz, extend brand presence into new categories, and appeal to existing fans in novel ways.",
+      "feature": "New Permanent Flavor: Dr Pepper Blackberry",
+      "description": "Dr Pepper is launching a brand-new permanent flavor, Dr Pepper Blackberry, in February 2025.",
+      "strategic_implication": "This launch expands the core product portfolio with a new, permanent variant. It aims to capture new taste preferences (specifically berry), sustain long-term market interest, and drive incremental sales. It signals continuous product innovation and investment in the flagship brand to maintain a competitive edge.",
       "urgency": "medium"
+    },
+    {
+      "feature": "Massive Flavor Portfolio Expansion (35+ New Flavors)",
+      "description": "Keurig Dr Pepper has launched or will launch over 35 new flavors (mentioned for 2026 and generally, described as 'genius marketing').",
+      "strategic_implication": "This represents an aggressive product diversification strategy aimed at saturating the market with a wide array of new options. The goal is to increase shelf presence, appeal to a broader spectrum of consumer tastes, and potentially dominate the novelty/specialty soda segment to gain market share through breadth of offering.",
+      "urgency": "high"
     }
   ],
   "messaging_angles": [
     {
-      "angle": "Iconic, Unique, and Consumer-Loved Brand",
-      "evidence": "our iconic Dr Pepper brand has received two industry-leading honors: Fast Company\u2019s 2025 Brands That Matter and the 2025 Kantar BrandZ Most Valuable Brands list. A powerful recognition of what makes Dr Pepper so unique. At KDP, we\u2019re focused on building iconic, consumer-loved brands and Dr Pepper embodies that ambition.",
-      "effectiveness": "high - supported by prestigious industry awards and strong corporate communication."
+      "angle": "Superiority & Distinctive Taste",
+      "evidence": "Dr. Pepper is superior to Coke-a-cola. Everything from flavor to the right amount of sugar is what makes a good old Dr. Pepper far better than Coca-Cola. / Dr. Pepper is the superior soda. It's taste stands out where as Coke and Pepsi are too sugary and just, bleh.",
+      "effectiveness": "Highly effective among its core audience, fostering strong brand loyalty by positioning Dr Pepper as a premium and more satisfying alternative to mainstream cola competitors."
     },
     {
-      "angle": "Heritage of Complex Flavor",
-      "evidence": "transforming the soda's legendary 23-flavor blend into a refreshing",
-      "effectiveness": "medium - leverages existing brand lore to add depth and intrigue, though the product is a collaboration rather than a core soda."
-    },
-    {
-      "angle": "Sophisticated Flavor Blending (for new variants)",
-      "evidence": "It's tart, but smooth. It blends with the Dr. Pepper exceptionally. I'd say the flavor is about 60% blackberry, 40% Dr. Pepper.",
-      "effectiveness": "mixed - while some customers praise the blend, others found it 'disgusting' and lacking the core Dr Pepper taste, indicating inconsistency in customer experience despite a potential messaging angle."
+      "angle": "Sweetness & Smoothness",
+      "evidence": "It's one of the sweeter and more flavorful sodas on the market. Coke is just bland and bites you. Dr P is sweet and smoother than most drinks. / I personally find Dr P to be sweeter than both Coke and Pepsi...",
+      "effectiveness": "Resonates strongly with consumers who prefer a less harsh, more palatable, and uniquely sweet soda experience, effectively differentiating it from the perceived 'bland' or 'biting' taste of competitors."
     }
   ],
   "customer_sentiment": {
     "top_praises": [
-      "New flavors like Dr Pepper Blackberry can be 'tart, but smooth' and 'blend exceptionally' for some customers.",
-      "The Dr Pepper Museum is 'worth a stop', offers 'good floats & ice cream', and the 'experience is worth the price'.",
-      "General 'great flavors' are appreciated at brand experiences like the museum."
+      "Superior flavor and overall taste compared to Coke and Pepsi",
+      "Optimal balance of flavor and sugar",
+      "Sweeter and more flavorful than competitors",
+      "Smoother mouthfeel compared to other sodas",
+      "Distinctive taste that 'stands out'",
+      "American version tastes better than European counterparts"
     ],
     "top_complaints": [
-      "New flavors can be 'legit disgusting' and drown out the original Dr Pepper taste for some consumers (e.g., Blackberry).",
-      "The Dr Pepper Museum's gift shop is 'nothing to write home about' (though 'isn't bad'), suggesting it's not a strong selling point.",
-      "Flavored sodas and fountain drinks at the museum are perceived as 'just Dr Pepper with' added syrup, implying a lack of unique flavor innovation."
+      "Extremely high sugar content, leading to health concerns ('comes with free diabetes. 65g is 130% of your RDA.')"
     ],
     "recurring_themes": [
-      "Aggressive experimentation with new flavors (e.g., Blackberry, 35+ new flavors roadmap).",
-      "Mixed customer reception and polarization regarding the execution and integration of new flavor profiles.",
-      "Value and enjoyment derived from experiential brand touchpoints (museum), but with specific areas for improvement (gift shop, fountain variety).",
-      "Strong brand recognition and emphasis on brand heritage/uniqueness."
+      "Dr Pepper's perceived superiority over Coke and Pepsi in taste",
+      "Its unique sweet and smooth flavor profile",
+      "Concerns about its high sugar content and associated health implications"
     ],
-    "nps_proxy": "mixed"
+    "nps_proxy": "positive, with notable health concerns"
   },
   "pricing_signals": {
-    "model": "N/A - Retail CSD (Carbonated Soft Drink) model, not SaaS.",
-    "entry_price": "N/A - Not visible for CSD products.",
-    "recent_changes": "N/A - Data mentions 'cost inflation, incremental tariffs' for Keurig Dr Pepper as a whole, but no direct Dr Pepper CSD price changes were specified.",
-    "perceived_value": "The Dr Pepper Museum's 'experience is worth the price' (indicates value in brand experiences, not direct product pricing)."
+    "model": "Not available in data",
+    "entry_price": "Not available in data",
+    "recent_changes": "Not available in data",
+    "perceived_value": "Not available in data"
   },
   "weaknesses_and_gaps": [
     {
-      "weakness": "Inconsistent or polarizing customer experience with new flavor launches.",
-      "evidence": "One customer found Dr Pepper Blackberry 'disgusting' because 'The taste of Dr Pepper was non existent and was drowned by the' while another praised its blend.",
-      "brand_opportunity": "Coca-Cola can emphasize rigorous R&D and consumer testing for new flavor variants, ensuring consistent quality and a true integration of the core brand's taste profile, thus delivering a more reliable and less polarizing experience."
-    },
-    {
-      "weakness": "Lack of genuine flavor innovation at experiential brand touchpoints (e.g., museum fountain).",
-      "evidence": "Heads up the flavored sodas and the fountain are just Dr Pepper with",
-      "brand_opportunity": "Coca-Cola can highlight truly distinct and innovative flavor experiences at its brand attractions (e.g., World of Coca-Cola, Freestyle machines), demonstrating genuine creativity beyond simple syrup additions to a base product."
-    },
-    {
-      "weakness": "Underwhelming merchandise and retail experience at brand destinations.",
-      "evidence": "The gift shop is nothing to write home about but isn't bad.",
-      "brand_opportunity": "Coca-Cola can invest in developing highly desirable, high-quality brand merchandise and a premium retail environment at its experiential locations, transforming them into significant revenue streams and brand engagement points."
+      "weakness": "High Sugar Content / Health Implications",
+      "evidence": "A direct customer comment explicitly states 'comes with free diabetes. 65g is 130% of your RDA.', indicating a strong negative perception related to the product's nutritional profile and potential health risks.",
+      "brand_opportunity": "Coca-Cola can exploit this by aggressively marketing its existing low-sugar/zero-sugar alternatives (e.g., Coke Zero Sugar, Diet Coke) and highlighting their health benefits. Campaigns could contrast these healthier options with Dr Pepper's high-sugar offerings, positioning Coca-Cola as a brand that offers taste alongside responsible dietary choices."
     }
   ],
-  "market_positioning": "Dr Pepper positions itself as an iconic, unique, and consumer-loved brand with a strong legacy and a commitment to aggressive innovation, particularly through rapid and extensive new flavor development across its product portfolio.",
+  "market_positioning": "Dr Pepper positions itself as a distinctively flavored and superior carbonated soft drink, offering a sweeter, smoother, and more unique taste experience than traditional colas like Coca-Cola and Pepsi. The brand is aggressively innovating with numerous new flavors to expand its market appeal and capture diverse consumer preferences.",
   "_meta": {
     "competitor_key": "dr_pepper",
-    "analyzed_at": "2026-04-01T01:32:40.199107",
+    "analyzed_at": "2026-04-02T00:59:53.391828",
     "data_sources": [
       "website",
       "reviews",

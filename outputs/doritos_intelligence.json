@@ -1,0 +1,27 @@
+{
+  "analysis_thought_process": "The raw data explicitly states: 'Limited data available for Doritos. Analysis may be incomplete.' Based on the grounding rule, I must only extract signals directly supported by the provided text. As there is no other information about Doritos' features, messaging, customer sentiment, pricing, weaknesses, or market positioning in the 'Raw Data' section, all relevant fields are left empty or as empty arrays to avoid hallucination. The competitor name 'Doritos' and category 'Tortilla Chips / Flavored Snacks' are taken directly from the user prompt.",
+  "competitor": "Doritos",
+  "extracted_at": "2026-04-08T11:24:12.568076",
+  "feature_launches": [],
+  "messaging_angles": [],
+  "customer_sentiment": {
+    "top_praises": [],
+    "top_complaints": [],
+    "recurring_themes": [],
+    "nps_proxy": ""
+  },
+  "pricing_signals": {
+    "model": "",
+    "entry_price": "",
+    "recent_changes": "",
+    "perceived_value": ""
+  },
+  "weaknesses_and_gaps": [],
+  "market_positioning": "",
+  "_meta": {
+    "competitor_key": "doritos",
+    "analyzed_at": "2026-04-08T11:24:18.800532",
+    "data_sources": [],
+    "model_used": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "analysis_thought_process": "The raw data explicitly states \"Limited data available for Kettle Brand. Analysis may be incomplete.\" As per the grounding rule, every signal must be directly backed by a quote or explicit reference from the raw data. Since no other specific information is provided regarding competitor features, messaging angles, customer sentiment, pricing signals, weaknesses, or market positioning, these sections are left empty or with default empty values as no direct evidence exists to populate them. The analysis accurately reflects the limitations of the provided input.",
+  "competitor": "Kettle Brand",
+  "extracted_at": "2026-04-08T11:24:12.576287",
+  "feature_launches": [],
+  "messaging_angles": [],
+  "customer_sentiment": {
+    "top_praises": [],
+    "top_complaints": [],
+    "recurring_themes": [],
+    "nps_proxy": null
+  },
+  "pricing_signals": {
+    "model": null,
+    "entry_price": null,
+    "recent_changes": null,
+    "perceived_value": null
+  },
+  "weaknesses_and_gaps": [],
+  "market_positioning": null,
+  "_meta": {
+    "competitor_key": "kettle_brand",
+    "analyzed_at": "2026-04-08T11:24:19.082267",
+    "data_sources": [],
+    "model_used": "gemini-2.5-flash"
+  }
+}
