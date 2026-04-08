@@ -199,6 +199,14 @@ Every recommendation requires a `competitive_data_backing` field that must cite 
 **Problem**: Not all users will have a Tavily API key
 **Solution**: Every Tavily call has a DuckDuckGo HTML fallback. The code checks for the key *before* importing the library, avoiding even the import error. No Tavily = graceful degradation, not failure.
 
+### 6.5 System Upgrades (v2): Scaling to Production
+
+To move the project from a prototype state into an interview-level enterprise standard, three core mechanisms were upgraded:
+
+1. **Optimization (Parallelization)** — `intelligence_engine.py` heavily relied on a single-threaded architecture (linear loop) which skyrocketed analysis latency natively. We swapped this directly for `concurrent.futures.ThreadPoolExecutor` which spins parallel inference sessions with the LLM API instantly.
+2. **Error Robustness** — Eliminated rigid loops and inserted **Exponential Backoff (`wait_time = (2 ** attempt) * 5`)** algorithms natively targeting HTTP 429/503 network drops. Further, introduced a strict python validation layer (`required_keys` verification) forcing blank-schemas, mathematically preventing any downstream runtime `KeyError` crashes.
+3. **Guardrails & Grounding** — Locked the generative models output exclusively using `response_mime_type="application/json"` backend flags enforcing type safety. To prevent data hallucinations entirely, we mandated an internal `analysis_thought_process` block requiring explicit "Chain-of-Thought" reasoning. The engine forces the agent to cite and review scraped material before formulating cross-competitive insights.
+
 ---
 
 ## 7. Extensibility

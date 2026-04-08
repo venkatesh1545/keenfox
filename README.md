@@ -139,6 +139,22 @@ keenfox-intel/
 
 ---
 
+## 🛡️ Production Upgrades (V2)
+
+The system is fortified with enterprise-grade reliability, strict guardrails, and rapid optimization:
+
+*   **Optimization (Parallel Execution)**
+    *   **Before:** Competitors analyzed sequentially using linear loops, leading to severe latency.
+    *   **After:** Powered by `concurrent.futures.ThreadPoolExecutor`, executing massive LLM extraction payloads concurrently.
+*   **Guardrails & Grounding (Chain-of-Thought)**
+    *   **Before:** Loose prompt parsing subject to formatting hallucinations.
+    *   **After:** Hardcoded backend `response_mime_type="application/json"` ensures pure type integrity. The engine mandates an internal `analysis_thought_process` where the LLM is forced to verify the data mathematically *before* creating the JSON payload.
+*   **Error Detection & Schema Resilience**
+    *   **Before:** Basic regex error fixing; failed abruptly with `KeyError`s if AI omitted keys.
+    *   **After:** Captures HTTP 429 and 503 limits triggering an **Exponential Backoff** safety loop. Reconstructs missing JSON schema elements on the fly with safe fallback values, completely destroying runtime crash possibilities.
+
+---
+
 ## 🚀 Quick Start
 
 ### 1. Setup
