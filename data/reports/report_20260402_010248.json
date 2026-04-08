@@ -1,0 +1,610 @@
+{
+  "generated_at": "2026-04-02T01:02:48.522726",
+  "intelligence": {
+    "pepsi": {
+      "competitor": "Pepsi",
+      "extracted_at": "2026-04-02T00:59:00.760778",
+      "feature_launches": [
+        {
+          "feature": "Pepsi Prebiotic Cola",
+          "description": "First major cola innovation in 20 years, debuting in two flavors. Contains 5g sugar, 20-30 calories, and no artificial ingredients, positioning it as a healthier option.",
+          "strategic_implication": "Pepsi is strategically targeting the growing health and wellness segment, differentiating its core cola offering, and innovating within a mature category to attract new consumers seeking functional benefits or reduced sugar/artificial ingredients. This could expand market share and perception beyond traditional cola attributes.",
+          "urgency": "high"
+        }
+      ],
+      "messaging_angles": [
+        {
+          "angle": "Superior initial taste experience / Sweetness",
+          "evidence": "It is sweeter. That's why pepsi always wins those blind 'Pepsi challenge' videos as most people prefer the initial sweetness of Pepsi. [...] Pepsi activated more dopamine.",
+          "effectiveness": "Highly effective for initial consumption and 'taste test' perception, creating a strong first impression. However, less effective for sustained consumption, as many consumers prefer competitors for larger quantities."
+        },
+        {
+          "angle": "Health-conscious innovation and differentiation",
+          "evidence": "Pepsi Prebiotic Cola with 5g sugar, 20-30 calories, no artificial ingredients. Delivering not only the taste people expect from Pepsi, but addr[essing health concerns].",
+          "effectiveness": "Effective in positioning Pepsi as a modern, health-aware brand, appealing to consumers looking for healthier beverage options without compromising on the established cola taste. Opens new market segments."
+        },
+        {
+          "angle": "Strategic growth and corporate leadership",
+          "evidence": "PepsiCo Announces Big Changes for 2026, launching a major strategic reset [...] cutting nearly 20% of its U.S. product SKUs [...] redefining what a food and drink leader looks like in 2025.",
+          "effectiveness": "Primarily aimed at investors and stakeholders, projecting an image of proactive leadership, efficiency, and future-oriented growth. Less direct consumer impact but shapes overall brand perception and confidence."
+        }
+      ],
+      "customer_sentiment": {
+        "top_praises": [
+          "Initial sweetness and 'dopamine hit' in taste tests",
+          "Good benefits and products (from bottling venture employees)"
+        ],
+        "top_complaints": [
+          "Poor management, long/unpredictable hours, bad communication, and lack of work-life balance at bottling ventures (employee feedback)",
+          "Perceived as flatter or more syrupy than competitors for sustained consumption",
+          "Sharper taste profile compared to competitor's mellower taste",
+          "Less preferred than competitors for drinking more than a small dose"
+        ],
+        "recurring_themes": [
+          "Contrasting taste profiles between Pepsi (sweeter, sharper, good for initial sip) and Coke (mellower, preferred for sustained consumption)",
+          "Significant employee dissatisfaction related to management and work-life balance within bottling operations"
+        ],
+        "nps_proxy": "neutral"
+      },
+      "pricing_signals": {
+        "model": "N/A (not provided for CSD product)",
+        "entry_price": "N/A (not provided for CSD product)",
+        "recent_changes": "No specific pricing changes are mentioned as implemented, but PepsiCo is actively focusing on and reviewing new pricing and packaging strategies.",
+        "perceived_value": "High initial perceived value (due to sweetness and 'dopamine activation' in blind tests), but potentially lower for sustained consumption compared to competitors, leading to mixed overall value perception."
+      },
+      "weaknesses_and_gaps": [
+        {
+          "weakness": "Significant operational and employee satisfaction issues within bottling and distribution networks",
+          "evidence": "Poor management, long/unpredictable hours, bad communication, no work-life balance (rated 2.5/5), high turnover in key roles like Merchandiser, Warehouse, Sales.",
+          "brand_opportunity": "Coca-Cola can highlight superior employee conditions, operational stability, and reliable supply chain in its corporate messaging, potentially attracting talent and reassuring partners. Operational issues could impact product availability and quality, creating a point of competitive leverage."
+        },
+        {
+          "weakness": "Inconsistent consumer preference for sustained consumption due to taste profile",
+          "evidence": "A small dose of Pepsi does better in a taste test than Coke. But for drinking more than a small dose, more people prefer Coke. Pepsi is flatter or more syrupy, and tastes sharper than Coke.",
+          "brand_opportunity": "Coca-Cola can reinforce its positioning as the ideal beverage for any occasion, emphasizing its smooth, balanced, and consistently refreshing taste that's preferred for sustained enjoyment, contrasting Pepsi's initial sweetness and perceived 'sharpness' or 'syrupy' texture."
+        },
+        {
+          "weakness": "Risk of alienating niche consumer segments due to SKU reduction",
+          "evidence": "Cutting nearly 20% of its U.S. product SKUs as part of a strategic reset.",
+          "brand_opportunity": "Coca-Cola can strategically evaluate and potentially capitalize on the specific product categories or flavor profiles that Pepsi is discontinuing, either by acquiring/developing similar products or by promoting its own broader portfolio as offering more choice and catering to diverse tastes."
+        }
+      ],
+      "market_positioning": "Pepsi is strategically repositioning itself as an innovative, growth-oriented leader in the CSD and broader beverage market, emphasizing efficiency through SKU rationalization, responding to health trends with new products like Prebiotic Cola, and leveraging its distinctively sweeter initial taste experience.",
+      "_meta": {
+        "competitor_key": "pepsi",
+        "analyzed_at": "2026-04-02T00:59:25.124657",
+        "data_sources": [
+          "website",
+          "reviews",
+          "reddit",
+          "search"
+        ],
+        "model_used": "gemini-2.5-flash"
+      }
+    },
+    "dr_pepper": {
+      "competitor": "Dr Pepper",
+      "extracted_at": "2024-05-15T10:00:00Z",
+      "feature_launches": [
+        {
+          "feature": "New Permanent Flavor: Dr Pepper Blackberry",
+          "description": "Dr Pepper is launching a brand-new permanent flavor, Dr Pepper Blackberry, in February 2025.",
+          "strategic_implication": "This launch expands the core product portfolio with a new, permanent variant. It aims to capture new taste preferences (specifically berry), sustain long-term market interest, and drive incremental sales. It signals continuous product innovation and investment in the flagship brand to maintain a competitive edge.",
+          "urgency": "medium"
+        },
+        {
+          "feature": "Massive Flavor Portfolio Expansion (35+ New Flavors)",
+          "description": "Keurig Dr Pepper has launched or will launch over 35 new flavors (mentioned for 2026 and generally, described as 'genius marketing').",
+          "strategic_implication": "This represents an aggressive product diversification strategy aimed at saturating the market with a wide array of new options. The goal is to increase shelf presence, appeal to a broader spectrum of consumer tastes, and potentially dominate the novelty/specialty soda segment to gain market share through breadth of offering.",
+          "urgency": "high"
+        }
+      ],
+      "messaging_angles": [
+        {
+          "angle": "Superiority & Distinctive Taste",
+          "evidence": "Dr. Pepper is superior to Coke-a-cola. Everything from flavor to the right amount of sugar is what makes a good old Dr. Pepper far better than Coca-Cola. / Dr. Pepper is the superior soda. It's taste stands out where as Coke and Pepsi are too sugary and just, bleh.",
+          "effectiveness": "Highly effective among its core audience, fostering strong brand loyalty by positioning Dr Pepper as a premium and more satisfying alternative to mainstream cola competitors."
+        },
+        {
+          "angle": "Sweetness & Smoothness",
+          "evidence": "It's one of the sweeter and more flavorful sodas on the market. Coke is just bland and bites you. Dr P is sweet and smoother than most drinks. / I personally find Dr P to be sweeter than both Coke and Pepsi...",
+          "effectiveness": "Resonates strongly with consumers who prefer a less harsh, more palatable, and uniquely sweet soda experience, effectively differentiating it from the perceived 'bland' or 'biting' taste of competitors."
+        }
+      ],
+      "customer_sentiment": {
+        "top_praises": [
+          "Superior flavor and overall taste compared to Coke and Pepsi",
+          "Optimal balance of flavor and sugar",
+          "Sweeter and more flavorful than competitors",
+          "Smoother mouthfeel compared to other sodas",
+          "Distinctive taste that 'stands out'",
+          "American version tastes better than European counterparts"
+        ],
+        "top_complaints": [
+          "Extremely high sugar content, leading to health concerns ('comes with free diabetes. 65g is 130% of your RDA.')"
+        ],
+        "recurring_themes": [
+          "Dr Pepper's perceived superiority over Coke and Pepsi in taste",
+          "Its unique sweet and smooth flavor profile",
+          "Concerns about its high sugar content and associated health implications"
+        ],
+        "nps_proxy": "positive, with notable health concerns"
+      },
+      "pricing_signals": {
+        "model": "Not available in data",
+        "entry_price": "Not available in data",
+        "recent_changes": "Not available in data",
+        "perceived_value": "Not available in data"
+      },
+      "weaknesses_and_gaps": [
+        {
+          "weakness": "High Sugar Content / Health Implications",
+          "evidence": "A direct customer comment explicitly states 'comes with free diabetes. 65g is 130% of your RDA.', indicating a strong negative perception related to the product's nutritional profile and potential health risks.",
+          "brand_opportunity": "Coca-Cola can exploit this by aggressively marketing its existing low-sugar/zero-sugar alternatives (e.g., Coke Zero Sugar, Diet Coke) and highlighting their health benefits. Campaigns could contrast these healthier options with Dr Pepper's high-sugar offerings, positioning Coca-Cola as a brand that offers taste alongside responsible dietary choices."
+        }
+      ],
+      "market_positioning": "Dr Pepper positions itself as a distinctively flavored and superior carbonated soft drink, offering a sweeter, smoother, and more unique taste experience than traditional colas like Coca-Cola and Pepsi. The brand is aggressively innovating with numerous new flavors to expand its market appeal and capture diverse consumer preferences.",
+      "_meta": {
+        "competitor_key": "dr_pepper",
+        "analyzed_at": "2026-04-02T00:59:53.391828",
+        "data_sources": [
+          "website",
+          "reviews",
+          "reddit",
+          "search"
+        ],
+        "model_used": "gemini-2.5-flash"
+      }
+    },
+    "red_bull": {
+      "competitor": "Red Bull",
+      "extracted_at": "2026-04-02T00:59:53.392917",
+      "feature_launches": [
+        {
+          "feature": "Red Bull League of Its Own (Esports Event Series)",
+          "description": "A unique, experimental League of Legends competition featuring top-tier and community teams, with a focus on innovative formats (e.g., boxing-match style player entrances, mixed-tier team participation). It is a recurring event, confirmed for 2024.",
+          "strategic_implication": "Red Bull is deeply investing in direct-to-consumer engagement within the esports community, positioning itself as an innovator in event formats distinct from official league organizers. This builds strong brand loyalty and emotional connection with a key demographic, driving significant cultural relevance beyond traditional sponsorships.",
+          "urgency": "high"
+        },
+        {
+          "feature": "Partnership with Oracle Red Bull Racing",
+          "description": "A new partnership kicking off in March 2025 at the Melbourne Grand Prix, deepening ties with the Formula 1 team. (Also mentioned is a broader partnership with Ford for the 2025 season).",
+          "strategic_implication": "Reinforces Red Bull's core brand image of speed, peak performance, and adrenaline by aligning with elite, high-performance global sports like Formula 1. This association strengthens its position as the drink for champions and extreme achievement.",
+          "urgency": "high"
+        },
+        {
+          "feature": "Dance Your Style App",
+          "description": "An application offering mentorship, educational programming, and user-generated storytelling specifically for the dance community.",
+          "strategic_implication": "Demonstrates Red Bull's strategy to diversify its brand association beyond extreme sports and esports into broader cultural and artistic domains. This expands its reach to a creative, active demographic, leveraging community engagement and user-generated content for lifestyle brand positioning.",
+          "urgency": "medium"
+        },
+        {
+          "feature": "New Red Bull Flavor (2025)",
+          "description": "A new flavor of Red Bull energy drink is planned for release in 2025.",
+          "strategic_implication": "Indicates continuous product innovation and refreshment of the core product line. This strategy aims to maintain market interest, cater to evolving consumer tastes, and capture new segments, crucial for retaining market share in a competitive beverage landscape.",
+          "urgency": "high"
+        }
+      ],
+      "messaging_angles": [
+        {
+          "angle": "Innovation & Experimentation (especially in culture/esports)",
+          "evidence": "I loved the silly format. I really enjoyed how Red Bull took this opportunity to experiment with what is possible in the realm of eSports instead of sticking to the same formula that Riot uses for all their events.",
+          "effectiveness": "high"
+        },
+        {
+          "angle": "Elite Performance & Aspiration",
+          "evidence": "partnership with Oracle Red Bull Racing, kicking off in March 2025 at the Melbourne Grand Prix! ... T1 playing against LEC teams.",
+          "effectiveness": "high"
+        },
+        {
+          "angle": "Community & Inclusivity (for emerging talent/fanbases)",
+          "evidence": "It was actually very nice to have not only an international event with T1 playing against LEC teams, but also with orgs like NNO/BIG/EINS who have big fanbases but rarely get the chance to play against the big teams like G2. ... costreamers like Caedrel getting a booth in the arena.",
+          "effectiveness": "high"
+        }
+      ],
+      "customer_sentiment": {
+        "top_praises": [
+          "Excellent organization with top casters/presenters and inclusion of costreamers at esports events, enhancing online viewing.",
+          "Appreciation for Red Bull's willingness to experiment with and innovate esports event formats rather than follow standard formulas.",
+          "Praise for providing opportunities for smaller, popular esports organizations/teams to compete against top-tier teams.",
+          "Positive feedback on the taste of specific variants, particularly 'Red bull sugar free is insanely good!'"
+        ],
+        "top_complaints": [
+          "Esports event length was excessive, leading to audience and player fatigue, with many not staying until the end.",
+          "Lack of traditional sportsmanship or interaction between opposing teams during esports event entrances (e.g., handshakes).",
+          "Perceived boredom and tiredness among top-tier players (T1) towards the end of the lengthy event."
+        ],
+        "recurring_themes": [
+          "Consistent feedback regarding the quality, innovation, and community inclusion of Red Bull's esports events, alongside critiques of event logistics and length.",
+          "Ongoing discussions and strong opinions about the taste profiles of different Red Bull flavors, especially comparing sugar-free options to original and new variants."
+        ],
+        "nps_proxy": "positive"
+      },
+      "pricing_signals": {
+        "model": "not visible",
+        "entry_price": "not visible",
+        "recent_changes": "not visible",
+        "perceived_value": "not visible"
+      },
+      "weaknesses_and_gaps": [
+        {
+          "weakness": "Event Logistics & Audience/Player Fatigue",
+          "evidence": "Too many games. Or more particularly, the length of the event. Even fans inside the arena didn't stick around until the end. For T1 especially, you could tell they were getting kind of bored and tired by the end.",
+          "brand_opportunity": "Coca-Cola can sponsor or create esports events with more optimized, concise formats that maintain high energy levels throughout, prioritizing player well-being and consistent audience engagement to avoid fatigue."
+        },
+        {
+          "weakness": "Lack of Traditional Sportsmanship/Inter-team Interaction in Events",
+          "evidence": "I would have enjoyed it if teams faced each other up and maybe the captains of the teams gave a handshake before sitting down at their PC. Seemed really weird how 1 team was already sitting down at their PCs and ignored the other team walking up to the stage.",
+          "brand_opportunity": "Coca-Cola could differentiate by emphasizing and integrating traditional sports values like respect and direct competitor interaction into their sponsored events, appealing to a segment that values sportsmanship."
+        },
+        {
+          "weakness": "Inconsistent flavor appeal for some experimental products",
+          "evidence": "Took a sec to acquire the taste but I guide enjoyed it (regarding organics). ... if squirt soda can do grapefruit soda for years and make it yummy I know red bull can...",
+          "brand_opportunity": "While Red Bull innovates with flavors, Coca-Cola could focus on consistently broad appeal with new product launches, leveraging extensive taste testing and consumer insights to ensure immediate and widespread acceptance, potentially minimizing niche appeal risks."
+        }
+      ],
+      "market_positioning": "Red Bull positions itself as the purveyor of high-performance and innovative experiences across extreme sports, esports, and cultural movements, actively fostering community engagement and pushing boundaries beyond traditional formats to 'give you wings'.",
+      "_meta": {
+        "competitor_key": "red_bull",
+        "analyzed_at": "2026-04-02T01:00:13.677331",
+        "data_sources": [
+          "website",
+          "reviews",
+          "reddit",
+          "search"
+        ],
+        "model_used": "gemini-2.5-flash"
+      }
+    },
+    "lacroix": {
+      "competitor": "LaCroix Sparkling Water",
+      "extracted_at": "2024-04-23T10:00:00.000000",
+      "feature_launches": [
+        {
+          "feature": "Pineapple Coconut flavor launch",
+          "description": "Introduction of a new tropical flavor, described as a 'perfect pairing,' targeting consumers seeking innovative and combined flavor experiences.",
+          "strategic_implication": "Expands product portfolio to maintain market interest and attract new demographics seeking unique flavor profiles. Suggests a focus on trending tropical/dessert-like combinations to differentiate.",
+          "urgency": "high"
+        },
+        {
+          "feature": "Sunshine flavor launch",
+          "description": "Introduction of a new citrus and tropical zest flavor, aiming to evoke a 'sun-kissed day' experience.",
+          "strategic_implication": "Continues product innovation and portfolio diversification, positioning LaCroix as a brand that offers sensory and mood-enhancing flavors, potentially targeting seasonal appeal.",
+          "urgency": "high"
+        },
+        {
+          "feature": "Mocktail Recipes (content strategy)",
+          "description": "Publication of mocktail recipes (e.g., Pineapple Coconut Sweet Dreams, Key Lime Shamrock Smash) on the homepage, positioning LaCroix as a key ingredient.",
+          "strategic_implication": "Promotes versatile usage, encouraging higher consumption per user by establishing LaCroix as a mixer. Targets the growing trend of non-alcoholic beverages and healthy entertaining, expanding use occasions beyond simple hydration.",
+          "urgency": "medium"
+        }
+      ],
+      "messaging_angles": [
+        {
+          "angle": "Healthy, guilt-free alternative to soda",
+          "evidence": "zero calories, zero sweeteners, and zero sodium. The light and fizzy drink soon became a popular and affordable healthy alternative to sugary sodas. Great in place of soda without the extra sugar.",
+          "effectiveness": "Highly effective. This is a primary driver of adoption and a core component of their brand identity, resonating strongly with health-conscious consumers."
+        },
+        {
+          "angle": "Subtle, nuanced flavor experience",
+          "evidence": "several fruity varieties that pack just a hint of flavor; La Croix barely has any flavor to it; the bubbles in LaCroix are smoother than most.",
+          "effectiveness": "Moderately effective. While some customers praise the 'hint of flavor' and 'smoother bubbles,' others complain about the lack of strong taste, indicating it's a polarizing but distinctive characteristic."
+        },
+        {
+          "angle": "Socially responsible and transparent brand",
+          "evidence": "They're owned by National Beverage Corp and they are very transparent on their social responsibilities. You can donate to St. Jude, they are environmentally conscious, the pride themselves in supporting the military, and they also donated to ABC's Extreme Makeover!",
+          "effectiveness": "Moderately effective. This message is highlighted by passionate customers but not prominently featured on the homepage, suggesting it resonates with a segment of consumers but might not be a primary brand-driven message."
+        },
+        {
+          "angle": "Innovative and experiential flavors",
+          "evidence": "Introducing our newest flavor, Pineapple Coconut - experience the perfect pairing. LaCroix Sunshine is a bright and sparkling blend of citrus and tropical zest that conveys the refreshing essence of a sun-kissed day.",
+          "effectiveness": "Effective for new product launches, creating excitement and emphasizing sensory pleasure and unique combinations, crucial for competitive differentiation in a crowded market."
+        }
+      ],
+      "customer_sentiment": {
+        "top_praises": [
+          "Amazing and endless flavors that are considered superior by some",
+          "Excellent healthy alternative to sugary sodas (zero calories, sugar, sodium)",
+          "Socially responsible brand with transparent corporate practices",
+          "Smoother, less harsh carbonation compared to competitors",
+          "Affordable healthy alternative"
+        ],
+        "top_complaints": [
+          "Perceived as 'a bit pricey' compared to less expensive brands",
+          "Flavor can be 'just okay' or 'hit or miss' depending on individual preference",
+          "Some flavors are too subtle, with 'barely any flavor'",
+          "Requires an 'acclimation' period for those used to sugary drinks, making initial taste experience potentially 'awful'"
+        ],
+        "recurring_themes": [
+          "The delicate vs. insufficient flavor debate (hint of flavor)",
+          "Role as a primary soda replacement",
+          "Price vs. perceived value compared to competitors",
+          "Variety of flavors leads to 'hits' and 'misses'"
+        ],
+        "nps_proxy": "positive"
+      },
+      "pricing_signals": {
+        "model": "Per item (standard CPG)",
+        "entry_price": "N/A (not visible in data)",
+        "recent_changes": "Actively 'rethinking pricing' for 2025, suggesting potential future adjustments or strategic pricing initiatives.",
+        "perceived_value": "Mixed: perceived as an 'affordable healthy alternative' by some, but 'a bit pricey' compared to other inexpensive sparkling water brands by others."
+      },
+      "weaknesses_and_gaps": [
+        {
+          "weakness": "Flavor subtlety is polarizing; not all consumers appreciate the 'hint of flavor'",
+          "evidence": "La Croix barely has any flavor to it; Just Okay; hit or miss based on what you and your family would enjoy.",
+          "brand_opportunity": "Coca-Cola can launch sparkling water brands or flavors with bolder, more distinct, and consistently appealing taste profiles that require no 'acclimation,' directly targeting consumers who find LaCroix's flavors too weak or inconsistent."
+        },
+        {
+          "weakness": "Price sensitivity relative to cheaper alternatives",
+          "evidence": "A bit pricey; less inexpensive brands taste just as good.",
+          "brand_opportunity": "Coca-Cola can leverage its economies of scale to offer a competitively priced sparkling water line, or introduce value-focused SKUs, to attract budget-conscious consumers who are willing to switch for a lower price point while maintaining a similar quality perception."
+        },
+        {
+          "weakness": "Acclimation period required for consumers transitioning from sugary drinks",
+          "evidence": "you definitely need to acclimate to it. Regularly drinking sugary drinks make La Croix taste awful.",
+          "brand_opportunity": "Coca-Cola can develop sparkling water products designed for a smoother transition from sugary beverages, perhaps with slightly enhanced initial sweetness (from natural sources) or more familiar fruit flavors, easing the entry barrier for new sparkling water drinkers."
+        },
+        {
+          "weakness": "Historical regional strength potentially limits nationwide deep penetration",
+          "evidence": "For nearly three decades, LaCroix was mostly known only in the midwest, but its popularity exploded in 2015 to become a nationwide fan favorite.",
+          "brand_opportunity": "Coca-Cola can target specific regions where LaCroix's brand loyalty or market share might still be weaker, launching aggressive marketing campaigns or localized flavor offerings to capture market share."
+        }
+      ],
+      "market_positioning": "LaCroix positions itself as a leading, health-conscious sparkling water brand offering a wide variety of subtly flavored, zero-calorie, zero-sweetener, and zero-sodium beverages. It appeals to consumers seeking a guilt-free and refreshing alternative to sugary sodas, increasingly promoting itself as a versatile mixer for mocktails.",
+      "_meta": {
+        "competitor_key": "lacroix",
+        "analyzed_at": "2026-04-02T01:00:38.973650",
+        "data_sources": [
+          "website",
+          "reviews",
+          "reddit",
+          "search"
+        ],
+        "model_used": "gemini-2.5-flash"
+      }
+    },
+    "olipop": {
+      "competitor": "Olipop",
+      "extracted_at": "2026-04-02T01:00:38.978328",
+      "feature_launches": [
+        {
+          "feature": "New Flavor Releases (e.g., Shirley Temple, Tropical Punch)",
+          "description": "Continuous introduction of new flavors, including collaborations (Shirley Temple - 'the original mocktail, reimagined') and seasonal offerings (Winter Seasonal Cans, Holiday Flavors).",
+          "strategic_implication": "Demonstrates aggressive product diversification and innovation to capture broader consumer segments and maintain market excitement. Taps into nostalgia and cultural trends (mocktails) to appeal beyond core functional beverage users, directly competing with traditional soda experiences.",
+          "urgency": "high"
+        },
+        {
+          "feature": "Flavor Relaunches (e.g., Orange Cream)",
+          "description": "Reintroducing previously popular flavors to the market.",
+          "strategic_implication": "Indicates responsiveness to customer demand and a strategy to capitalize on proven successful flavors, building brand loyalty and minimizing risk with new product development. Suggests an established customer base with strong preferences.",
+          "urgency": "medium"
+        },
+        {
+          "feature": "Virtual Drive Thru Promotion 2025",
+          "description": "A specific promotional campaign for 2025 (likely online/digital).",
+          "strategic_implication": "Highlights investment in creative, digital-first marketing campaigns to engage consumers and drive sales, possibly testing new customer acquisition channels or loyalty programs. This could be a recurring annual event.",
+          "urgency": "low"
+        }
+      ],
+      "messaging_angles": [
+        {
+          "angle": "Health-conscious Soda Alternative",
+          "evidence": "OLIPOP | Healthy Prebiotic Soda, High Fiber. Less Sugar*. Delicious Flavors. *Less sugar than leading, non-diet sodas. Olipop is a health drink-not death drink like most sodas.",
+          "effectiveness": "High. This is Olipop's foundational positioning, clearly articulating its core value proposition and differentiating it from traditional sodas, resonating strongly with health-aware consumers."
+        },
+        {
+          "angle": "Nostalgic & Reimagined Classics",
+          "evidence": "A New Kind of Soda TM, Pure Nostalgia-, Shirley Temple The original mocktail, reimagined.",
+          "effectiveness": "High. Appeals to a wider audience by offering familiar, comforting flavors in a healthier format. This strategy effectively bridges the gap between traditional soda enjoyment and modern health trends."
+        },
+        {
+          "angle": "Lifestyle Integration (Subtle Influence)",
+          "evidence": "Olipop went from $70M to $500M in revenue by changing four words. Why it worked: 'Sparkling tonic' = health niche (maybe 8M people). Same product, 25x bigger market. Instead of 'Here\u2019s a great gut health drink!' creator ads, they paid 30-40 creators a month to simply include the can: - Fridge restocks - Morning routines - GRWM videos - Lifestyle content The product was part of the scene.",
+          "effectiveness": "Extremely High. This strategic shift from explicit 'gut health drink' to subtle 'lifestyle accessory' was directly responsible for massive revenue growth, indicating a highly effective and scalable marketing approach that avoids overt health claims in favor of aspirational living."
+        }
+      ],
+      "customer_sentiment": {
+        "top_praises": [
+          "Health benefits and being a healthier alternative to traditional sodas.",
+          "Good taste ('yummy', 'good drink', '10/10 recommend')."
+        ],
+        "top_complaints": [
+          "Dislike of specific flavors (e.g., 'I cannot, in good conscience, recommend this to any root...' implies root beer)."
+        ],
+        "recurring_themes": [
+          "Comparison to traditional sodas (often favorable on health, sometimes different on taste/fizz).",
+          "Focus on taste and health benefits as primary drivers."
+        ],
+        "nps_proxy": "positive"
+      },
+      "pricing_signals": {
+        "model": "DTC (Direct-to-Consumer) with strong emphasis on subscriptions and one-time purchases.",
+        "entry_price": "Not explicitly stated per item, but a constant stream of discounts (15-30% off, BDAY20, WELCOME15) suggests a premium base price with promotional strategies to drive trial and conversion. Offers free shipping for orders over $50.",
+        "recent_changes": "No explicit changes to base pricing, but a highly dynamic promotional strategy with numerous discount codes indicates ongoing adjustments to perceived value and sales drivers.",
+        "perceived_value": "Actively managed through pervasive discounting and subscription offers, suggesting that while the product is valued for its health benefits, price sensitivity might exist, or they are strategically using discounts for customer acquisition and loyalty."
+      },
+      "weaknesses_and_gaps": [
+        {
+          "weakness": "Inconsistent flavor perception/specific flavor dislikes.",
+          "evidence": "User comment: 'I cannot, in good conscience, recommend this to any root...'",
+          "brand_opportunity": "A competitor (e.g., Coca-Cola's 'Simply Pop') can highlight superior, universally appealing flavor profiles in their functional beverages, or offer 'authentic' taste experiences for specific classic soda flavors that Olipop may not fully replicate for all consumers."
+        },
+        {
+          "weakness": "Reliance on heavy and continuous discounting.",
+          "evidence": "Numerous discount codes (15-30% off, birthday, holiday, first-time buyer, resubscribe, specific flavor promos).",
+          "brand_opportunity": "Competitors with greater economies of scale can offer competitive everyday pricing on functional beverages, reducing the need for constant promotions and potentially capturing customers seeking consistent value without 'deal hunting'."
+        },
+        {
+          "weakness": "Product may not fully satisfy traditional soda cravings for all consumers.",
+          "evidence": "Reddit user commenting on carbonation: 'Not the same as a fresh can of sprite but for the convenience and...' (implies a difference in experience, even if accepted for convenience). Olipop's own tagline 'A New Kind of Soda' implicitly acknowledges it's not traditional.",
+          "brand_opportunity": "Coca-Cola (with 'Simply Pop') can position its offering as providing the health benefits consumers seek while retaining more of the authentic 'soda experience' in terms of fizziness and classic taste profiles, directly appealing to those who feel Olipop is a 'compromise'."
+        }
+      ],
+      "market_positioning": "Olipop positions itself as a modern, healthy, and delicious alternative to traditional sodas, focusing on gut-health benefits and less sugar. They strategically combine nostalgic flavor profiles with innovative functional ingredients, aiming to integrate seamlessly into a mainstream healthy lifestyle rather than being solely a niche health product.",
+      "_meta": {
+        "competitor_key": "olipop",
+        "analyzed_at": "2026-04-02T01:01:49.936462",
+        "data_sources": [
+          "website",
+          "reviews",
+          "reddit",
+          "search"
+        ],
+        "model_used": "gemini-2.5-flash"
+      }
+    },
+    "liquid_death": {
+      "competitor": "Liquid Death",
+      "extracted_at": "2024-05-16T10:00:00.000000",
+      "feature_launches": [
+        {
+          "feature": "Energy Drink Line",
+          "description": "Launch of multiple sparkling energy drink flavors (Orange Horror, Tropical Terror, Murder Mystery, Scary Strawberry) with 5 calories, positioned as 'better-for-you' and 'less sugar, huge flavor'.",
+          "strategic_implication": "Significant expansion into the competitive energy drink market, targeting a broader consumer base seeking healthier energy options. This directly pits them against traditional energy drink brands and other 'better-for-you' alternatives, leveraging their existing brand equity.",
+          "urgency": "high"
+        },
+        {
+          "feature": "Iced Tea Line",
+          "description": "Introduction of several iced tea flavors (Dead Billionaire, Rest in Peach, Sweet Reaper, Blueberry Buzzsaw, Green Guillotine, Slaughter Berry) with 20 calories, highlighted as 'less sugar, greater tea'.",
+          "strategic_implication": "Diversifies product portfolio into the popular iced tea segment, appealing to consumers looking for lower-sugar tea options. Reinforces their 'better-for-you' beverage positioning and expands consumption occasions.",
+          "urgency": "medium"
+        },
+        {
+          "feature": "Soda-Flavored Sparkling Water Line",
+          "description": "Release of sparkling water with soda-inspired flavors (Killer Cola, Severed Lime, Doctor Death, Cherry Obituary, Rootbeer Wrath, Squeezed to Death, Mango Chainsaw, Grave Fruit) containing 10 calories.",
+          "strategic_implication": "Directly targets consumers who enjoy soda but are seeking lower-calorie, sparkling water alternatives. This bridges the gap between traditional soda and plain sparkling water, leveraging their brand to make 'healthier soda' cool.",
+          "urgency": "medium"
+        },
+        {
+          "feature": "Wine Collaboration (19 Crimes)",
+          "description": "Partnership with 19 Crimes wine to launch a co-branded wine product.",
+          "strategic_implication": "Brand extension into alcoholic beverages, leveraging an established edgy wine brand. This expands their lifestyle brand reach and targets an older demographic or different social occasions, reinforcing their rebellious image.",
+          "urgency": "low"
+        },
+        {
+          "feature": "Puffin Drinkwear Collaboration",
+          "description": "Collaboration with Puffin Drinkwear for a new line of beverage accessories (e.g., koozies) blending dark humor and rock attitude.",
+          "strategic_implication": "Expands their merchandise ecosystem, strengthening their lifestyle brand positioning and reinforcing their core brand identity (dark humor, rock attitude) through non-beverage products.",
+          "urgency": "low"
+        }
+      ],
+      "messaging_angles": [
+        {
+          "angle": "Edgy & Counter-Culture Brand Identity",
+          "evidence": "Slogans like 'Murder Your Thirst,' product names like 'Orange Horror,' 'Killer Cola,' and brand language like 'Sell Your Soul,' 'Death to Plastic Bottles.' Marketing stunts like Julia Fox covered in corpse paint and the Eternal Playlist Urn. The phrase 'breaking the rules' and 'cult following' in news articles.",
+          "effectiveness": "Highly effective. This unique, provocative branding is central to their appeal, attracting a loyal cult following and differentiating them significantly from traditional beverage brands. It drives significant media buzz and social engagement, as evidenced by positive customer comments on their 'amazing brand,' 'humor,' and 'cool design.'"
+        },
+        {
+          "angle": "Health & Better-for-You Options",
+          "evidence": "'WE MADE A BETTER-FOR-YOU ENERGY DRINK,' 'LESS SUGAR. * HUGE FLAVOR.' Explicit calorie counts (0, 5, 10, 20) on all homepage product listings. Customer reviews mentioning 'alternative to alcohol' and 'journey of sobriety' and 'less sugar' appeal.",
+          "effectiveness": "Effective. It allows Liquid Death to appeal to health-conscious consumers and those seeking alternatives to sugary drinks or alcohol, while still maintaining their edgy brand. This broadens their market reach beyond just water drinkers."
+        },
+        {
+          "angle": "Environmental Responsibility / Anti-Plastic",
+          "evidence": "'Death to Plastic Bottles' prominently featured on the website. Customer feedback explicitly praising 'Being able to just recycle the can is also a huge plus for me while I start a journey of zero waste and sustainability.' Mention of 'eco-friendly' in news.",
+          "effectiveness": "Effective. The commitment to aluminum cans resonates strongly with environmentally conscious consumers, providing a tangible benefit and aligning with contemporary sustainability values. It adds a layer of purpose to their brand beyond just edgy marketing."
+        },
+        {
+          "angle": "Social Inclusion / Non-Alcoholic Alternative",
+          "evidence": "Customer comments: 'then they have a a special drink also' (for teens at gatherings), 'alternative to alcohol at parties,' 'nice to hold something in my hand that feels like a drink' (for sobriety), 'makes me feel less left out' (as a DD).",
+          "effectiveness": "Highly effective. This positioning addresses a significant social and emotional need for many consumers, providing a cool, adult-looking non-alcoholic option that helps individuals feel included in social settings where alcohol is present. This is a powerful, recurring theme in customer feedback."
+        }
+      ],
+      "customer_sentiment": {
+        "top_praises": [
+          "Unique packaging and design ('cool design', 'love the packaging')",
+          "Refreshing taste, especially for mountain water and specific flavors like lime ('so refreshing', 'tastes like fresh mountain water', 'Liquid Death Lime is my favorite drink')",
+          "Strong brand identity, humor, and mission ('amazing brand', 'love their mission and their humor')",
+          "Effective non-alcoholic alternative for social events and sobriety ('alternative to alcohol at parties', 'makes me feel less left out', 'great for parties during my journey of sobriety')",
+          "Sustainability and recyclability of cans ('recycle the can is also a huge plus', 'journey of zero waste')"
+        ],
+        "top_complaints": [
+          "Perceived as overpriced for 'just water' ('overpriced product', 'paying for their marketing')",
+          "Lack of unique taste or differentiation for plain water ('This is water. Nothing more, nothing less. Not tastier or better')",
+          "Taste dissatisfaction for some flavors or product lines ('like soda but worse, and it's like sparkling water but worse' for some options, preference for sweetened tea over their unsweetened tea)",
+          "No resealable option for cans ('do wish there was a resealable option')",
+          "Stock-outs for popular variety packs ('Sold out 3-Flavor Variety Pack', 'Sold out 4-Flavor Variety Pack')"
+        ],
+        "recurring_themes": [
+          "Brand and marketing are primary drivers of purchase and loyalty, sometimes overshadowing product taste for certain segments.",
+          "Strong demand for Liquid Death as a non-alcoholic option in social settings.",
+          "Price sensitivity, with many feeling the cost is justified only by the brand cachet.",
+          "Sustainability (canned packaging) is a valued attribute.",
+          "Taste experience is subjective, with plain water and some sparkling flavors praised, while others are criticized."
+        ],
+        "nps_proxy": "positive"
+      },
+      "pricing_signals": {
+        "model": "per unit / pack (retail)",
+        "entry_price": "\u20b92,900.00 for a 12-pack (of 12oz cans, variety pack). Note: Currency is Indian Rupee, suggesting a specific regional pricing page or data anomaly.",
+        "recent_changes": "None mentioned.",
+        "perceived_value": "Customers perceive the product as 'overpriced,' suggesting the brand's premium pricing is justified primarily by its strong marketing, unique packaging, and lifestyle association, rather than solely the inherent value of the liquid."
+      },
+      "weaknesses_and_gaps": [
+        {
+          "weakness": "High price perception for the core product, sometimes detached from perceived intrinsic value.",
+          "evidence": "Customers state it's 'overpriced product,' and 'you're just paying for their marketing,' indicating that for some, the high price is not justified by the product itself, but by the brand.",
+          "brand_opportunity": "Coca-Cola can launch a premium, sustainably packaged (e.g., aluminum cans) water or sparkling water line that emphasizes superior quality, taste, and value for money, at a more accessible price point. This would directly challenge Liquid Death's pricing model by offering perceived high quality without the extreme brand premium."
+        },
+        {
+          "weakness": "Taste consistency and differentiation concerns, particularly for plain water and some flavored options.",
+          "evidence": "'This is water. Nothing more, nothing less. Great marketing and fun packaging aside, it's not tastier or better for you.' One Reddit user stated, 'It's like soda but worse, and it's like sparkling water but worse' for a flavored option.",
+          "brand_opportunity": "Coca-Cola can leverage its extensive beverage formulation expertise to create genuinely superior-tasting flavored sparkling waters or teas. They can focus on clear, clean flavor profiles that appeal broadly, contrasting with Liquid Death's sometimes polarizing flavors, and use blind taste tests to highlight product quality over pure brand novelty."
+        },
+        {
+          "weakness": "Lack of resealable packaging option for cans.",
+          "evidence": "Customer comment: 'I do wish there was a resealable option.'",
+          "brand_opportunity": "Coca-Cola can innovate by introducing resealable aluminum can designs for its own water or sparkling water products, offering a convenience factor that Liquid Death currently lacks. This directly addresses a stated customer pain point and provides a practical competitive advantage."
+        },
+        {
+          "weakness": "Reliance on marketing stunts may limit long-term mass market appeal or invite brand fatigue.",
+          "evidence": "News articles emphasize 'breaking the rules' and 'stunts than ads.' Customer comments highlight 'marketing' as the primary value driver for the price.",
+          "brand_opportunity": "Coca-Cola can differentiate by emphasizing consistent quality, reliability, and wide accessibility, appealing to a broader consumer base that values substance over spectacle. Position a new offering as a dependable, high-quality hydration choice that fits seamlessly into everyday life, rather than solely as an edgy statement."
+        },
+        {
+          "weakness": "Supply chain inefficiencies leading to stock-outs of popular products.",
+          "evidence": "'Sold out 3-Flavor Variety Pack' and 'Sold out 4-Flavor Variety Pack' with 'Notify Me When Available' options.",
+          "brand_opportunity": "Coca-Cola, with its unparalleled distribution network and supply chain management, can ensure consistent availability of its products across all channels. This allows Coca-Cola to capture market share when Liquid Death struggles with inventory, especially for popular variety packs."
+        }
+      ],
+      "market_positioning": "Liquid Death positions itself as an edgy, counter-culture lifestyle brand that challenges conventional beverage marketing, offering 'better-for-you' hydration and novel beverage alternatives in sustainably packaged aluminum cans. They leverage dark humor and provocative messaging to create a strong identity that appeals to consumers seeking a non-alcoholic option that feels cool and rebellious, while also making an environmental statement against plastic bottles.",
+      "_meta": {
+        "competitor_key": "liquid_death",
+        "analyzed_at": "2026-04-02T01:02:24.357849",
+        "data_sources": [
+          "website",
+          "reviews",
+          "reddit",
+          "search"
+        ],
+        "model_used": "gemini-2.5-flash"
+      }
+    }
+  },
+  "campaign_output": {
+    "strategic_synthesis": {
+      "error": "No LLM response",
+      "_meta": {
+        "generated_at": "2026-04-02T01:02:26.025527",
+        "model": "gemini-2.5-flash"
+      }
+    },
+    "campaign_recommendations": {
+      "raw": "```json\n{\n  \"messaging_and_positioning\": {\n    \"current_weakness\": \"Coca-Cola's 'Taste the Feeling' tagline, while emotionally resonant, doesn't directly address the rising consumer demand for 'better-for-you' options or the rapid flavor/functional innovation from competitors like Olipop, LaCroix, and Dr Pepper. It also doesn't sharply differentiate against the edgy, sub-culture appeal cultivated by Liquid Death or the high-performance focus of Red Bull, risking appearing less dynamic in an evolving beverage landscape.\",\n    \"recommended_headline\": \"Coca-Cola: The Original Taste of Unforgettable Moments. Always Real. Always Refreshing.\",\n    \"headline_rationale\": \"This headline directly counters Pepsi's 'inconsistent consumer preference for sustained consumption' by emphasizing 'The Original Taste' and 'Always Real,' implying consistent, superior quality over competitors. It indirectly addresses the 'flavor subtlety is polarizing' of LaCroix and 'inconsistent flavor perception' of Olipop by asserting a universally loved, authentic taste. It also subtly positions Coca-Cola against the aggressive flavor expansion of Dr Pepper by leaning into 'unforgettable moments' associated with a classic, rather than just novelty.\",\n    \"cold_email_subject\": \"Partnership Opportunity: Elevating Shared Moments with Coca-Cola\",\n    \"cold_email_opening\": \"As the world's most recognized beverage brand, Coca-Cola is continually seeking innovative ways to create and celebrate shared experiences globally. We believe your platform/audience aligns perfectly with our commitment to refreshing connections and authentic joy.\",\n    \"linkedin_ad_copy\": \"Join the legacy of refreshment. Coca-Cola is innovating to connect the world, one unforgettable moment at a time. #TasteTheReal\",\n    \"positioning_statement\": \"Coca-Cola is the unrivaled, universally beloved beverage that consistently delivers an authentic taste of pure joy, transforming everyday sips into moments of shared connection and unforgettable celebration, unlike any other drink on the planet.\"\n  },\n  \"channel_strategy\": {\n    \"double_down\": [\n      {\n        \"channel\": \"Event Sponsorships (Sports, Music Festivals)\",\n        \"reason\": \"Red Bull is active in this space but faces 'event logistics & audience/player fatigue' and 'lack of traditional sportsmanship' in their niche esports events. Coca-Cola's 'universal moments' and 'shared experience' align perfectly with broad, inclusive events, allowing us to capture wider appeal and execute with superior brand experience.\",\n        \"specific_tactic\": \"Launch 'Coca-Cola Moment Zones' at major festivals and sporting events (e.g., FIFA World Cup fan zones, Lollapalooza). These zones will feature interactive installations (e.g., 'share-a-coke' photo booths, VR experiences of classic Coke ads), local musical talent stages, and exclusive event merchandise, emphasizing shared joy and connection over extreme performance.\"\n      },\n      {\n        \"channel\": \"In-store Promotions and Merchandising\",\n        \"reason\": \"Olipop 'relies on heavy and continuous discounting' and LaCroix is 'price sensitive relative to cheaper alternatives,' highlighting the importance of visibility and perceived value at the point of purchase. Pepsi's 'significant operational and employee satisfaction issues within bottling and distribution networks' also create an opportunity for Coca-Cola to leverage its robust, efficient distribution as a direct retail advantage.\",\n        \"specific_tactic\": \"Implement 'Refresh & Reward' in-store campaigns with eye-catching, high-impact displays in prominent locations (end-caps, checkout lanes). Offer instant-win prizes (e.g., concert tickets, brand merchandise) via QR codes on packaging and exclusive multi-pack deals, directly contrasting Olipop's discounting with value-added rewards and leveraging superior merchandising execution.\"\n      },\n      {\n        \"channel\": \"Experiential Marketing\",\n        \"reason\": \"This channel directly supports Coca-Cola's core 'emotional connection' and 'shared experience' strengths, which competitors like Red Bull leverage but in a niche way. Competitors focus on specific sub-cultures (Red Bull's esports, Liquid Death's counter-culture), leaving room for Coca-Cola to own universally accessible, uplifting experiences.\",\n        \"specific_tactic\": \"Launch 'Coca-Cola Happiness Hubs' in high-traffic urban centers and tourist destinations. These pop-up activations will offer personalized Coke bottles, AI-powered photo experiences, mini-concerts with local artists, and opportunities to sample new, limited-edition flavors. Focus on creating shareable, positive experiences that translate to digital content, reinforcing the brand's association with joy and connection for broad appeal.\"\n      }\n    ],\n    \"pull_back\": [\n      {\n        \"channel\": \"Print Media\",\n        \"reason\": \"Competitors are not explicitly mentioned as investing heavily in print media, and newer, digitally-native brands like Liquid Death, Olipop, and LaCroix are entirely absent from this space, indicating a shift away from this channel for reaching contemporary beverage consumers. Coca-Cola's broad target audience is better served by more dynamic and measurable digital and experiential channels.\"\n      },\n      {\n        \"channel\": \"Linear Television Advertising (as primary driver)\",\n        \"reason\": \"While Coca-Cola has strong 'Television Advertising' capabilities, competitors like Olipop and Liquid Death thrive on digital-first, social media, and direct-to-consumer strategies that bypass traditional linear TV. Relying solely on broad TV for brand building can be less efficient for capturing specific, evolving consumer segments or showcasing agile product innovation, where new competitors excel.\"\n      }\n    ],\n    \"new_channels_to_test\": [\n      {\n        \"channel\": \"Interactive Gaming Platforms / Metaverse Experiences\",\n        \"reason\": \"Red Bull is active in esports, but their events have shown 'audience and player fatigue' and 'lack of traditional sportsmanship.' This leaves a gap for Coca-Cola to create more inclusive, fun, and community-driven digital experiences within gaming/metaverse platforms that align with its 'shared experience' and 'enjoyment' values, moving beyond purely competitive events.\",\n        \"first_experiment\": \"Partner with popular sandbox games (e.g., Roblox, Minecraft) or virtual worlds (e.g., Decentraland) to create 'Coca-Cola Refreshment Worlds.' These virtual spaces would offer branded mini-games, avatar customization with Coca-Cola gear, and virtual hangouts where players can 'share' a virtual Coke. Measure engagement time and unique visitors.\"\n      },\n      {\n        \"channel\": \"Subscription Box / Exclusive DTC E-commerce\",\n        \"reason\": \"Olipop and Liquid Death leverage direct-to-consumer models for loyalty, exclusive releases, and niche appeal. Coca-Cola, with its 'extensive global distribution,' lacks a direct engagement channel for superfans, limited editions, or test markets, missing an opportunity for agile innovation and premium offerings that bypass traditional retail for discerning consumers.\",\n        \"first_experiment\": \"Launch a 'Coca-Cola Collector's Club' subscription box, initially targeting existing loyalty program members or social media followers. Offer monthly deliveries of limited-edition flavors (e.g., international variants, experimental blends), branded merchandise, and early access to new product launches. Monitor sign-up rates, retention, and customer feedback on exclusive flavors.\"\n      },\n      {\n        \"channel\": \"Culinary & Mixology Influencer Collaborations (TikTok/Instagram Reels)\",\n        \"reason\": \"LaCroix is actively pushing 'Mocktail Recipes (content strategy)' and Olipop focuses on 'nostalgic flavor profiles' often paired with food. Coca-Cola, despite its universal appeal, isn't explicitly owning its role as a versatile mixer or food pairing partner in modern culinary content, missing a highly engaging and shareable content trend that appeals to a health-conscious yet indulgent audience.\",\n        \"first_experiment\": \"Run a 'Coke & Cuisine' TikTok/Instagram Reels challenge. Partner with 5-10 mid-tier food and beverage influencers to create innovative recipes (e.g., glazes, marinades, mocktails) using classic Coca-Cola, Diet Coke, or Zero Sugar. Encourage user-generated content with a specific hashtag (#CokeCuisineChallenge) and offer prizes for the most creative entries. Track reach, engagement, and content submissions.\"\n      }\n    ]\n  },\n  \"gtm_strategic_recommendations\": [\n    {\n      \"priority\": 1,\n      \"recommendation\": \"Launch a global 'Real Taste, Real Moments' campaign emphasizing the authentic, consistent, and unparalleled taste of Coca-Cola, directly countering competitor claims of superior flavor or functional benefits.\",\n      \"rationale\": \"Pepsi has 'inconsistent consumer preference for sustained consumption due to taste profile', LaCroix's 'flavor subtlety is polarizing', and Olipop has 'inconsistent flavor perception.' Coca-Cola's strength is its 'Consistent Product Quality and Taste' and 'Strong Brand Heritage.' This campaign repositions the classic taste as the ultimate, reliable choice for enjoyment, rather than novelty or specific function.\",\n      \"kpi\": \"Increase in brand preference scores against CSD competitors by 5%, 3% rise in repeat purchase rate for classic Coca-Cola, positive sentiment increase in social media conversations around 'taste' by 10%.\",\n      \"timeline\": \"Immediate/30-days\",\n      \"competitive_data_backing\": \"Pepsi's 'inconsistent consumer preference for sustained consumption due to taste profile'; LaCroix's 'Flavor subtlety is polarizing'; Olipop's '",
+      "parse_error": true,
+      "_meta": {
+        "generated_at": "2026-04-02T01:02:48.509647",
+        "model": "gemini-2.5-flash",
+        "competitors_analyzed": [
+          "pepsi",
+          "dr_pepper",
+          "red_bull",
+          "lacroix",
+          "olipop",
+          "liquid_death"
+        ]
+      }
+    }
+  }
+}

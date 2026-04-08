@@ -1,74 +1,69 @@
 {
-  "generated_at": "2026-03-30T22:45:42.451709",
+  "generated_at": "2026-03-31T01:25:45.260945",
   "intelligence": {
     "notion": {
       "error": "No response from LLM",
       "_meta": {
         "competitor_key": "notion",
-        "analyzed_at": "2026-03-30T22:45:34.053239",
+        "analyzed_at": "2026-03-31T01:19:34.576876",
         "data_sources": [
           "website",
           "reviews",
-          "reddit",
-          "search"
+          "reddit"
         ],
-        "model_used": "claude-opus-4-5"
+        "model_used": "gemini-2.5-pro"
       }
     },
     "asana": {
       "error": "No response from LLM",
       "_meta": {
         "competitor_key": "asana",
-        "analyzed_at": "2026-03-30T22:45:35.474368",
+        "analyzed_at": "2026-03-31T01:21:06.743972",
         "data_sources": [
           "website",
           "reviews",
-          "reddit",
-          "search"
+          "reddit"
         ],
-        "model_used": "claude-opus-4-5"
+        "model_used": "gemini-2.5-pro"
       }
     },
     "clickup": {
       "error": "No response from LLM",
       "_meta": {
         "competitor_key": "clickup",
-        "analyzed_at": "2026-03-30T22:45:36.900923",
+        "analyzed_at": "2026-03-31T01:22:38.630702",
         "data_sources": [
           "website",
           "reviews",
-          "reddit",
-          "search"
+          "reddit"
         ],
-        "model_used": "claude-opus-4-5"
+        "model_used": "gemini-2.5-pro"
       }
     },
     "monday": {
       "error": "No response from LLM",
       "_meta": {
         "competitor_key": "monday",
-        "analyzed_at": "2026-03-30T22:45:38.236986",
+        "analyzed_at": "2026-03-31T01:24:10.763921",
         "data_sources": [
           "website",
           "reviews",
-          "reddit",
-          "search"
+          "reddit"
         ],
-        "model_used": "claude-opus-4-5"
+        "model_used": "gemini-2.5-pro"
       }
     },
     "microsoft365": {
       "error": "No response from LLM",
       "_meta": {
         "competitor_key": "microsoft365",
-        "analyzed_at": "2026-03-30T22:45:39.569872",
+        "analyzed_at": "2026-03-31T01:25:42.554300",
         "data_sources": [
           "website",
           "reviews",
-          "reddit",
-          "search"
+          "reddit"
         ],
-        "model_used": "claude-opus-4-5"
+        "model_used": "gemini-2.5-pro"
       }
     }
   },
@@ -76,15 +71,15 @@
     "strategic_synthesis": {
       "error": "No LLM response",
       "_meta": {
-        "generated_at": "2026-03-30T22:45:41.012096",
-        "model": "claude-opus-4-5"
+        "generated_at": "2026-03-31T01:25:44.050776",
+        "model": "gemini-2.5-pro"
       }
     },
     "campaign_recommendations": {
       "error": "No LLM response",
       "_meta": {
-        "generated_at": "2026-03-30T22:45:42.438095",
-        "model": "claude-opus-4-5",
+        "generated_at": "2026-03-31T01:25:45.242857",
+        "model": "gemini-2.5-pro",
         "competitors_analyzed": [
           "notion",
           "asana",

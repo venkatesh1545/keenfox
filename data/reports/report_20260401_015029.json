@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-04-01T01:50:29.570483",
+  "intelligence": {
+    "coda": {
+      "error": "No response from LLM",
+      "_meta": {
+        "competitor_key": "coda",
+        "analyzed_at": "2026-04-01T01:42:40.981105",
+        "data_sources": [
+          "website",
+          "reviews",
+          "reddit",
+          "search"
+        ],
+        "model_used": "gemini-2.5-flash"
+      }
+    },
+    "clickup": {
+      "error": "No response from LLM",
+      "_meta": {
+        "competitor_key": "clickup",
+        "analyzed_at": "2026-04-01T01:44:14.129594",
+        "data_sources": [
+          "website",
+          "reviews",
+          "reddit",
+          "search"
+        ],
+        "model_used": "gemini-2.5-flash"
+      }
+    },
+    "airtable": {
+      "error": "No response from LLM",
+      "_meta": {
+        "competitor_key": "airtable",
+        "analyzed_at": "2026-04-01T01:45:47.198289",
+        "data_sources": [
+          "website",
+          "reviews",
+          "reddit",
+          "search"
+        ],
+        "model_used": "gemini-2.5-flash"
+      }
+    },
+    "google_workspace": {
+      "error": "No response from LLM",
+      "_meta": {
+        "competitor_key": "google_workspace",
+        "analyzed_at": "2026-04-01T01:47:20.289127",
+        "data_sources": [
+          "website",
+          "reviews",
+          "reddit",
+          "search"
+        ],
+        "model_used": "gemini-2.5-flash"
+      }
+    },
+    "confluence": {
+      "error": "No response from LLM",
+      "_meta": {
+        "competitor_key": "confluence",
+        "analyzed_at": "2026-04-01T01:48:53.442384",
+        "data_sources": [
+          "website",
+          "reviews",
+          "reddit",
+          "search"
+        ],
+        "model_used": "gemini-2.5-flash"
+      }
+    },
+    "obsidian": {
+      "error": "No response from LLM",
+      "_meta": {
+        "competitor_key": "obsidian",
+        "analyzed_at": "2026-04-01T01:50:26.272255",
+        "data_sources": [
+          "website",
+          "reviews",
+          "reddit",
+          "search"
+        ],
+        "model_used": "gemini-2.5-flash"
+      }
+    }
+  },
+  "campaign_output": {
+    "strategic_synthesis": {
+      "error": "No LLM response",
+      "_meta": {
+        "generated_at": "2026-04-01T01:50:28.025670",
+        "model": "gemini-2.5-flash"
+      }
+    },
+    "campaign_recommendations": {
+      "error": "No LLM response",
+      "_meta": {
+        "generated_at": "2026-04-01T01:50:29.562740",
+        "model": "gemini-2.5-flash",
+        "competitors_analyzed": [
+          "coda",
+          "clickup",
+          "airtable",
+          "google_workspace",
+          "confluence",
+          "obsidian"
+        ]
+      }
+    }
+  }
+}
