@@ -1,0 +1,44 @@
+{
+  "source": "reddit",
+  "competitor": "Starbucks",
+  "fetched_at": "2026-04-01T01:30:45.803804",
+  "posts": [
+    {
+      "subreddit": "reddit",
+      "title": "The Starbucks experience - Reddit",
+      "text": "It's a pretty cool feeling when you can make someone's day with a good vibe and a cup of coffee. I've had this customer come in and order a venti cappuccino.",
+      "url": "https://www.reddit.com/r/starbucks/comments/8rfudq/the_starbucks_experience/",
+      "top_comments": []
+    },
+    {
+      "subreddit": "reddit",
+      "title": "Terrible Starbucks Experience - Reddit",
+      "text": "My friend, who's South Asian (Indian) and one of the nicest, funniest people I know, had a horrible experience at the Starbucks in Chilliwack, BC.",
+      "url": "https://www.reddit.com/r/starbucks/comments/1hzxzho/terrible_starbucks_experience/",
+      "top_comments": []
+    },
+    {
+      "subreddit": "reddit",
+      "title": "Lets talk about Starbucks : r/Coffee - Reddit",
+      "text": "Consistent experience in every store. \u00b7 Consistent coffee taste and quality. \u00b7 Starbucks staff are well-trained, will learn your name in only a",
+      "url": "https://www.reddit.com/r/Coffee/comments/1kx1lh/lets_talk_about_starbucks/",
+      "top_comments": []
+    },
+    {
+      "subreddit": "reddit",
+      "title": "Was Starbucks Ever Good? : r/Coffee - Reddit",
+      "text": "The truth is. Starbucks makes a good coffee bean. It's a very dark roast. It's not for everybody. Especially not SO bean enthusiast. Because",
+      "url": "https://www.reddit.com/r/Coffee/comments/kwx4qu/was_starbucks_ever_good/",
+      "top_comments": []
+    },
+    {
+      "subreddit": "reddit",
+      "title": "Should I book a Starbucks Roastery experience? : r/FoodNYC - Reddit",
+      "text": "Reviews are mixed. My impression is that it's for Starbucks fans. I personally rather support a local shop. Depends what you want to get out of",
+      "url": "https://www.reddit.com/r/FoodNYC/comments/1ljre64/should_i_book_a_starbucks_roastery_experience/",
+      "top_comments": []
+    }
+  ],
+  "raw_text": "Title: The Starbucks experience - Reddit\nContent: It's a pretty cool feeling when you can make someone's day with a good vibe and a cup of coffee. I've had this customer come in and order a venti cappuccino.\n\nTitle: Terrible Starbucks Experience - Reddit\nContent: My friend, who's South Asian (Indian) and one of the nicest, funniest people I know, had a horrible experience at the Starbucks in Chilliwack, BC.\n\nTitle: Lets talk about Starbucks : r/Coffee - Reddit\nContent: Consistent experience in every store. \u00b7 Consistent coffee taste and quality. \u00b7 Starbucks staff are well-trained, will learn your name in only a\n\nTitle: Was Starbucks Ever Good? : r/Coffee - Reddit\nContent: The truth is. Starbucks makes a good coffee bean. It's a very dark roast. It's not for everybody. Especially not SO bean enthusiast. Because\n\nTitle: Should I book a Starbucks Roastery experience? : r/FoodNYC - Reddit\nContent: Reviews are mixed. My impression is that it's for Starbucks fans. I personally rather support a local shop. Depends what you want to get out of",
+  "errors": []
+}

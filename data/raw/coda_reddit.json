@@ -1,0 +1,44 @@
+{
+  "source": "reddit",
+  "competitor": "Coda",
+  "fetched_at": "2026-04-02T22:54:11.480323",
+  "posts": [
+    {
+      "subreddit": "reddit",
+      "title": "Coda experts are great, but development feels too slow : r/codaio",
+      "text": "The gurus here gave me amazing answers, and it was an eye-opening experience understanding the platform's philosophy and value.",
+      "url": "https://www.reddit.com/r/codaio/comments/1ia8bwv/coda_experts_are_great_but_development_feels_too/",
+      "top_comments": []
+    },
+    {
+      "subreddit": "reddit",
+      "title": "Coda but better? : r/codaio - Reddit",
+      "text": "The formulas are super powerful and elegant. I had cost concerns since I couldn't get my team to adapt to use it for knowledge base and document",
+      "url": "https://www.reddit.com/r/codaio/comments/1678955/coda_but_better/",
+      "top_comments": []
+    },
+    {
+      "subreddit": "reddit",
+      "title": "The Coda mobile app is garbage. When is it going to be updated ...",
+      "text": "It's slow, buggy and doesnt feel 'native' to ios. Compare it to a competitor app like Craft, and it is bascially unusable. The coda team",
+      "url": "https://www.reddit.com/r/codaio/comments/u8hy52/the_coda_mobile_app_is_garbage_when_is_it_going/",
+      "top_comments": []
+    },
+    {
+      "subreddit": "reddit",
+      "title": "Thoughts on Coda.io (is it secret, is it safe)? : r/privacy - Reddit",
+      "text": "Coda.io looks like an extremely promising and fully functioned productivity app, possibly even a gamechanger with how modular it is.",
+      "url": "https://www.reddit.com/r/privacy/comments/hatwk4/thoughts_on_codaio_is_it_secret_is_it_safe/",
+      "top_comments": []
+    },
+    {
+      "subreddit": "reddit",
+      "title": "Worth switching to Coda now? : r/codaio - Reddit",
+      "text": "Coda has an extremely good platform to gather and store information, and they were working on ways to reach deeper into the organisation, rather",
+      "url": "https://www.reddit.com/r/codaio/comments/1k5vnay/worth_switching_to_coda_now/",
+      "top_comments": []
+    }
+  ],
+  "raw_text": "Title: Coda experts are great, but development feels too slow : r/codaio\nContent: The gurus here gave me amazing answers, and it was an eye-opening experience understanding the platform's philosophy and value.\n\nTitle: Coda but better? : r/codaio - Reddit\nContent: The formulas are super powerful and elegant. I had cost concerns since I couldn't get my team to adapt to use it for knowledge base and document\n\nTitle: The Coda mobile app is garbage. When is it going to be updated ...\nContent: It's slow, buggy and doesnt feel 'native' to ios. Compare it to a competitor app like Craft, and it is bascially unusable. The coda team\n\nTitle: Thoughts on Coda.io (is it secret, is it safe)? : r/privacy - Reddit\nContent: Coda.io looks like an extremely promising and fully functioned productivity app, possibly even a gamechanger with how modular it is.\n\nTitle: Worth switching to Coda now? : r/codaio - Reddit\nContent: Coda has an extremely good platform to gather and store information, and they were working on ways to reach deeper into the organisation, rather",
+  "errors": []
+}

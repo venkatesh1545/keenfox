@@ -1,0 +1,44 @@
+{
+  "source": "reddit",
+  "competitor": "Google Workspace",
+  "fetched_at": "2026-04-02T22:46:24.678223",
+  "posts": [
+    {
+      "subreddit": "reddit",
+      "title": "Why I ditched Notion after 5 years - My experience and thoughts",
+      "text": "Google Workspace (Docs & Sheets) is my preferred method now for simplicity. They also sync with Google Keep. Plus Asana is better and",
+      "url": "https://www.reddit.com/r/Notion/comments/1axwg6n/why_i_ditched_notion_after_5_years_my_experience/",
+      "top_comments": []
+    },
+    {
+      "subreddit": "reddit",
+      "title": "FOSS alternative to Notion/Google Docs? : r/opensource - Reddit",
+      "text": "Only Office is a great replacement for Google Docs. And integrates nicely with Nextcloud. Both are open source, I host them myself. But you",
+      "url": "https://www.reddit.com/r/opensource/comments/1kgx5ed/foss_alternative_to_notiongoogle_docs/",
+      "top_comments": []
+    },
+    {
+      "subreddit": "reddit",
+      "title": "What do you use notion for and is it actually useful? - Reddit",
+      "text": "... Notion is quite lacking compared to Google Docs. ... I also support a creative collaboration that moved to a Notion workspace I built when Google",
+      "url": "https://www.reddit.com/r/Notion/comments/1ademuu/what_do_you_use_notion_for_and_is_it_actually/",
+      "top_comments": []
+    },
+    {
+      "subreddit": "reddit",
+      "title": "Google Sheets vs. Notion for project management - Reddit",
+      "text": "Hi guys, what's up? I was wondering if you think it's better for me to use Google Sheets or Notion for project management.",
+      "url": "https://www.reddit.com/r/Notion/comments/1ke1nqw/google_sheets_vs_notion_for_project_management/",
+      "top_comments": []
+    },
+    {
+      "subreddit": "reddit",
+      "title": "Google Workspace or Microsoft 365 for a growing business? - Reddit",
+      "text": "I like the tools better (gmail, docs, sheets). They load faster and work better for me. Sharing is better, live editing with others is better,",
+      "url": "https://www.reddit.com/r/sysadmin/comments/1kbm8rd/google_workspace_or_microsoft_365_for_a_growing/",
+      "top_comments": []
+    }
+  ],
+  "raw_text": "Title: Why I ditched Notion after 5 years - My experience and thoughts\nContent: Google Workspace (Docs & Sheets) is my preferred method now for simplicity. They also sync with Google Keep. Plus Asana is better and\n\nTitle: FOSS alternative to Notion/Google Docs? : r/opensource - Reddit\nContent: Only Office is a great replacement for Google Docs. And integrates nicely with Nextcloud. Both are open source, I host them myself. But you\n\nTitle: What do you use notion for and is it actually useful? - Reddit\nContent: ... Notion is quite lacking compared to Google Docs. ... I also support a creative collaboration that moved to a Notion workspace I built when Google\n\nTitle: Google Sheets vs. Notion for project management - Reddit\nContent: Hi guys, what's up? I was wondering if you think it's better for me to use Google Sheets or Notion for project management.\n\nTitle: Google Workspace or Microsoft 365 for a growing business? - Reddit\nContent: I like the tools better (gmail, docs, sheets). They load faster and work better for me. Sharing is better, live editing with others is better,",
+  "errors": []
+}

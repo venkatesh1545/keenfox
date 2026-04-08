@@ -1,0 +1,10 @@
+{
+  "source": "website",
+  "competitor": "LaCroix Sparkling Water",
+  "scraped_at": "2026-04-02T00:58:12.206453",
+  "homepage_text": "Home | LaCroix Skip to main content Pineapple Coconut Sweet Dreams Mocktail Mocktail Recipe Key Lime Shamrock Smash Mocktail Recipe LaCroix Launches Pineapple Coconut Read More Tangerine Pineapple Nojito Mocktail Recipe Chowhound Ranks LaCroix Flavors from Sparkling to Sparkliest Read More Sunshine Find In Store Harmoniously Combined! Introducing our newest flavor, Pineapple Coconut - experience the perfect pairing. Find in store",
+  "pricing_text": "",
+  "errors": [
+    "Failed to fetch pricing: https://www.lacroixwater.com/where-to-buy/"
+  ]
+}

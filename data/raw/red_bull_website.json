@@ -1,0 +1,11 @@
+{
+  "source": "website",
+  "competitor": "Red Bull",
+  "scraped_at": "2026-04-02T00:58:12.206453",
+  "homepage_text": "",
+  "pricing_text": "",
+  "errors": [
+    "Failed to fetch homepage: https://www.redbull.com/us-en/",
+    "Failed to fetch pricing: https://www.redbull.com/us-en/energydrink/products"
+  ]
+}

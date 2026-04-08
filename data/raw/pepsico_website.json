@@ -1,0 +1,10 @@
+{
+  "source": "website",
+  "competitor": "PepsiCo",
+  "scraped_at": "2026-04-01T01:15:11.393394",
+  "homepage_text": "PepsiCo | Food and Drinks to Smile About Discover who we are AHHH SNAP SLAM SHARE YUM SUSTAINABLE FIZZ BITE REGENERATIVE CRUNCH ENJOY SIP SAVOR SMILES TASTE GROW Find Your Faves Discover more about our food, drinks, nutrition, and new favorites. Featured Food Drinks Explore our brands Growing Positive Change From the way our ingredients are grown to the foods and drinks we share, we aim to create a more resilient and sustainable business, capable of delivering reliable performance for many years to come. Discover PepsiCo Positive",
+  "pricing_text": "",
+  "errors": [
+    "Failed to fetch pricing: https://www.pepsico.com/our-brands/products"
+  ]
+}

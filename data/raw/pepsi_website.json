@@ -1,0 +1,10 @@
+{
+  "source": "website",
+  "competitor": "Pepsi",
+  "scraped_at": "2026-04-02T00:58:12.206453",
+  "homepage_text": "",
+  "pricing_text": "",
+  "errors": [
+    "Failed to fetch pricing: https://www.pepsico.com/our-brands/our-products/beverages"
+  ]
+}

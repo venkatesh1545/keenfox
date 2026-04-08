@@ -1,0 +1,44 @@
+{
+  "source": "reddit",
+  "competitor": "Asana",
+  "fetched_at": "2026-04-02T22:46:23.289315",
+  "posts": [
+    {
+      "subreddit": "reddit",
+      "title": "How do you feel about asana vs. notion? - Reddit",
+      "text": "Asana is an opinionated workflow tool to manage tasks. Who is doing what by when. Notion is an unopinionated work process tool closer to a no code app builder.",
+      "url": "https://www.reddit.com/r/Notion/comments/19234cf/how_do_you_feel_about_asana_vs_notion/",
+      "top_comments": []
+    },
+    {
+      "subreddit": "reddit",
+      "title": "Considering whether to continue using Asana - Reddit",
+      "text": "Asana vs Notion comparison. Asana reviews and user experiences. Features of Asana for campaign management. Integrations of CRM with Asana.",
+      "url": "https://www.reddit.com/r/Asana/comments/107s6or/considering_whether_to_continue_using_asana/",
+      "top_comments": []
+    },
+    {
+      "subreddit": "reddit",
+      "title": "Notion or Asana? - Reddit",
+      "text": "I'm tasked with comparing Notion and Asana for my team. We're currently using both apps but sparingly since it's only the free plan.",
+      "url": "https://www.reddit.com/r/Notion/comments/162xqrc/notion_or_asana/",
+      "top_comments": []
+    },
+    {
+      "subreddit": "reddit",
+      "title": "We've tried Asana, Notion, ClickUp for client design requests - Reddit",
+      "text": "I'm at a smaller agency and we went through three different PM systems and always had issues. As soon as we hired an actual PM that had",
+      "url": "https://www.reddit.com/r/graphic_design/comments/1re9jef/weve_tried_asana_notion_clickup_for_client_design/",
+      "top_comments": []
+    },
+    {
+      "subreddit": "reddit",
+      "title": "I'm OVER Notion, what's the best and easiest PM software for a ...",
+      "text": "I mainlined Asana for a while. Got into clickup b/c my team liked it. I'm liking Clickup more. The Spaces and Folder structure helps a lot.",
+      "url": "https://www.reddit.com/r/projectmanagement/comments/1av5vq4/im_over_notion_whats_the_best_and_easiest_pm/",
+      "top_comments": []
+    }
+  ],
+  "raw_text": "Title: How do you feel about asana vs. notion? - Reddit\nContent: Asana is an opinionated workflow tool to manage tasks. Who is doing what by when. Notion is an unopinionated work process tool closer to a no code app builder.\n\nTitle: Considering whether to continue using Asana - Reddit\nContent: Asana vs Notion comparison. Asana reviews and user experiences. Features of Asana for campaign management. Integrations of CRM with Asana.\n\nTitle: Notion or Asana? - Reddit\nContent: I'm tasked with comparing Notion and Asana for my team. We're currently using both apps but sparingly since it's only the free plan.\n\nTitle: We've tried Asana, Notion, ClickUp for client design requests - Reddit\nContent: I'm at a smaller agency and we went through three different PM systems and always had issues. As soon as we hired an actual PM that had\n\nTitle: I'm OVER Notion, what's the best and easiest PM software for a ...\nContent: I mainlined Asana for a while. Got into clickup b/c my team liked it. I'm liking Clickup more. The Spaces and Folder structure helps a lot.",
+  "errors": []
+}

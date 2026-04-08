@@ -1,0 +1,10 @@
+{
+  "source": "reddit",
+  "competitor": "PepsiCo",
+  "fetched_at": "2026-04-01T01:16:06.724398",
+  "posts": [],
+  "raw_text": "",
+  "errors": [
+    "No Reddit data fetched \u2014 configure REDDIT or TAVILY API keys"
+  ]
+}

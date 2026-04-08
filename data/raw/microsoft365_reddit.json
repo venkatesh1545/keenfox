@@ -1,0 +1,10 @@
+{
+  "source": "reddit",
+  "competitor": "Microsoft 365 Copilot",
+  "fetched_at": "2026-03-31T01:51:00.108018",
+  "posts": [],
+  "raw_text": "",
+  "errors": [
+    "No Reddit data fetched \u2014 configure REDDIT or TAVILY API keys"
+  ]
+}
