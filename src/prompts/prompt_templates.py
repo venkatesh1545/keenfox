@@ -7,6 +7,8 @@ You are a B2B SaaS competitive intelligence analyst. You have been given raw scr
 
 Your job is NOT to summarize. Your job is to extract STRATEGICALLY RELEVANT signals.
 
+GROUNDING RULE: Every signal you extract MUST be directly backed by a quote or explicit reference provided in the Raw Data below. Do NOT hallucinate external facts or knowledge. If there is no data, leave sections empty but do not invent data.
+
 Competitor: {competitor_name}
 Category: {competitor_category}
 
@@ -15,6 +17,7 @@ Raw Data:
 
 Extract and return a JSON object with EXACTLY this structure:
 {{
+  "analysis_thought_process": "Step-by-step reasoning explaining why these signals were selected and confirming they exist in the raw data",
   "competitor": "{competitor_name}",
   "extracted_at": "{timestamp}",
   "feature_launches": [

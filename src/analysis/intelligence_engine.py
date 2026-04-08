@@ -7,7 +7,9 @@ import json
 import time
 from datetime import datetime
 from typing import Optional
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from google import genai
+from google.genai import types
 
 from src.prompts.prompt_templates import SIGNAL_EXTRACTION_PROMPT
 from src.config import LLM_MODEL, LLM_MAX_TOKENS
@@ -16,23 +18,24 @@ from src.config import LLM_MODEL, LLM_MAX_TOKENS
 def _call_gemini(prompt: str) -> Optional[str]:
     """
     Call Gemini API and return text response.
-    Handles errors and rate limits gracefully.
+    Handles errors and rate limits gracefully with exponential backoff.
     """
     client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
-    max_retries = 3
+    max_retries = 5
     
     for attempt in range(max_retries):
         try:
             response = client.models.generate_content(
                 model=LLM_MODEL,
                 contents=prompt,
+                config=types.GenerateContentConfig(response_mime_type="application/json")
             )
             return response.text
         except Exception as e:
             err_str = str(e)
-            if "429" in err_str or "Resource Exhausted" in err_str:
-                wait_time = 15 * (attempt + 1)
-                print(f"    [WARN] Rate limit hit. Retrying in {wait_time}s... (Attempt {attempt+1}/{max_retries})")
+            if "429" in err_str or "Resource Exhausted" in err_str or "503" in err_str:
+                wait_time = (2 ** attempt) * 5  # Exponential backoff: 5, 10, 20, 40, 80
+                print(f"    [WARN] Rate limit or Server Error. Retrying in {wait_time}s... (Attempt {attempt+1}/{max_retries})")
                 time.sleep(wait_time)
             else:
                 print(f"    [ERROR] Gemini API call failed: {e}")
@@ -45,28 +48,45 @@ def _call_gemini(prompt: str) -> Optional[str]:
 def _parse_json_response(response: str, fallback_key: str = "data") -> dict:
     """
     Safely parse JSON from Claude response.
-    Handles cases where Claude adds extra text around JSON.
+    Handles schema structural validation to prevent downstream crashes.
     """
+    parsed_data = {}
     if not response:
         return {"error": "No response from LLM"}
 
     # Try direct parse first
     try:
-        return json.loads(response)
+        parsed_data = json.loads(response)
     except json.JSONDecodeError:
-        pass
+        # Try to extract JSON block
+        import re
+        json_match = re.search(r"\{[\s\S]*\}", response)
+        if json_match:
+            try:
+                parsed_data = json.loads(json_match.group())
+            except json.JSONDecodeError:
+                pass
 
-    # Try to extract JSON block
-    import re
-    json_match = re.search(r"\{[\s\S]*\}", response)
-    if json_match:
-        try:
-            return json.loads(json_match.group())
-        except json.JSONDecodeError:
-            pass
+    if not parsed_data:
+        parsed_data = {fallback_key: response, "parse_error": True}
 
-    # Return raw text if JSON parsing fails
-    return {fallback_key: response, "parse_error": True}
+    # Guardrail: Structural Validation and Fallback to prevent KeyErrors downstream
+    required_keys = {
+        "analysis_thought_process": "No thought process generated.",
+        "feature_launches": [],
+        "messaging_angles": [],
+        "customer_sentiment": {},
+        "pricing_signals": {},
+        "weaknesses_and_gaps": [],
+        "market_positioning": "N/A"
+    }
+
+    for key, default_val in required_keys.items():
+        if key not in parsed_data:
+            print(f"    [WARN] Schema check: missing key '{key}'. Applying default.")
+            parsed_data[key] = default_val
+
+    return parsed_data
 
 
 def compile_raw_data(competitor_key: str, competitor_name: str, raw_data: dict) -> str:
@@ -130,7 +150,6 @@ def extract_competitor_intelligence(
 
     print(f"  Calling Gemini for signal extraction...")
     response = _call_gemini(prompt)
-    time.sleep(1)  # Rate limiting
 
     intelligence = _parse_json_response(response, fallback_key="raw_analysis")
 
@@ -158,21 +177,34 @@ def run_intelligence_engine(
     brand_name: str = "KeenFox",
 ) -> dict:
     """
-    Run the full intelligence extraction pipeline for all competitors.
+    Run the full intelligence extraction pipeline for all competitors in parallel.
     Returns dict of competitor_key -> intelligence_data.
     """
     print("\n" + "="*60)
-    print("COMPONENT 1: COMPETITIVE INTELLIGENCE ENGINE")
+    print("COMPONENT 1: COMPETITIVE INTELLIGENCE ENGINE (PARALLEL)")
     print("="*60)
 
     all_intelligence = {}
 
-    for key, comp in competitors.items():
+    def process_competitor(key, comp):
         raw_data = raw_data_by_competitor.get(key, {})
-        intelligence = extract_competitor_intelligence(
+        intel = extract_competitor_intelligence(
             key, comp, raw_data, output_dir, brand_name=brand_name
         )
-        all_intelligence[key] = intelligence
+        return key, intel
+
+    with ThreadPoolExecutor(max_workers=min(5, len(competitors) or 1)) as executor:
+        futures = {
+            executor.submit(process_competitor, key, comp): key
+            for key, comp in competitors.items()
+        }
+        for future in as_completed(futures):
+            key = futures[future]
+            try:
+                all_intelligence[key] = future.result()[1]
+            except Exception as e:
+                print(f"  [ERROR] Intelligence extraction failed for {key}: {e}")
+                all_intelligence[key] = {"error": str(e)}
 
     # Save combined intelligence
     combined_path = os.path.join(output_dir, "combined_intelligence.json")
