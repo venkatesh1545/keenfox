@@ -1,0 +1,44 @@
+{
+  "source": "reddit",
+  "competitor": "Airtable",
+  "fetched_at": "2026-04-02T22:54:13.065584",
+  "posts": [
+    {
+      "subreddit": "reddit",
+      "title": "r/Airtable - Reddit",
+      "text": "I've not had great experiences using it. Definitely, conversation history is difficult, and processing time often takes a really long time as well. It's",
+      "url": "https://www.reddit.com/r/Airtable/",
+      "top_comments": []
+    },
+    {
+      "subreddit": "reddit",
+      "title": "Evaluating Airtable for Purchase - Reddit",
+      "text": "Airtable's versatility for startups is pretty solid, offering customisable workflows that adapt as your business grows. It's a great tool for teams.",
+      "url": "https://www.reddit.com/r/Airtable/comments/zkkt0d/evaluating_airtable_for_purchase/",
+      "top_comments": []
+    },
+    {
+      "subreddit": "reddit",
+      "title": "Airtable App - Reddit",
+      "text": "Everyone loved their Blocks SDK - it's really well done and it's easy to make things that re-use Airtable visual elements like the field types.",
+      "url": "https://www.reddit.com/r/Airtable/comments/uh7wjg/airtable_app/",
+      "top_comments": []
+    },
+    {
+      "subreddit": "reddit",
+      "title": "How user-friendly is Airtable? - Reddit",
+      "text": "I started using Airtable about a year ago and have found it very intuitive and user friendly. The interface and ui help a lot, the docs and",
+      "url": "https://www.reddit.com/r/Airtable/comments/1o6npxt/how_userfriendly_is_airtable/",
+      "top_comments": []
+    },
+    {
+      "subreddit": "reddit",
+      "title": "Airtable for Project Management - Myth or Reality? - Reddit",
+      "text": "I love Airtable, but I do worry about that complexity it can handle in relation to what we used it for. A small firm might find it helpful. We",
+      "url": "https://www.reddit.com/r/Airtable/comments/snrdu3/airtable_for_project_management_myth_or_reality/",
+      "top_comments": []
+    }
+  ],
+  "raw_text": "Title: r/Airtable - Reddit\nContent: I've not had great experiences using it. Definitely, conversation history is difficult, and processing time often takes a really long time as well. It's\n\nTitle: Evaluating Airtable for Purchase - Reddit\nContent: Airtable's versatility for startups is pretty solid, offering customisable workflows that adapt as your business grows. It's a great tool for teams.\n\nTitle: Airtable App - Reddit\nContent: Everyone loved their Blocks SDK - it's really well done and it's easy to make things that re-use Airtable visual elements like the field types.\n\nTitle: How user-friendly is Airtable? - Reddit\nContent: I started using Airtable about a year ago and have found it very intuitive and user friendly. The interface and ui help a lot, the docs and\n\nTitle: Airtable for Project Management - Myth or Reality? - Reddit\nContent: I love Airtable, but I do worry about that complexity it can handle in relation to what we used it for. A small firm might find it helpful. We",
+  "errors": []
+}
